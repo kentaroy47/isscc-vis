@@ -244,3 +244,6 @@ table.data caption { caption-side: bottom; text-align: left; color: var(--muted)
 table.data th.r { text-align: right; }
 table.data td.nowrap { white-space: nowrap; }
 .detail-meta { margin-top: 4px; }
+.related { margin: 6px 0 0; font-size: 13px; color: var(--ink-2); }
+.related a, .foot a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.related a { color: var(--ink); font-weight: 600; }

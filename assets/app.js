@@ -60,6 +60,9 @@
       searchPh: "タイトル・著者・機関で検索", searchAria: "論文を検索",
       colId: "ID", colTitle: "タイトル", colFirst: "第一著者", colFirstAffil: "第一著者の所属", colNAuth: "著者数",
       nowAt: "（現所属）", eca: " ・ * 同等貢献著者", page: (n) => `Advance Program p.${n}`,
+      related: "関連サイト",
+      topsscsDesc: "（固体回路系トップ会議・論文誌の大学・企業ランキング）",
+      topsscsDesc2: "ISSCC・VLSI・JSSC・CICC・A-SSCC・ESSERC の論文数による大学・企業ランキング",
       foot1: "出典: ISSCC 2027 Advance Program（PDF）から自動抽出。プレナリー講演（Session 1）は除外。Session 26「Late Breaking Industry Highlights」は Advance Program 時点で論文未掲載のため含みません。",
       foot2: "国・地域は Program の表記に従います（香港・マカオの機関は “China” と表記されているため中国に含まれます）。機関名は表記ゆれを統合し、企業の部門・研究所は親会社にまとめています（例: TSMC Corporate Research → TSMC）。",
     },
@@ -116,6 +119,9 @@
       searchPh: "Search title, author, organization", searchAria: "Search papers",
       colId: "ID", colTitle: "Title", colFirst: "First author", colFirstAffil: "First author affiliation", colNAuth: "Authors",
       nowAt: " (now at)", eca: " · * equally credited authors", page: (n) => `Advance Program p.${n}`,
+      related: "Related",
+      topsscsDesc: "(university & company rankings at top solid-state circuits venues)",
+      topsscsDesc2: "university and company rankings by papers at ISSCC, VLSI, JSSC, CICC, A-SSCC and ESSERC",
       foot1: "Source: automatically extracted from the ISSCC 2027 Advance Program (PDF). Plenary talks (Session 1) are excluded. Session 26 “Late Breaking Industry Highlights” is not included because its papers were not yet listed in the Advance Program.",
       foot2: "Countries follow the program's notation (institutions in Hong Kong and Macau are listed as “China”). Organization names are normalized, and corporate divisions / labs are merged into the parent company (e.g., TSMC Corporate Research → TSMC).",
     },
@@ -280,6 +286,7 @@
     });
     try { const t = localStorage.getItem("isscc-theme"); if (t) document.documentElement.dataset.theme = t; } catch (_) { /* ignore */ }
     matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
+    document.querySelectorAll('a[href*="topsscs"]').forEach((a) => a.addEventListener("click", () => track("outbound_topsscs")));
   }
 
   function segGroup(root, attr, onChange) {
