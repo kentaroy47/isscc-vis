@@ -22,6 +22,8 @@ def classify(span, line_max):
     if span["size"] < 0.75 * line_max:
         return "sup"
     font = span["font"]
+    if "Symbol" in font or "Math" in font:
+        return "sym"  # symbol glyphs (e.g. a hyphen in Symbol font) carry no style info
     if "Bold" in font:
         return "bold"
     if "Obl" in font or "Ital" in font:
@@ -80,7 +82,7 @@ def main(pdf_path, out_path):
                     continue
                 line_max = max(s["size"] for s in spans)
                 kinds = [classify(s, line_max) for s in spans]
-                main_kinds = {k for k in kinds if k != "sup"}
+                main_kinds = {k for k in kinds if k not in ("sup", "sym")}
                 text = "".join(s["text"] for s in spans).strip()
                 is_title_font = main_kinds == {"bold"} and 7.5 <= line_max <= 10.5
 

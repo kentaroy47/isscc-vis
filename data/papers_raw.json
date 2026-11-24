@@ -1335,6 +1335,19 @@
    "page": 40
   },
   {
+   "id": "12.3",
+   "session": 12,
+   "title": "A 6.3μW BCC-Based Gesture-Recognition Chip Achieving 94.69% Accuracy for 16 Hand Gestures",
+   "authors_raw": [
+    "H. Dai*, C. Han*, J. Fu, B. Zhao"
+   ],
+   "affils_raw": [
+    "Zhejiang University, Hangzhou, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 40
+  },
+  {
    "id": "12.4",
    "session": 12,
    "title": "ANP-ET: A 3.1kHz 7.72μJ/Inference Event-Driven Eye-Tracking Processor with Spatio-Temporal Sparse Inference for Early Detection of Dementia",
