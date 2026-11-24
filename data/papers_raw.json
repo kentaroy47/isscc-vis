@@ -1,0 +1,4008 @@
+{
+ "sessions": {
+  "14": "High-Performance Multi-Band Wireless Transceivers",
+  "15": "Compute-in-Memory",
+  "3": "Sensor Interfaces",
+  "4": "mm-Wave Transceiver Building Blocks",
+  "5": "Image Sensors and Ranging",
+  "7": "Hybrid and Switched-Capacitor Power Converters",
+  "1": "Plenary - Invited Papers",
+  "8": "Domain-Speciﬁc Accelerators and Processors",
+  "9": "Power Management for AI & High-Performance Computing",
+  "10": "High-Resolution Noise-Shaping ADCs",
+  "11": "Integrated CMOS Transceivers and Arrays above 100GHz",
+  "12": "Wearable and Portable Biosensing",
+  "13": "High-Performance Die-to-Die and Clock Generation",
+  "18": "Ubiquitous Power Management",
+  "19": "Advanced PLLs and VCOs",
+  "22": "SRAM, HBM and DRAM",
+  "23": "Optics at the Edge",
+  "24": "Low-Power Radio and Techniques",
+  "16": "Highlighted Chip Releases",
+  "17": "Physical AI and Robotics",
+  "6": "Next-Generation Electrical and Optical Transceivers",
+  "2": "Digital Circuits for Clocking, Power Management",
+  "20": "Advanced Beamforming Techniques for Phased Arrays",
+  "21": "Ampliﬁers",
+  "28": "Advanced Digital and RF Techniques for cm-Wave",
+  "25": "Compute-In-Memory-Centric SoCs and Domain-Speciﬁc",
+  "26": "Late Breaking Industry Highlights",
+  "30": "3D NAND and RRAM Memories",
+  "31": "Hardware Security",
+  "32": "Displays",
+  "33": "Optimization Accelerators",
+  "35": "Oscillators, Frequency and Voltage References",
+  "38": "Circuits for Quantum and Other Unconventional Compute",
+  "39": "Memory Interfaces",
+  "40": "High-Frequency Synthesizers and LO Generation",
+  "29": "Advanced Systems for Neural Interfaces and Signal Processing",
+  "34": "Visual Computing Accelerators and Processors",
+  "36": "Energy Harvesting, WPT and Piezo Actuators",
+  "37": "From Circuits to Waves: Signal Processing in Frequency, Time, and Space",
+  "27": "Ultra-Broadband and High-Speed ADCs"
+ },
+ "papers": [
+  {
+   "id": "1.1",
+   "session": 1,
+   "title": "Holistic Semiconductor Lithography for the Age of AI",
+   "authors_raw": [
+    "Marco Pieters,Executive Vice President and Chief Technology Ofﬁcer",
+    "ASML, Veldhoven, The Netherlands"
+   ],
+   "affils_raw": [
+    "Artiﬁcial intelligence (AI) is generating strong demand for semiconductor chips,",
+    "especially at the leading edge. This dynamic is fueling innovation in the",
+    "semiconductor industry to continue with geometrical scaling, with the accompanying",
+    "beneﬁts of reduced power consumption and increased operating speed, and to speed",
+    "up the development of device and circuit stacking in the third dimension to further",
+    "increase density and improve connectivity. In this presentation, we will present",
+    "ASML’s holistic lithography technology roadmap designed to meet the needs of the",
+    "AI revolution. Our roadmap brings together EUV lithography (both 0.33 NA and high",
+    "NA), DUV lithography (including 193-nm immersion), computational lithography,",
+    "wafer inspection and metrology, and increasingly sophisticated control loops to",
+    "improve resolution, overlay accuracy (including post-bonding overlay), process",
+    "control, productivity, and to reduce the cost of technology. We will highlight the role",
+    "of high-NA EUV lithography in reducing process complexity and cost by eliminating",
+    "multi-patterning and, for logic integrated circuits, re-enabling 2D design and routing.",
+    "We will discuss ASML’s expanding role in advanced packaging and 3D integration to",
+    "enable further density increase and connectivity speedup. We will demonstrate that,",
+    "while AI drives demand for more powerful semiconductor chips, it is also part of",
+    "holistic semiconductor lithography, enhancing modelling, simulation, metrology, and",
+    "control loops to improve lithography performance and process control. Finally,",
+    "advancing technology in the AI era is a shared challenge of the entire semiconductor",
+    "ecosystem, requiring continued innovation and collaboration across research",
+    "partners, equipment, material, and EDA suppliers, and chipmakers."
+   ],
+   "page": 18
+  },
+  {
+   "id": "1.2",
+   "session": 1,
+   "title": "The Next Leap in Image Sensors: Pixels and Beyond in the AI Era",
+   "authors_raw": [
+    "Yusuke Oike, CTO / Senior Vice President, R&D",
+    "Sony Semiconductor Solutions, Atsugi, Japan"
+   ],
+   "affils_raw": [
+    "Relentless advances in pixel technology have transformed image sensors, delivering",
+    "unprecedented imaging performance. Looking ahead, the next leap goes beyond",
+    "pixels to reshape camera systems in response to rapid AI advancement. This talk",
+    "highlights advances pushing pixel limits for faithful imaging, AI-leveraged imaging",
+    "that enriches the photographic experience, and reliable multimodal sensing that",
+    "provides low-latency observations physical AI needs to see and act in the real world."
+   ],
+   "page": 18
+  },
+  {
+   "id": "1.3",
+   "session": 1,
+   "title": "At the End of the Copper Tunnel, There Is Light",
+   "authors_raw": [
+    "Matt Murphy, Chairman and Chief Executive Ofﬁcer,",
+    "Marvell, Santa Clara, CA"
+   ],
+   "affils_raw": [
+    "For over half a century, semiconductor progress was deﬁned by transistor density.",
+    "But with the dawn of AI, the bottleneck has shifted from how fast a chip can think to",
+    "how fast the collective can share its thoughts. Whether connecting chiplets inside a",
+    "package, AI servers within a rack, rows of servers across a datacenter, or bridging",
+    "remote datacenters into a single cluster — connectivity is the key to AI efﬁciency.",
+    "Copper interconnects are the backbone of computing today, and pushing their limits",
+    "of speed, reach, and power is an art that very few possess. But as AI pushes",
+    "boundaries, copper hits a wall. Behind that wall is the light of optical links that will",
+    "shape the AI datacenter. The move from copper to optics represents a structural",
+    "rearchitecting of AI infrastructure, and one of the most consequential opportunities",
+    "for semiconductor innovation today.",
+    "We’ll discuss what drives this shift, how different optical technologies serve each",
+    "layer of the AI datacenter, and what enables silicon photonics, optical DSPs, and",
+    "co-packaged optics to make this transition economically viable at volume — allowing",
+    "AI scale to continue and greater intelligence to be realized."
+   ],
+   "page": 19
+  },
+  {
+   "id": "1.4",
+   "session": 1,
+   "title": "From Silicon to Deployed Infrastructure: Redeﬁning the Semiconductor Design Challenge at Hyperscale",
+   "authors_raw": [
+    "Rani Borkar, President, Azure Hardware Systems and Infrastructure",
+    "Microsoft, Redmond, WA"
+   ],
+   "affils_raw": [
+    "The demands of hyperscale AI infrastructure are redefining the semiconductor design",
+    "challenge, because the distance between great silicon and great deployed",
+    "infrastructure is wider and more consequential than ever. The optimization aperture",
+    "continues to expand, with networking and memory architecture playing an",
+    "increasingly first-order role in shaping design decisions across the stack, from die",
+    "and package through rack, cluster, datacenter, and even regional infrastructure. At",
+    "the same time, the center of gravity is shifting away from any single accelerator and",
+    "toward composing the right system from purpose-built CPUs, high-performance",
+    "storage, and heterogeneous, disaggregated AI accelerators. At production scale,",
+    "reliability, manageability, and the ability to rapidly bring new hardware generations",
+    "into production also become central to translating design advantage into deployed",
+    "value. This plenary explores how those demands are reshaping hardware tradeoffs",
+    "and linking silicon choices to the economics of delivering AI at global scale."
+   ],
+   "page": 19
+  },
+  {
+   "id": "2.1",
+   "session": 2,
+   "title": "A 2nm GAA 4.7GHz Tri-Gear Armv9.4-A CPU Subsystem with Intra-Gear DVFS for Flagship Mobile SoCs",
+   "authors_raw": [
+    "J. Lerdworatawee{1}, H. Chen{2}, S. Gururajarao{2}, J. Xiong{2}, E. Ho{2}, G. Gammie{2},",
+    "T. Chen{2}, A. Varma{2}, D. Mikan{2}, H-H. Yu{3}, J-H. Yang{3}, Q. Sun{2}, I. Lin{2},",
+    "T-A. Yeh{3}, Y-R. Tsai{3}, Y-W. Chien{3}, Y-C. Chiu{3}, B. Huang{2}, C-H. Chiang{3},",
+    "A. Rajagopalan{2}, A. Thippana{2}, E. Wang{3}, S. Hwang{3}, K. Jou{3}"
+   ],
+   "affils_raw": [
+    "{1}MediaTek, San Diego, CA",
+    "{2}MediaTek, Austin, TX",
+    "{3}MediaTek, hsinchu, Taiwan"
+   ],
+   "page": 20
+  },
+  {
+   "id": "2.2",
+   "session": 2,
+   "title": "A 2.1GHz Fully Resonant Clocked, Static Latch-Based Generalized Matrix Multiplier with Inductor-Over-Logic Integration in 16nm CMOS",
+   "authors_raw": [
+    "E. Basaran, J. Park, Z. Yin, J. A. Arenas, V. Sathe"
+   ],
+   "affils_raw": [
+    "Georgia Institute of Technology, Atlanta, GA"
+   ],
+   "page": 20
+  },
+  {
+   "id": "2.3",
+   "session": 2,
+   "title": "A Data Feed-Forward Digital LDO for an Adaptively Clocked 8×8 Systolic-Array GEMM Accelerator in 65nm CMOS",
+   "authors_raw": [
+    "J. Arenas, Z. Yin, C-H. Huang, K. Hau, H. S. Ozturk, V. Sathe"
+   ],
+   "affils_raw": [
+    "Georgia Institute of Technology, Atlanta, GA"
+   ],
+   "page": 20
+  },
+  {
+   "id": "2.4",
+   "session": 2,
+   "title": "A 12nm 256TOPS CIM-Centric SoC with Model-Scale-Aware Scheduling, IR-Drop Mitigation and CIM BIST/Repair for CV-to-LLM Inference",
+   "authors_raw": [
+    "A. Guo{1}, G. Chen{1}, Y. Zhao{2}, W. Gao{1}, X. Liu{3}, D. Yang{3}, Z. Wang{2}, G. Sun{4},",
+    "Q. Wu{3}, X. Si{5}"
+   ],
+   "affils_raw": [
+    "{1}HOUMO, Shanghai, China",
+    "{2}HOUMO, Beijing, China",
+    "{3}HOUMO, Nanjing, China",
+    "{4}Peking University, Beijing, China",
+    "{5}Southeast University, Nanjing, China"
+   ],
+   "page": 20
+  },
+  {
+   "id": "2.5",
+   "session": 2,
+   "title": "6.7GHz Dual-Edge Clocked Compiled Memories in 2nm",
+   "authors_raw": [
+    "P. Salz{1}, W. Penth{1}, M. Lee{2}, S. Penth{1}, B. Huott{3}, P. Beck{1}, P. Toth{1}, H. Wetter{1},",
+    "M. Kugel{1}, A. Cook{1}, U. Srinivasan{3}, K. Kalafala{3}, M. Verma{4}, X. Zhao{3}"
+   ],
+   "affils_raw": [
+    "{1}IBM, Ehningen, Germany",
+    "{2}IBM, Austin, TX",
+    "{3}IBM, Poughkeepsie, NY",
+    "{4}IBM, Bangalore, India"
+   ],
+   "page": 21
+  },
+  {
+   "id": "2.6",
+   "session": 2,
+   "title": "A 16-Element mm-Wave Digital Beamformer with Adaptive-Rate Joint Beam Tracking/Nulling and Dynamic Power Management",
+   "authors_raw": [
+    "J-J. Park, H. S. Ozturk, J. Shin, S. T. King, M. M. Bolding, R. S. Westafer,",
+    "V. Sathe"
+   ],
+   "affils_raw": [
+    "Georgia Institute of Technology, Atlanta, GA"
+   ],
+   "page": 21
+  },
+  {
+   "id": "2.7",
+   "session": 2,
+   "title": "A 65nm 33.34mW 8-Element Adaptive Baseband Beamformer with Per-Element 2D Complex-Weighting SAR ADCs and a Reconﬁgurable GSC",
+   "authors_raw": [
+    "G. Joung{1}, S. Konno{2}, A. Assoa Sangbone{3}, A. Bhat{3}, S. Spetalnick{3},",
+    "Y-J. Kim{1}, C. S. Cho{1}, A. Raychowdhury{3}, S. Ryu{1}"
+   ],
+   "affils_raw": [
+    "{1}Korea Aerospace University, Goyang, Korea",
+    "{2}Asahi Kasei Microdevices, Yokohama, Japan",
+    "{3}Georgia Institute of Technology, Atlanta, GA"
+   ],
+   "page": 21
+  },
+  {
+   "id": "2.8",
+   "session": 2,
+   "title": "Cobalt 200: Microsoft Azure’s Cloud-Native CPU Leveraging Per-Core Power Management for Power-Constrained Performance",
+   "authors_raw": [
+    "A. Deval{1}, C. Schaef{2}, D. Bachand{3}, B. Sutton{4}, R. Hoffman{3}, A. Cefal{5},",
+    "A. Venkataraman{6}, N. Khoury{5}, R. Rivera{1}, P. Dave{1}, T. Mapes{1}, P. Misra{1},",
+    "A. Azam{5}, M. Subhadra{5}, J. Franke{5}, S. Badran-Louca{3}, D. Estrada{5},",
+    "A. Chandran{5}"
+   ],
+   "affils_raw": [
+    "{1}Microsoft, Redmond, WA",
+    "{2}Microsoft, San Diego, CA",
+    "{3}Microsoft, Morrisville, NC",
+    "{4}Microsoft, Westﬁeld, IN",
+    "{5}Microsoft, Hillsboro, OR",
+    "{6}Microsoft, Mountain View, CA"
+   ],
+   "page": 21
+  },
+  {
+   "id": "3.1",
+   "session": 3,
+   "title": "A PCB Shunt-Pair-Based Current Sensor with 0.017% Peak Self-Heating-Induced Error for a 35A Current Step",
+   "authors_raw": [
+    "P. Park{1,2}, W. B. Kim{1}, S. Cho{1}"
+   ],
+   "affils_raw": [
+    "{1}KAIST, Daejeon, Korea",
+    "{2}*now at Massachusetts Institute of Technology, Cambridge, MA"
+   ],
+   "page": 22
+  },
+  {
+   "id": "3.2",
+   "session": 3,
+   "title": "A 122dB-DR Hybrid Magnetic Sensor with ±145mT Input Range and ±0.34% Sensitivity Variation from −40°C to 120°C",
+   "authors_raw": [
+    "J. Liu{1}, T. Qu{1}, L. Xiang{1}, J. Zhu{2}, X. Shen{2}, Z. Hong{1}, J. Xu{1}"
+   ],
+   "affils_raw": [
+    "{1}Fudan University, Shanghai, China",
+    "{2}Novosense Microelectronics, Shanghai, China"
+   ],
+   "page": 22
+  },
+  {
+   "id": "3.3",
+   "session": 3,
+   "title": "A BMIC for Module- and System-Level EIS Featuring 2.1μV/√Hz Input-Referred Noise at 1Hz and 2.3μs Inter-IC Synchronization",
+   "authors_raw": [
+    "K. Matsukawa{1}, K. Honda{1}, K. Sakata{1}, T. Ito{1}, T. Kitamura{1}, M. Tsukahara{1},",
+    "A. Ogawa{1}, T. Takaue{1}, I. Ishibe{1}, K. Nakamura{2}, Y. Furuta{2}, T. Nezuka{2}"
+   ],
+   "affils_raw": [
+    "{1}DENSO, Aichi, Japan",
+    "{2}MIRISE Technologies, Aichi, Japan"
+   ],
+   "page": 22
+  },
+  {
+   "id": "3.4",
+   "session": 3,
+   "title": "A 4.1/6.9fJ/Conversion-Step Pipelined-SAR Capacitance-to- Digital Converter with Merging-First Switching, Ratio-Scaled Detect-and-Skip Technique, and Load-Aware Reference Buffer",
+   "authors_raw": [
+    "X. Huang*, J. Gao*, Z. Wu, L. Shen"
+   ],
+   "affils_raw": [
+    "Peking University, Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 22
+  },
+  {
+   "id": "3.5",
+   "session": 3,
+   "title": "A Fractional-N-PLL-ΔΣM-Hybrid Time-Domain Capacitance-to- Digital Converter with 187.4dB FoMS and 374pF Input Range",
+   "authors_raw": [
+    "M. Jiang, Y. Cheng, H. Wang, P. Yao, D. Wu, J. Tang, B. Gao, H. Qian, S. Pan,",
+    "H. Wu"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 23
+  },
+  {
+   "id": "3.6",
+   "session": 3,
+   "title": "A 21.8μg/√Hz Noise Floor, 0.375mg/g2 VRC, MEMS Capacitive Accelerometer Using a Multiplexed CVC Technique",
+   "authors_raw": [
+    "C. Wenfei{1}, Z. Longjie{1}, M. Zhixing{1}, W. Ling{1}, Z. Zhangming{2,3}"
+   ],
+   "affils_raw": [
+    "{1}Xidian University, Xi’an, China",
+    "{2}Hangzhou Institute of Technology, Hangzhou, China",
+    "{3}Xidian University, Hangzhou, China"
+   ],
+   "page": 23
+  },
+  {
+   "id": "3.7",
+   "session": 3,
+   "title": "A 99.3dB SNR 60fps Zoom-PFM-Based Readout IC for Large-Scale Resistive Tactile Sensor Array",
+   "authors_raw": [
+    "R. Duan, J. Xu, Z. Chen, Q. Xia, F. Zhou, Y. Zhuo, Y. Zhang, Z. Chen, W. Lu"
+   ],
+   "affils_raw": [
+    "Peking University, Beijing, China"
+   ],
+   "page": 23
+  },
+  {
+   "id": "3.8",
+   "session": 3,
+   "title": "A 34.5μΩ-Resolution 10.5μs-Conversion-Time Resistance Sensor for Online Discrete SiC Power Device Junction-Temperature Monitoring",
+   "authors_raw": [
+    "W. Xu, Y. Liu, M. Zhang, Q. Fan"
+   ],
+   "affils_raw": [
+    "Delft University of Technology, Delft, The Netherlands"
+   ],
+   "page": 23
+  },
+  {
+   "id": "3.9",
+   "session": 3,
+   "title": "A 6.3μs 2.7nJ/conversion Bipolar-Free Temperature Sensor with Distributed Remote Sensing and Single-Point Calibration in 2nm GAA Technology",
+   "authors_raw": [
+    "L. Fassio{1}, B. Grave{1}, F. S. Sinisi{1}, K. Sadeghipour{1}, P. Metku{2}, B. Pang{3},",
+    "P. Hesamaddin{4}, L. Lu{3}, M. Roham{3}, D. Alladi{3}, K. A. O’Donoghue{1}"
+   ],
+   "affils_raw": [
+    "{1}Qualcomm, Cork, Ireland",
+    "{2}Qualcomm, Austin, TX",
+    "{3}Qualcomm, San Diego, CA",
+    "{4}Qualcomm, Irvine, CA"
+   ],
+   "page": 23
+  },
+  {
+   "id": "4.1",
+   "session": 4,
+   "title": "A 20-to-30GHz 0.13mm2 Voltage-Mode Doherty Power Ampliﬁer with >24% PAE6dB and 3:1 VSWR Load Tolerance Supporting 6Gb/s 64QAM for 5G NR and K/Ka NTN/SATCOM Phased Arrays",
+   "authors_raw": [
+    "F. Svelto, B. A. Abdelmagid, A. Wang, H. Wang"
+   ],
+   "affils_raw": [
+    "ETH Zürich, Zurich, Switzerland"
+   ],
+   "page": 24
+  },
+  {
+   "id": "4.2",
+   "session": 4,
+   "title": "A 60GHz Double-Sequential Load-Modulated Balanced Ampliﬁer with Reverse Adaptive Bias for Wideband Deep-Back-Off Efﬁciency Enhancement",
+   "authors_raw": [
+    "G. Venturini, P. Reynaert"
+   ],
+   "affils_raw": [
+    "KU Leuven - MICAS, Leuven, Belgium"
+   ],
+   "page": 24
+  },
+  {
+   "id": "4.3",
+   "session": 4,
+   "title": "A CMOS 63-to-81GHz VSWR-Resilient Load-Modulated Balanced Power Ampliﬁer Co-Designed with Double-Quadrature Upconverter",
+   "authors_raw": [
+    "S-H. Fu{1}, Y. Zhang{1}, Q. Liang{1}, Z. Zhang{1}, H-Y. Lai{2}, P. Heydari{1}"
+   ],
+   "affils_raw": [
+    "{1}University of California, Irvine, CA",
+    "{2}University of California, Davis, CA"
+   ],
+   "page": 24
+  },
+  {
+   "id": "4.4",
+   "session": 4,
+   "title": "A 45nm SOI-CMOS F-Band PA with Complementary Harmonic Cancellation Achieving 18.3dBm and 3.9W/mm2]",
+   "authors_raw": [
+    "K. Q. Liang{1}, S. Lepkowski{2}, J. Moody{3}"
+   ],
+   "affils_raw": [
+    "{1}University of Maryland, Silver Spring, MD",
+    "{2}Sandia National Laboratories, Albuquerque, NM",
+    "{3}University of Maryland, College Park, MD"
+   ],
+   "page": 24
+  },
+  {
+   "id": "4.5",
+   "session": 4,
+   "title": "A 13.7dBm OP1dB Four-Way Differential Combined D-Band Power Ampliﬁer in 7nm FinFET",
+   "authors_raw": [
+    "P-A. Fernandez, G. Venturini, P. Reynaert"
+   ],
+   "affils_raw": [
+    "KU Leuven ESAT-MICAS, Leuven, Belgium"
+   ],
+   "page": 24
+  },
+  {
+   "id": "4.6",
+   "session": 4,
+   "title": "Diamond Signal Mapping for Improved Linearity and Reduced Complexity in Digital mm-Wave Transmitters",
+   "authors_raw": [
+    "M. Mortazavi{1,2}, M. Spirito{1}, M. Babaie{1}"
+   ],
+   "affils_raw": [
+    "{1}Delft University of Technology, Delft, The Netherlands",
+    "{2}imec-Netherlands, Eindhoven, The Netherlands"
+   ],
+   "page": 25
+  },
+  {
+   "id": "4.7",
+   "session": 4,
+   "title": "A 0.3-to-32GHz 4096-QAM RFDAC Supporting Two-Decade-Wide Software-Deﬁned Radio",
+   "authors_raw": [
+    "K. Zhao*, J. Chen*, Y. Lu*, T. Liu, S. Chen, G. Liu, G. Wu, L. Huang, C. Shi,",
+    "R. Zhang"
+   ],
+   "affils_raw": [
+    "East China Normal University, Shanghai, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 25
+  },
+  {
+   "id": "4.8",
+   "session": 4,
+   "title": "An 89-to-156GHz 0.9-to-1.2V Phase Shifter Using Distributed Gain-State Interleaved Densiﬁcation and Step-AM/Step-PM- Distortion-Minimized True-impedance-Invariant VGAs.",
+   "authors_raw": [
+    "Z. Guo, W. Deng, H. Jia, B. Chi"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 25
+  },
+  {
+   "id": "4.9",
+   "session": 4,
+   "title": "A 6.8-to-39.4GHz Distributed Low-Noise Ampliﬁer Using Multi-Branch Noise Cancellation and Inductor Folding",
+   "authors_raw": [
+    "Z. Jiang*, Z. Zhang*, Z. Wang*, Y. Qian, L. Huang, C. Shi, R. Zhang"
+   ],
+   "affils_raw": [
+    "East China Normal University, Shanghai, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 25
+  },
+  {
+   "id": "4.10",
+   "session": 4,
+   "title": "A Quasi-Lossless E-M-Coupled Mode-Switching 24/38GHz Dual-Band LNA Achieving 47/65dBc Image Rejection and 3.3dB Noise Figure",
+   "authors_raw": [
+    "J. Zhang*{1,2}, Q. Wang*{1,2}, L. Wang{1,2}, Q. Wu{1,2}, Z. Yang{1,2}, Y. Huang{1}, Z. Chen{3},",
+    "J. Zhang{1}, X. Shan{1}, K. Cheng{1}, H. Ren{1}, X. Guo{1,2}, B. Li{1,2}"
+   ],
+   "affils_raw": [
+    "{1}Institute of Microelectronics of the Chinese Academy of Sciences,",
+    "Beijing, China",
+    "{2}University of Chinese Academy of Sciences, Beijing, China",
+    "{3}South China University of Technology, Guangzhou, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 25
+  },
+  {
+   "id": "5.1",
+   "session": 5,
+   "title": "A 3.2Mpixel Digital-Pixel Sensor with 1.62μm 3-layer Pixels for Pseudo-Global-Shutter Operation",
+   "authors_raw": [
+    "J. Wu*{1}, R. Capoccia*{2}, S. Chen{1}, H. Manjunath{3}, C. Zhai{4}, W. Guo{4}, A. Pujar{4},",
+    "C. Desai{4}, J. Schauer{4}, S. Sharma{4}, K. How{4}, R. Wiser{4}, R. Chilukuri{4}, J. Ren{4},",
+    "C. Liu{1}, R. Ikeno{5}, H. Abe{5}, C-C. Wang{6}, C-H. Lin{6}"
+   ],
+   "affils_raw": [
+    "{1}Meta, Redmond, WA",
+    "{2}Meta, Zurich, Switzerland",
+    "{3}Meta, Burlingame, CA",
+    "{4}Meta, Sunnyvale, CA",
+    "{5}Brillnics, Tokyo, Japan",
+    "{6}Brillnics, Hsinchu, Taiwan",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 26
+  },
+  {
+   "id": "5.2",
+   "session": 5,
+   "title": "A 2-Stacked Synchronous EVS+Edge Hybrid CMOS Image Sensor with 3.85μm-Pitch Digital Pixels for DCG-HDR Imaging, Intra-Frame Event Sensing, and Edge Detection",
+   "authors_raw": [
+    "Y. Luo{1}, J. Li{2}, S. Mirabbasi{2}"
+   ],
+   "affils_raw": [
+    "{1}vivo Mobile Communication, Shenzhen, China",
+    "{2}University of British Columbia, Vancouver, Canada"
+   ],
+   "page": 26
+  },
+  {
+   "id": "5.3",
+   "session": 5,
+   "title": "A 320×256 131.2dB-DR Vertically Stacked Dual-QWIP LWIR-FPA with 8b Pixelwise DAC for In-Sensor Background Suppression HDR Imaging",
+   "authors_raw": [
+    "H. Lu{1}, Y. Zhuo{1}, B. Yu{1}, X. Du{1}, X. Li{2}, Y. Niu{3}, X. Zhang{1}, Y. Zhang{1}, Z. Cheng{1},",
+    "Y. Cai{1}, W. Lu{2}, W. Lu{1}"
+   ],
+   "affils_raw": [
+    "{1}Peking University, Beijing, China",
+    "{2}Shanghai Institute of Technical Physics Chinese Academy of Sciences,",
+    "Shanghai, China",
+    "{3}Lingfeng Vision Chip Beijing Technology, Beijing, China"
+   ],
+   "page": 26
+  },
+  {
+   "id": "5.4",
+   "session": 5,
+   "title": "Action-Recognition Vision System with Multi-Level Sparsity Solely Powered by a mm-Scale Solar Cell",
+   "authors_raw": [
+    "Y. Zhao, A. Gupta, K. A. Ahmed, H. Okuhara, M. Alioto"
+   ],
+   "affils_raw": [
+    "National University of Singapore, Singapore, Singapore"
+   ],
+   "page": 26
+  },
+  {
+   "id": "5.5",
+   "session": 5,
+   "title": "A 13.66pJ/(pixel·frame) 320×240 Processing-in-Sensor Pupil-Tracking Imager with Adaptive Binarization and Binary/ROI Readout",
+   "authors_raw": [
+    "W-C. Chang, J. C. J. S. Marquez, G-C. Chen, R-S. Liu, M-F. Chang, K-T. Tang,",
+    "C-C. Hsieh"
+   ],
+   "affils_raw": [
+    "National Tsing Hua University, Hsinchu, Taiwan"
+   ],
+   "page": 27
+  },
+  {
+   "id": "5.6",
+   "session": 5,
+   "title": "A 16-Channel Attack-Adaptive dToF LiDAR SoC with a 3.1mW/ch Event-Driven AFE and Time/Amplitude Dual-Domain Fingerprinting",
+   "authors_raw": [
+    "R. Nonaka*{1}, R. Matsuno*{1}, S. Nagai*{1}, S. Miyagi*{1}, Y. Hayakawa{1},",
+    "R. Suzuki{1}, M. Murakami{1}, S. Ando{1}, W. Zhang{1}, T. Kado{2}, K. Yoshioka{1}"
+   ],
+   "affils_raw": [
+    "{1}Keio University, Yokohama, Japan",
+    "{2}Sony Semiconductor Solutions, Atsugi, Japan",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 27
+  },
+  {
+   "id": "5.7",
+   "session": 5,
+   "title": "A Hierarchical Memory-Efﬁcient Peak-Tracing SPAD Flash LiDAR Sensor with In-Pixel ROI-Histogram Encoding and Streamed Incremental Depth Decoding",
+   "authors_raw": [
+    "S. Lin, Y. Wang, C. Zou, L. Liu, T. Zhao, R. P. Martins, M. Zhang"
+   ],
+   "affils_raw": [
+    "University of Macau, Macau, China"
+   ],
+   "page": 27
+  },
+  {
+   "id": "5.8",
+   "session": 5,
+   "title": "A SPAD Image Sensor with Photon Arrival Time Encoding Achieving Dip-Free 54.4dB Peak SNR and 125dB Dynamic Range",
+   "authors_raw": [
+    "D. Cho{1,2}, H-S. Choi{1}, S. Choi{1}, Y. Na{1}, S. Yang{1}, M. Yang{1}, Y. Youn{1}, I. Park{3},",
+    "J. Cheon{3,4}, M-J. Lee{1}, Y. Chae{1,3}"
+   ],
+   "affils_raw": [
+    "{1}Yonsei University, Seoul, Korea",
+    "{2}Samsung Semiconductor, Hwasung, Korea",
+    "{3}XO Semiconductor, Seoul, Korea",
+    "{4}Kumoh National Institute of Technology, Gumi, Korea"
+   ],
+   "page": 27
+  },
+  {
+   "id": "6.1",
+   "session": 6,
+   "title": "A 318.75Gb/s-PAM8/212.5Gb/s-PAM4 DSP-Based Transceiver with 42.8dB/59.4dB Reach in 3nm FinFET",
+   "authors_raw": [
+    "M. Abdullatif*{1}, H. Park*{2}, A. Elshater*{2}, S-H. Huang{3}, A. Khashaba{2},",
+    "A. Metawea{1}, A. Atharav{2}, M. Gohar{1}, K. Salem{1}, Q. Nehal{2}, S. Kwon{2},",
+    "A. Wanas{1}, M. Deghadi{1}, P. Yan{2}, P. Khanna{2}, V. Jolly{2}, C-E. Liu{3}, Y. Salah{1},",
+    "S. Amer{1}, M. Ramadan{1}, H-T. Chien{3}, Y-H. Chen{3}, M. Kamal{1}, E. Rafaat{1},",
+    "A. Khaled{1}, H. Ehab{1}, M. Saad{1}, M. Magdy{1}, K. Tyagi{2}, S. Abdelatif{1},",
+    "N. Mohamed{1}, A. Khaled{1}, Y. Chun{2}, M. Megahed{2}, M. Fouad{1}, J. Chen{2},",
+    "J. Lee{2}, E-H. Chen{3}, M. Gandara{2}, A. Essam{1}, J-T. Chen{3}, A. Salah{1}, P-C. Liu{3},",
+    "T. Ali{2}"
+   ],
+   "affils_raw": [
+    "{1}MediaTek, Cairo, Egypt",
+    "{2}MediaTek, Irvine, CA",
+    "{3}MediaTek, Hsinchu, Taiwan",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 28
+  },
+  {
+   "id": "6.2",
+   "session": 6,
+   "title": "A 212.5-Gb/s Simultaneous Bidirectional DSP-Based PAM-4 Transceiver with 36-dB Self-interference Cancellation",
+   "authors_raw": [
+    "Z. Xu*{1}, Y. Zhang*{1}, J. Zhou{1}, X. Chen{2}, H. Chen{2}, X. Hu{2}, B. Duan{2}, H. Guo{1},",
+    "X. Lu{2}, B. Luo{2}, C. Chen{2}, Z. Yang{2}, Y. Chen{2}, H. Xu{2}, G. Jin{2}, H. Wang{2},",
+    "L. Zeng{2}, M. Cai{2}, H. Wang{2}, Y. Yao{2}, S-C. Lee{2}, X. Gao{1}"
+   ],
+   "affils_raw": [
+    "{1}Zhejiang University, Hangzhou, China",
+    "{2}Shanghai Formula Microelectronics, Shanghai, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 28
+  },
+  {
+   "id": "6.3",
+   "session": 6,
+   "title": "A 212.5Gb/s 2.18pJ/b DSP-Based PAM-4 Transceiver with 58dB Loss Compensation for AI Scale-out Interconnects in 4nm FinFET",
+   "authors_raw": [
+    "C. Feng*{1}, J. Xie*{1}, Z. Li{1}, W. Yuan{1}, Z. Yao{2}, Y. Shen{2}, H. Sun{2}, S. Yi{2},",
+    "X. Ding{2}, X. Lu{2}, K. Ouyang{2}, Z. Long{2}, Q. Pan{1}"
+   ],
+   "affils_raw": [
+    "{1}Southern University of Science and Technology, Shenzhen, China",
+    "{2}Sanechips Technology, Shenzhen, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 28
+  },
+  {
+   "id": "6.4",
+   "session": 6,
+   "title": "A 200Gb/s/wire 2.48pJ/b Single-Ended PAM-4 Receiver with 32dB Loss Compensation in 12nm CMOS",
+   "authors_raw": [
+    "Z. Wang{1}, M. Zhong{1}, J. Yang{1}, Z. Feng{1}, B. Ye{2}, W. Gai{1,3}"
+   ],
+   "affils_raw": [
+    "{1}Peking University, Beijing, China",
+    "{2}East China Normal University, Shanghai, China",
+    "{3}Beijing Advanced Innovation Center for Integrated Circuits, Beijing, China"
+   ],
+   "page": 28
+  },
+  {
+   "id": "6.5",
+   "session": 6,
+   "title": "A 0.75pJ/b 200Gb/s XSR PAM-4 Receiver with CTLE-Merged A-Demux and Low-Power 8-Phase Clock Path in 28nm CMOS",
+   "authors_raw": [
+    "P. Cai, X. Li, R. Zhang, H. Wu, Q. Pan"
+   ],
+   "affils_raw": [
+    "SUSTECH, Shenzhen, China"
+   ],
+   "page": 29
+  },
+  {
+   "id": "6.6",
+   "session": 6,
+   "title": "A 128Gb/s 0.244pJ/b 6-Tap Reﬂective Receiver FFE with Zero-Additional-Power Half-Line-Length Post-Taps in 28nm CMOS",
+   "authors_raw": [
+    "H. Chung{1}, C. Moon{2}, J. Lee{1}, S. Kim{1}, B. Kim{1}"
+   ],
+   "affils_raw": [
+    "{1}Pohang University of Science and Technology, Pohang, Korea",
+    "{2}University of California, Berkeley, CA"
+   ],
+   "page": 29
+  },
+  {
+   "id": "6.7",
+   "session": 6,
+   "title": "A 1.6Tb/s Coherent Optical Transceiver with 300GS/s RX and 250GS/s TX Achieving 55-fs RJ and > 110-GHz BW in 2nm CMOS",
+   "authors_raw": [
+    "T. Dusatko{1}, R. Nguyen{2}, D. Cartina{1}, S. Dallaire{3}, W. Elhalwagy{3}, M. Essawy{2},",
+    "A. Fernandez{4}, M. Hassanpourghadi{2}, S. Ho{1}, M. Honarparvar{3}, H. Huynh{5},",
+    "M. N. Khiarak{3}, P. Le{6}, P. Le{6}, A. Mellati{2}, K. D. Nguyen{6}, P. Paro{2}, R. A. Rasul{5},",
+    "B. Reyes{4}, N. Sanchez{4}, F. Solis{4}, T. Q. Tran{6}, K. Tyshchenko{7}, T-F. Wu{2},",
+    "G. Hatcher{2}, S. Jantzi{2}, K. Chang{5}"
+   ],
+   "affils_raw": [
+    "{1}Marvell, Vancouver, BC, Canada; {2}Marvell, Irvine, CA",
+    "{3}Marvell, Ottawa, Canada; {4}Marvell, Cordoba, Argentina",
+    "{5}Marvell, Santa Clara, CA; {6}Marvell, Ho Chi Minh, Vietnam",
+    "{7}Marvell, Toronto, Canada"
+   ],
+   "page": 29
+  },
+  {
+   "id": "6.8",
+   "session": 6,
+   "title": "An 8 × 50Gbps/Fiber DWDM Optical Link in a 3D-Stacked 7nm CMOS EIC/65nm PIC Technology",
+   "authors_raw": [
+    "M. Raj{1}, Z. Wang{1}, A. Bekele{1}, A. Chou{1}, C. F. Poon{1}, W. Zhang{1}, Y. Cao{1},",
+    "J. Kim{1}, A. Chou{1}, M. Li{1}, Z. Mohammed{1}, G. Saha{1}, C. Xie{1}, S. Daudlin{1},",
+    "W. Lin{1}, W. Fang{1}, X. Chen{2}, L. Chen{2}, N. Narang{2}, S. W. Lim{2}, K. H. Tan{2},",
+    "S. Chen{1}, J. Im{1}, P. Upadhyaya{1}, Y. Frans{1}"
+   ],
+   "affils_raw": [
+    "{1}AMD, San Jose, CA",
+    "{2}AMD, Singapore, Singapore"
+   ],
+   "page": 29
+  },
+  {
+   "id": "6.9",
+   "session": 6,
+   "title": "A 2×800-Gb/s 0.97-pJ/b Monolithic Silicon-Photonic DWDM PAM-4 Transceiver Achieving 200 Gb/s/λ in 45-nm CMOS SOI",
+   "authors_raw": [
+    "Z. Ye*{1}, J. Jin*{1}, Y. Lin*{1}, Z. Sun*{1}, M. He{1}, Z. Zhou{1}, D. Xu{1}, W. Su{1}, A. Xu{1},",
+    "H. Wan{1}, B. Hong{1}, Q. Hu{1}, H. Hu{2}, J. Liu{2}, M. Zhang#{1}, Q. Ding{2}, X. Bi#{1}"
+   ],
+   "affils_raw": [
+    "{1}Huazhong University of Science and Technology, Wuhan, China",
+    "{2}Jiufengshan Laboratory, Wuhan, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 29
+  },
+  {
+   "id": "6.10",
+   "session": 6,
+   "title": "A 50Gb/s Burst-Mode Optical Transmitter Based on Directly Modulated DFB Laser with Dynamic Biasing and Reﬂection Cancellation for PON in 28nm CMOS",
+   "authors_raw": [
+    "J. Li*, Z. Zhou*, H. Wu, W. Wu, Z. Li, P. Cai, X. Luo, D. Zhan, R. Zhang,",
+    "X. Cheng, W. Luo, Q. Pan"
+   ],
+   "affils_raw": [
+    "Southern University of Science and Technology, Shenzhen, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 29
+  },
+  {
+   "id": "7.1",
+   "session": 7,
+   "title": "A Mains-Connected Series-Capacitor 7-Level 1-to-6 Outputs AC-DC Converter Achieving 1150mW/cm3 at 91.1% Efﬁciency and 2.5W Output",
+   "authors_raw": [
+    "J. Shi{1,2}, X. Xu{1,2}, Y. Jiang{1,2}, R. Martins{1}, P-I. Mak{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Macau, Macau, China",
+    "{2}UM Hetao IC Research Institute, Shenzhen, China"
+   ],
+   "page": 30
+  },
+  {
+   "id": "7.2",
+   "session": 7,
+   "title": "A 100V-Input Single-ZVT-Branch 3-Level DSD Buck Converter with Adaptive Multiplexed Control for Quad-Switch ZVS Achieving 87% Peak Efﬁciency",
+   "authors_raw": [
+    "K. Yuan*{1}, C. Ding*{1}, J. Jiang{2}, Y. Wu{3}, K. N. Leung{4}, X. Liu{1}"
+   ],
+   "affils_raw": [
+    "{1}Chinese University of Hong Kong, Shenzhen, China",
+    "{2}Southern University of Science and Technology, Shenzhen, China",
+    "{3}Shenzhen Pengshen Technology, Shenzhen, China",
+    "{4}Chinese University of Hong Kong, Hong Kong, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 30
+  },
+  {
+   "id": "7.3",
+   "session": 7,
+   "title": "A Direct-Drive D-GaN Driver with a Compact 3-Level Inverting Boost Converter and Dual-Channel Current Balancing",
+   "authors_raw": [
+    "P. Chu{1}, S. Hua{1}, H. Xu{1}, Z. Chen{2}, X. Zhang{2}, H. Yu{3}, Y. Gao{1}"
+   ],
+   "affils_raw": [
+    "{1}Southern University of Science and Technology, Shenzhen, China",
+    "{2}GaN Engine Technology Incorporation, Shenzhen, China",
+    "{3}Shenzhen Polytechnic University, Shenzhen, China"
+   ],
+   "page": 30
+  },
+  {
+   "id": "7.4",
+   "session": 7,
+   "title": "A 4N-Cell Scalable Li-Ion Battery Cell-Equalizer-Integrated Buck Converter with Modular Conﬁguration",
+   "authors_raw": [
+    "S-J. Lee, J-H. Kim, M-H. Kim, S-U. Shin"
+   ],
+   "affils_raw": [
+    "Pohang University of Science and Technology, Pohang, Korea"
+   ],
+   "page": 30
+  },
+  {
+   "id": "7.5",
+   "session": 7,
+   "title": "A 92.4%-Peak-Efﬁciency 2.5V-to-12V Resonant Charge Pump with Coupled On-Chip Magnetic Inductors for Mobile UFS NAND Flash Memories Achieving 96.8mW/mm2 Power Density",
+   "authors_raw": [
+    "M. Jeong{1}, T. Park{1}, H. Kim{1}, S. Seo{1}, M. Hwang{2}, D. Lee{2}, C. Kim{1}"
+   ],
+   "affils_raw": [
+    "{1}Korea University, Seoul, Korea",
+    "{2}SK hynix, Icheon, Korea"
+   ],
+   "page": 31
+  },
+  {
+   "id": "7.6",
+   "session": 7,
+   "title": "A Fully Integrated 2.8-to-5V-Input AC-Coupled Dual-Path CSCR Inverting Converter for Negative Gate Bias of GaN PAs Achieving 5.35mW/mm2 Power Density and 83% Peak Efﬁciency",
+   "authors_raw": [
+    "M. Liang, Y. Mao, H. Xu, J. Xu, Z. Hong"
+   ],
+   "affils_raw": [
+    "Fudan University, Shanghai, China"
+   ],
+   "page": 31
+  },
+  {
+   "id": "7.7",
+   "session": 7,
+   "title": "A Fully Integrated Multiphase-Interleaving CSCR SC Converter with 92.8% Output Ripple Reduction and 89% Peak Efﬁciency",
+   "authors_raw": [
+    "D. Zhou, J. Tao, G. Cai"
+   ],
+   "affils_raw": [
+    "Hong Kong University of Science and Technology (Guangzhou),",
+    "Guangzhou, China"
+   ],
+   "page": 31
+  },
+  {
+   "id": "7.8",
+   "session": 7,
+   "title": "A 1.8V-Input Quad-Output Continuously-Scalable-Conversion- Ratio Switched-Capacitor DC-DC Converter with Independent Regulation Achieving 82.4% Peak Efﬁciency",
+   "authors_raw": [
+    "Y. Yang{1}, M. Huang{2}, S. Du{1}"
+   ],
+   "affils_raw": [
+    "{1}Delft University of Technology, Delft, The Netherlands",
+    "{2}University of Macau, Macau, China"
+   ],
+   "page": 31
+  },
+  {
+   "id": "7.9",
+   "session": 7,
+   "title": "A Fully Integrated 2.5-to-4.2V-Input Dual-5-Level-SC-Assisted Reconﬁgurable CSCR Converter Achieving 4× VCF-Step Multiplication and 89.4% Peak Efﬁciency",
+   "authors_raw": [
+    "K. Lee, J. Kim, W. Jegal, J. Park, D. Seo, W. Shin, C. Jeong, M. Kim, M. Cho,",
+    "Y. Lee"
+   ],
+   "affils_raw": [
+    "Sungkyunkwan University, Suwon, Korea"
+   ],
+   "page": 31
+  },
+  {
+   "id": "8.1",
+   "session": 8,
+   "title": "A 6nm Processing-Near-Memory Accelerator with 1.22TB/s Bandwidth by 3D Stacking for On-Device LLM Inference",
+   "authors_raw": [
+    "H. Liu{1}, J. Dong{1}, K. Song{2}, X. Jing{3}, Z. Zhang{4}, S. Cao{3}, Z. Sun{1}, H. Shen{1},",
+    "S. Liu{1}, J. Liu{2}, Y. Gu{1}, Y. Zhu{1}, M. Jia{1}, S. Duan{1}, C. Lin{2}, S. Yin{1}, L. Wang{1}"
+   ],
+   "affils_raw": [
+    "{1}Xiaomi, Shanghai, China",
+    "{2}Xiaomi, Shenzhen, China",
+    "{3}Xiaomi, Beijing, China",
+    "{4}Xiaomi, Xi’An, China"
+   ],
+   "page": 34
+  },
+  {
+   "id": "8.2",
+   "session": 8,
+   "title": "A 2.5ms/Action 3D Two-DRAM-on-One-Logic Processor for Vision-Language-Action Applications",
+   "authors_raw": [
+    "H. Wang{1}, X. Yang{1}, J. Wei{1}, Z. Yue{1}, Y. Su{1}, H. Cheng{1}, B. Li{2}, H. Han{1},",
+    "J. Gu{1}, Y. Hu{1}, Y. Wang{1}, S. Yin{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}Xi’an JiaoTong University, Xian, China"
+   ],
+   "page": 34
+  },
+  {
+   "id": "8.3",
+   "session": 8,
+   "title": "A 28nm 228–365μJ/Token LLM Processor Enabling Parallel Inference and KV-to-Weight Distillation-Based Test-Time Training",
+   "authors_raw": [
+    "R. Guo, K. Jiang, F. Zhang, C. Jia, Z. Yang, Z. Yue, H. Han, Y. Wang, Y. Hu,",
+    "S. Yin"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 34
+  },
+  {
+   "id": "8.4",
+   "session": 8,
+   "title": "LiteSeeker: A 48.7FPS CNN-SSM Multi-Object Video Perception Accelerator with Redundancy/Sparsity-Aware Execution and Cross-Model Orchestration",
+   "authors_raw": [
+    "H. Cho, H. Kim, Y. Kim, S. Yang, A. Putra, C. Duong Manh, J-Y. Kim"
+   ],
+   "affils_raw": [
+    "KAIST, Daejeon, Korea"
+   ],
+   "page": 34
+  },
+  {
+   "id": "8.5",
+   "session": 8,
+   "title": "A Hybrid-Bonded LogicFolding Flagship Mobile SoC with Full-Chip Intra-Module Partitioning",
+   "authors_raw": [
+    "Y. Huang{1}, L. Chen{2}, T. He{3}, Y. Liu{2}, W. Cao{2}, Y. Li{1}, H. Wang{1}, Y. Li{4}, L. Sun{2},",
+    "J. Zhu{3}, S. Pang{3}, P. Zhao{1}, L. Zhang{1}, S. He{2}, J. Zhang{1}, Q. Liu{2}, C. Wang{2},",
+    "B. Huang{2}, Z. Liu{3}, X. Liang{2}, Y. Dong{1}"
+   ],
+   "affils_raw": [
+    "{1}Huawei Technologies, Beijing, China",
+    "{2}Huawei Technologies, Shanghai, China",
+    "{3}Huawei Technologies, Shenzhen, China",
+    "{4}Huawei Technologies, Chengdu, China"
+   ],
+   "page": 35
+  },
+  {
+   "id": "8.6",
+   "session": 8,
+   "title": "MALAKOFEC: A 127.65Gb/s 17.0pJ/b GRAND-Based oFEC Decoder Using Logistic-Weight Extrinsic Computation for Optical Communication",
+   "authors_raw": [
+    "L. D. Blanc, Y. Shen, J. Tapparel, C. T. Müller, A. Burg, W. Song"
+   ],
+   "affils_raw": [
+    "Ecole Polytechnique Fédérale de Lausanne, Lausanne, Switzerland"
+   ],
+   "page": 35
+  },
+  {
+   "id": "8.7",
+   "session": 8,
+   "title": "A 3.01mW Wi-Fi ISAC Processor for Concurrent CSI-Based Localization and 802.11n Channel Estimation/Equalization",
+   "authors_raw": [
+    "S. Yun, C. Lee, S. Kwon, J. Ahn, Y. Lee"
+   ],
+   "affils_raw": [
+    "KAIST, Daejeon, Korea"
+   ],
+   "page": 35
+  },
+  {
+   "id": "8.8",
+   "session": 8,
+   "title": "A 1.14TOPS/W INT16-Dominant Sliding Residual Refresh FDM Processor Achieving FP32-Level Accuracy for PDE Solving",
+   "authors_raw": [
+    "Y. Zhu*{1}, B. Duan*{1}, J. Ma{1}, J. Yang{1}, X. Li{1}, S. Wu{1}, J. Zhang{1}, Y. Wang{2},",
+    "B. Yang{1}, J. Zhu{1}, A. Zhang{1}, L. Liu{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}RoadRunner Semiconductor, Shanghai, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 35
+  },
+  {
+   "id": "8.9",
+   "session": 8,
+   "title": "A 28nm 6.23TOPS/W Large-Scale Digital Multigrid PDE Processor with Halo-Reuse Memory and Folded Multi-Operator PEs",
+   "authors_raw": [
+    "B. Duan*{1}, Y. Zhu*{1}, J. Yang{1}, X. Li{1}, X. Zheng{1}, C. Chen{1}, Z. Yang{1}, B. Yang{1},",
+    "J. Zhu{1}, Y. Wang{2}, S. Chen{1}, J. He{1}, H. Jiang{1}, A. Zhang{1}, L. Liu{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}RoadRunner Semiconductor, Shanghai, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 35
+  },
+  {
+   "id": "9.1",
+   "session": 9,
+   "title": "A Monolithic GaN and Si pMOS 12V-Input 4MHz Nested Dual-Path Converter Achieving 92% Peak Efﬁciency and 1107A/cm3 Current Density",
+   "authors_raw": [
+    "P-H. Chen{1}, S. Jha{1}, H. Vora{2}, S. Bader{2}, P. Koirala{2}, A. Vyatskikh{2}, P. Golani{2},",
+    "A. Zubair{2}, M. Beumer{2}, H. W. Then{2}, H. Krishnamurthy{3}, J. Yu{3},",
+    "K. Ravichandran{3}, H-P. Le{1}"
+   ],
+   "affils_raw": [
+    "{1}University of California, San Diego, CA",
+    "{2}Intel Foundry Technology Research, Hillsboro, OR",
+    "{3}Intel, Hillsboro, OR"
+   ],
+   "page": 36
+  },
+  {
+   "id": "9.2",
+   "session": 9,
+   "title": "A Direct 48V-to-1V GaN Half-Bridge Converter with Offset-Free Mirrored-COT Control and 20dB EMI Reduction",
+   "authors_raw": [
+    "J-H. Kim{1}, J-M. Cho{1}, S. Chung{2}, S-W. Hong{2}"
+   ],
+   "affils_raw": [
+    "{1}Sogang University, Seoul, Korea",
+    "{2}Seoul National University, Seoul, Korea"
+   ],
+   "page": 36
+  },
+  {
+   "id": "9.3",
+   "session": 9,
+   "title": "A 48V to 0.6-to-1.8V 600A Hybrid Zero-Bias-TLVR Converter with Coordinated Transient Control Achieving 92.8% Peak Efﬁciency and 53mV Undershoot for a 150-to-500A Load Step at 6.3A/ns",
+   "authors_raw": [
+    "Q. Zhou{1,2}, Y. Jiang{1,2}, R. Martins{1}, P-I. Mak{1,2}"
+   ],
+   "affils_raw": [
+    "{1}University of Macau, Macau, China",
+    "{2}UM Hetao IC Research Institute, Shenzhen, China"
+   ],
+   "page": 36
+  },
+  {
+   "id": "9.4",
+   "session": 9,
+   "title": "A 48V-to-1V Stackable Switched-Capacitor Buck Hybrid Converter with Flexible Independent/Paralleled Outputs and All-On/-Off Transients",
+   "authors_raw": [
+    "W. Yang{1,2}, Z. Tong{3}, Z. Song{1}, X. Mao{2,4}, Y. Lu{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}VD Technology, Chengdu, China",
+    "{3}Beihang University, Beijing, China",
+    "{4}University of Electronic Science and Technology of China, Chengdu, China"
+   ],
+   "page": 36
+  },
+  {
+   "id": "9.5",
+   "session": 9,
+   "title": "A 3612A/in3 48V-to-PoL Multilevel Quad-Path FIVR Chiplet with State-Dependent Phase Reconﬁguration for VPD",
+   "authors_raw": [
+    "J. Xu{1}, Y. Yang{1}, T. Zhang{1}, Z. Deng{1}, R. Gong{1}, S. Guan{1}, H. Zhang{1},",
+    "H. Wang{1}, R. Chen{1}, J. Wei{2}, W. Zhang{3}, K. J. Chen{3}, Y. Wang{1}, X. Liu{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}Peking University, Beijing, China",
+    "{3}Hong Kong University of Science and Technology, Hongkong, China"
+   ],
+   "page": 36
+  },
+  {
+   "id": "9.6",
+   "session": 9,
+   "title": "A 12V-to-1V Scalable Capacitive Charge-Equalization Converter with Intrinsic Transient Assist and Time-Gated Balancing",
+   "authors_raw": [
+    "Y-C. Lee{1}, Y-J. Jeon{2}, C-H. Lee{1}, S-W. Hong{2}"
+   ],
+   "affils_raw": [
+    "{1}Sogang University, Seoul, Korea",
+    "{2}Seoul National University, Seoul, Korea"
+   ],
+   "page": 37
+  },
+  {
+   "id": "9.7",
+   "session": 9,
+   "title": "A Reliability-Enhanced 33A 3D-Stacked IVR Enabling Kiloampere- Class Power Delivery and 59W System-Power Reduction for AI Processors",
+   "authors_raw": [
+    "Y. Wang, T. Li, W. Liao, X. Yang, Z. Liu, W. Song, X. Tian, C. Heng, L. Jia,",
+    "H. Cheng, Z. Wang, W. Song, D. Li"
+   ],
+   "affils_raw": [
+    "Huawei Technologies, Shenzhen, China"
+   ],
+   "page": 37
+  },
+  {
+   "id": "9.8",
+   "session": 9,
+   "title": "A Phase-Scalable LEAP Hybrid Converter with Inherent Current Balance and All-Inductor Transient Energization",
+   "authors_raw": [
+    "Y. Wang, W. Sun, Y. Ji, J. Yuan, L. Cheng"
+   ],
+   "affils_raw": [
+    "University of Science and Technology of China, Hefei, China"
+   ],
+   "page": 37
+  },
+  {
+   "id": "9.9",
+   "session": 9,
+   "title": "A Dual-Path DCM IVR with Heterogeneous Chiplet Integration Enabling 350μm-Thick Substrate-Embedded Vertical Power Delivery",
+   "authors_raw": [
+    "S. Jha{1}, P-H. Chen{1}, E. Lee{1}, T. Wakaoka{2}, C. W. LIM{2}, S. M. CHO{2},",
+    "T. Kushima{2}, R. Morishita{2}, S. Yamaguchi{2}, D. M. Giuliano{3}, H-P. Le{1}"
+   ],
+   "affils_raw": [
+    "{1}University of California, San Diego, CA",
+    "{2}Murata Manufacturing, Yasu, Japan",
+    "{3}pSemi Corporation, Burlington, MA"
+   ],
+   "page": 37
+  },
+  {
+   "id": "9.10",
+   "session": 9,
+   "title": "A 5MHz 40A DrGaN Buck with Dual-Edge Predictive Dead-Time Control Achieving 0.47ns/0.1ns and Three-Cycle Fast Settling",
+   "authors_raw": [
+    "Z-Y. Lin, X. Ming, Y. Lu, Z-H. Liu, C-W. Zhuang, B. Zhang"
+   ],
+   "affils_raw": [
+    "University of Electronic Science and Technology of China, Chengdu, China"
+   ],
+   "page": 37
+  },
+  {
+   "id": "9.11",
+   "session": 9,
+   "title": "A High-Frequency Direct 3V-to-1V Oscillator-Rectiﬁer-Based PoL Converter with Cycle-by-Cycle Regulation for Fast Transient Response",
+   "authors_raw": [
+    "J. Yang, H. Song, Z. Liu, R. Martins, M. Huang"
+   ],
+   "affils_raw": [
+    "University of Macau, Macau, China"
+   ],
+   "page": 37
+  },
+  {
+   "id": "10.1",
+   "session": 10,
+   "title": "A Rail-to-Rail Buffer-Integrated Noise-Shaping Pipelined-SAR ADC Achieving 103.9dB SFDR with Floating-Supply Sampler",
+   "authors_raw": [
+    "H. Wang, X. He, Y. He, Y. Gao, Y. Zhong, L. Jie, N. Sun"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 38
+  },
+  {
+   "id": "10.2",
+   "session": 10,
+   "title": "A 92dB-SNDR Buffer-Embedded Noise-Shaping Pipelined-SAR ADC with a Floating Folded-Cascode Dynamic Ampliﬁer and Mixed-Mode MES",
+   "authors_raw": [
+    "K. Li{1}, Y-H. Shih{1}, D. S. Kang{1}, Y. Hao{2}, A. J. Prakash{1}, A. Li{1}, X. Lin{1},",
+    "O. C. Wu{1}, X. Zhang{1}, T-H. Wang{1}, B. Liu{2}, S. Li{1}"
+   ],
+   "affils_raw": [
+    "{1}Georgia Institute of Technology, Atlanta, GA",
+    "{2}University of Glasgow, Glasgow, United Kingdom"
+   ],
+   "page": 38
+  },
+  {
+   "id": "10.3",
+   "session": 10,
+   "title": "A High-Pass-Filtering CT ΔΣM with 80.5dB Blocker-DR and 4.7nV/√Hz Noise over 100MHz Bandwidth for FMCW Radar",
+   "authors_raw": [
+    "Z. Zhu{1,2}, M. Ganzerli{2}, S. Javvaji{2}, R. Rutten{2}, Q. Liu{2}, B. Burdiek{2}, S. Bajoria{2},",
+    "G. Radulov{1}, P. Harpe{1}, L. Breems{2,3}"
+   ],
+   "affils_raw": [
+    "{1}Eindhoven University of Technology, Eindhoven, The Netherlands",
+    "{2}NXP Semiconductors, Eindhoven, The Netherlands",
+    "{3}Delft University of Technology, Delft, The Netherlands"
+   ],
+   "page": 38
+  },
+  {
+   "id": "10.4",
+   "session": 10,
+   "title": "A 112.4dB-SFDR 32kHz-BW ΔΣM with a Mismatch-Free 6-bit Time-DAC",
+   "authors_raw": [
+    "E. Miotello{1,2}, A. Sukumaran{1}, A. Fernandez Schrunder{1}, Ö. Urhan{1,2}, T. Jang{2},",
+    "S. Emery{1}"
+   ],
+   "affils_raw": [
+    "{1}CSEM, Zürich, Switzerland",
+    "{2}ETH Zürich, Zürich, Switzerland"
+   ],
+   "page": 38
+  },
+  {
+   "id": "10.5",
+   "session": 10,
+   "title": "A 99.2dB-SNDR 150kHz-BW single-bit Continuous-Time ΔΣ ADC with PVT-Robust Virtual-Ground Switched DAC and Input-Independent-Switched Capacitive DAC",
+   "authors_raw": [
+    "V. Garg, A. Jain, L. Pandey, P. Garg"
+   ],
+   "affils_raw": [
+    "STMicroelectronics, Greater Noida, India"
+   ],
+   "page": 38
+  },
+  {
+   "id": "11.1",
+   "session": 11,
+   "title": "A 110-to-170GHz Fully Integrated CMOS VNA Extension Chip with ≥124dB System Dynamic Range",
+   "authors_raw": [
+    "Y. Ding*{1}, Z. Lin*{2}, Y. Shen{1}, J. Gao{1}, L. Wang{1}, L. You{1}, S. Hu{1}"
+   ],
+   "affils_raw": [
+    "{1}Southeast University, Nanjing, China",
+    "{2}Purple Mountain Laboratories, Nanjing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 39
+  },
+  {
+   "id": "11.2",
+   "session": 11,
+   "title": "A Scalable 512-Element 140GHz Phased-Array Transmitter in 45nm RF SOI Achieving 61dBm EIRPSAT",
+   "authors_raw": [
+    "A. Davidson, H. Krishnaswamy"
+   ],
+   "affils_raw": [
+    "Columbia University, New York, NY"
+   ],
+   "page": 39
+  },
+  {
+   "id": "11.3",
+   "session": 11,
+   "title": "A 140GHz 32-Element Highly Scalable Spatially-Fed Active Transmitarray Achieving 32.6dBm EIRP in 28nm CMOS",
+   "authors_raw": [
+    "H. Zhu, Y. Wang, X. Feng, N. Xu, C. Jiang"
+   ],
+   "affils_raw": [
+    "Fudan University, Shanghai, China"
+   ],
+   "page": 39
+  },
+  {
+   "id": "11.4",
+   "session": 11,
+   "title": "A 1THz 4-Element Phased-Array Transmitter in 65nm CMOS",
+   "authors_raw": [
+    "B. LIU*, L. Gao*, W. Ma, Z. Qu, Z. Sun, Z. Zheng, R. Tao, H. Dong, Y. Chang,",
+    "D. Tang, Q. Meng, J. Chen, W. Hong"
+   ],
+   "affils_raw": [
+    "Southeast University, Nanjing, China"
+   ],
+   "page": 39
+  },
+  {
+   "id": "12.1",
+   "session": 12,
+   "title": "A Saliva-Based Chronic Disease Screening SoC with Biomarker Interface and Analog Multimodal Fusion Classiﬁer",
+   "authors_raw": [
+    "Y. Kim*{1}, M. Song*{1}, Y. J. Pyeon*{1}, T. Kim{1}, S. Lee{1}, S. Park{1}, H. Kim{2},",
+    "J. Choi{3}, Y. J. Lee{3}, J. J. Kim{1,4}"
+   ],
+   "affils_raw": [
+    "{1}Ulsan National Institute of Science and Technology, Ulsan, Korea",
+    "{2}SK hynix, Icheon, Korea",
+    "{3}Korea Institute of Science and Technology, Seoul, Korea",
+    "{4}Anvix Lab, Ulsan, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 40
+  },
+  {
+   "id": "12.2",
+   "session": 12,
+   "title": "A Zoom-in Compression Photoacoustic Imaging Receiver with PWM-Based True Time Delay and Matrix-Vector Multiplication ΔΣ ADC",
+   "authors_raw": [
+    "H-C. Liao, S. Zhang, Y. Chen, L. Li, K. Yang"
+   ],
+   "affils_raw": [
+    "Rice University, Houston, TX"
+   ],
+   "page": 40
+  },
+  {
+   "id": "12.4",
+   "session": 12,
+   "title": "ANP-ET: A 3.1kHz 7.72μJ/Inference Event-Driven Eye-Tracking Processor with Spatio-Temporal Sparse Inference for Early Detection of Dementia",
+   "authors_raw": [
+    "Z. Jian{1}, Z. Fang{1}, H. Wang{1}, H. Ren{2}, R. Yu{1}, X. Cao{2}, Y. Yang{2}, Z. Cheng{1},",
+    "Y. Hua{1}, C. Dai{1}, Z. Wang{1}, J. Zhang{1}, N. Qiao{3}, H. Chen{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}Hebei Medical University Third Hospital, Shijiazhuang, China",
+    "{3}SynSense, Chengdu, China"
+   ],
+   "page": 40
+  },
+  {
+   "id": "12.5",
+   "session": 12,
+   "title": "A Wearable Ultrasonic Doppler–ToF ASIC with FFT-Free and Matched-Filtering-Free Readout for cNIBP Monitoring",
+   "authors_raw": [
+    "Y. Han{1}, H. Lu{1}, L. Zhao{2}, P. Tan{1}, J. Y. Adebiyi{1}, H. Tanaka{1}, N. Lu{1}, Y. Jia{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Texas, Austin, TX",
+    "{2}Massachusetts Institute of Technology, Cambridge, MA"
+   ],
+   "page": 40
+  },
+  {
+   "id": "12.6",
+   "session": 12,
+   "title": "A 140.5μW 99.8%-Accuracy 96.1dB-SNR BioZ IC for Real-Time Cell Analysis with On-Demand Push-Pull Excitation and Continuous-Time ΔΣ T-D Readout",
+   "authors_raw": [
+    "J. Li{1}, J. Chen{1}, X. Zhang{2}, P. Li{1}, L. Zhang{1}, N. Nayak{3}, Y. Zou{4}, X. Liang{3},",
+    "H. Zhao{3}, R. Weerasekera{1}, X. Liu{5}, R. Haqshenas{3}, D. Jiang{3}, M. Cryan{1},",
+    "S. Ha{6}, A. Demosthenous{3}, E. Charbon{4}, D. Pamunuwa{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Bristol, Bristol, United Kingdom",
+    "{2}Imperial College London, London, United Kingdom",
+    "{3}University College London, London, United Kingdom",
+    "{4}Ecole Polytechnique Fédérale de Lausanne, Neuchâtel, Switzerland",
+    "{5}Fudan University, Shanghai, China",
+    "{6}New York University Abu Dhabi, Abu Dhabi, United Arab Emirates"
+   ],
+   "page": 41
+  },
+  {
+   "id": "12.7",
+   "session": 12,
+   "title": "A 7.1nJ/measurement Phase-Referenced Direct-Polar-Extraction Impedance Measurement IC with Harmonic-Nulling Sampling",
+   "authors_raw": [
+    "G. Choi*{1}, J. Lee*{1,2}, J-Y. Sim{1}"
+   ],
+   "affils_raw": [
+    "{1}Pohang University of Science and Technology, Pohang, Korea",
+    "{2}Samsung Electronics, Hwaseong, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 41
+  },
+  {
+   "id": "12.8",
+   "session": 12,
+   "title": "CHARM: A Multi-Layer, Sleep-Stage Reconﬁgurable Charge-Domain SoC for Stage- and Event-Triggered Theranostic Stimulation",
+   "authors_raw": [
+    "Y. J. Pyeon*{1}, Y. Kim*{1}, S. Lee*{1}, S. Lee{1}, S. Cho{1}, J. Hwang{1}, D. S. Keum{2},",
+    "Y. G. Kim{2}, H. E. Jeong{1,2}, J. J. Kim{1,2}"
+   ],
+   "affils_raw": [
+    "{1}Ulsan National Institute of Science and Technology, Ulsan, Korea",
+    "{2}Anvix Lab, Ulsan, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 41
+  },
+  {
+   "id": "12.9",
+   "session": 12,
+   "title": "A 0.6μm N-Type-Only IGZO ECG/EMG Readout FlexIC Integrating a 44.7dB CCIA and a 9.24b ENOB 140kS/s Power-Gated Asynchronous SAR ADC",
+   "authors_raw": [
+    "C. Wang{1,2}, Q. Lin{1,3}, A. Spagnolo{1}, M. Dandekar{2}, M. Velazquez Lopez{1,2},",
+    "H. Çeliker{1}, H. Li{1}, J. Segers{1}, J. Genoe{1,2}, N. Papadopoulos{1}, K. Myny{1,2}"
+   ],
+   "affils_raw": [
+    "{1}imec, Leuven, Belgium",
+    "{2}KU Leuven, Leuven, Belgium",
+    "{3}*now at Fudan University, Shanghai, China"
+   ],
+   "page": 41
+  },
+  {
+   "id": "12.10",
+   "session": 12,
+   "title": "A 3.94μW 1kHz-BW NS-SAR ExG Front-End with Segmented Mismatch Compensation and Hybrid-Order Input-Impedance Boosting",
+   "authors_raw": [
+    "J. Lee, N. Gill, J. Han, R. Kim, J. Seo, T-H. Kim, K-H. Baek"
+   ],
+   "affils_raw": [
+    "Chung-Ang University, Seoul, Korea"
+   ],
+   "page": 41
+  },
+  {
+   "id": "13.1",
+   "session": 13,
+   "title": "A 35Tb/s/mm 0.29pJ/bit 64Gb/s/wire Simultaneous Bidirectional Die-to-Die Interface Transceiver Supporting Independent Reference Clock",
+   "authors_raw": [
+    "J. Guo{1}, J. Ma{1}, J. Deng{1}, J. Chen{2}, J. Gu{1}, X. Zhang{1}, Y. Wang{1}, W. Zheng{3},",
+    "A. Chowdhury{1}, T. Tang{2}, J. Lai{1}, J. Ding{1}, X. Liu{2}, K. Chen{3}, J. Tang{3}, Q. Chen{3},",
+    "H. Gong{2}, X. Xiang{1}, K. Wang{3}, D. Liang{1}, V. Wang{2}, X. Yang{2}, J. Chung{2},",
+    "K. Yang{2}, Z. Shang{2}, O. Zhou{2}, J. Xu{2}, S. Liang{1}, K. Ganesan{1}, A. Hsu{2},",
+    "M. Kashani{2}, X. Sha{1}, F. Khan{1}, M. He{1}, Y. Dong{1}, J. Li{1}, M. Lin{1},",
+    "N. Sarhangnejad{2}, H. Cong{2}, W. Ismail{2}, A. Emara{2}, H. Mostafa{2}, N. Soltani{2},",
+    "T. Sandhu{2}, J. Musayev{2}, D. Shin{2}, Y. Dawji{2}, J. Guthrie{2}, J. Liu{2}, Y. Feng{2},",
+    "M. Ramezani{2}, Z. Lulec{2}, F. Sun{2}, J. Su{1}, A. Huang{1}, S. Sun{2}, J. Fry{4}, K. Xu{4},",
+    "M. Wielgos{4}, J. You{4}, C. Cui{4}, R. Qiu{4}, X. Shi{4}, Z. Xu{4}, L. Wu{1}, D. Amor{2},",
+    "G. Li{2}, X. Han{1}, D. Storaska{4}, W. Wang{1}, F. Lyu{5}, J. Su{1}, C. Li{2}, A. Gharbiya{2},",
+    "H. Fang{1}, A. Mostafa{1}, H. Wang{1}, K. Chang{1}"
+   ],
+   "affils_raw": [
+    "{1}Marvell, Santa Clara, CA",
+    "{2}Marvell, Toronto, Canada",
+    "{3}Marvell, Singapore, Singapore",
+    "{4}Marvell, Fishkill, NY",
+    "{5}Marvell, Irvine, CA"
+   ],
+   "page": 42
+  },
+  {
+   "id": "13.2",
+   "session": 13,
+   "title": "A 64Gb/s Low-Swing UCIe-Compliant Interface Featuring Complementary Zero-Crossing Sampling and Pulse-Width-Modulation-Based DFE in A16 with Super Power Rail",
+   "authors_raw": [
+    "Y-J. Huang, M-S. Lin, W-C. Chen, C-C. Tsai, Y-C. Chen, W-H. Huang,",
+    "H-H. Kuo, N-C. Cheng, S-T. Lai, C-H. Wen, H-T. Ke, W-S. Lin, S-C. Yang,",
+    "K-T. Chou, P-C. Chiou, J-R. Huang, G. V. Yadav, C-Y. Li, S. Li, K-H. Hsieh"
+   ],
+   "affils_raw": [
+    "TSMC, Hsinchu, Taiwan"
+   ],
+   "page": 42
+  },
+  {
+   "id": "13.3",
+   "session": 13,
+   "title": "A 0.291-pJ/bit 50.4-Gb/s/wire Inverter-Based Internally AC-Coupled Simultaneous Bidirectional Transceiver for Short-Reach Die-to-Die Interfaces in 7-nm CMOS",
+   "authors_raw": [
+    "Y. Nishi{1}, X. Chen{1}, S. G. Tell{2}, B. Zimmer{1}, G. Kalogerakis{1}, W. J. Turner{1},",
+    "S. Song{1}, A. Rekhi{1}, L. Xu{1}, J. W. Poulton{2}, W. J. Dally{1}, C. T. Gray{2}"
+   ],
+   "affils_raw": [
+    "{1}Nvidia, Santa Clara, CA",
+    "{2}Nvidia, Durham, NC"
+   ],
+   "page": 42
+  },
+  {
+   "id": "13.4",
+   "session": 13,
+   "title": "A 168-Gb/s/wire PAM-3 SBD Transceiver with Reﬂection, Crosstalk and Leakage Optimized for Standard and Advanced Channels",
+   "authors_raw": [
+    "Q. Liu, Y. Nong, Y. Hui, L. Du, Y. Du"
+   ],
+   "affils_raw": [
+    "Nanjing University, Nanjing, China"
+   ],
+   "page": 42
+  },
+  {
+   "id": "13.5",
+   "session": 13,
+   "title": "A 32-to-128Gb/s/wire 0.51pJ/bit 43×62μm2/Lane Simultaneous Bi-Directional Transceiver With Inverter-Based DFE and Per-Lane Clock-Deskew-Merged 4-Phase PLL for Die-to-Die Interfaces in 28nm CMOS",
+   "authors_raw": [
+    "Y. Xiang, Y. Xiao, H. Yan, J. Liu, N. Wu, Z. Zhang, L. Liu"
+   ],
+   "affils_raw": [
+    "Institute of Semiconductors of the Chinese Academy of Sciences,",
+    "Beijing, China"
+   ],
+   "page": 43
+  },
+  {
+   "id": "13.6",
+   "session": 13,
+   "title": "A 28.8Tb/s/mm 100.8Gb/s/pin Data-Pattern-Robust Capacitively Driven PAM4 Transceiver over a 6mm Channel with All-Level AC/DC Magnitude-Alignment and Transition-Balanced Encoding",
+   "authors_raw": [
+    "J. Lee*, Y. Shin*, G. Lee*, J. Choi"
+   ],
+   "affils_raw": [
+    "Seoul National University, Seoul, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 43
+  },
+  {
+   "id": "13.7",
+   "session": 13,
+   "title": "A 0.591pJ/bit 36.8Gb/s/wire 15mm-Channel-Length Simultaneous Bidirectional Transceiver for Long-Reach Die-to-Die interfaces in 7nm CMOS",
+   "authors_raw": [
+    "X. Chen{1}, Y. Nishi{1}, S. G. Tell{2}, B. Zimmer{1}, G. Kalogerakis{1}, L. Xu{1},",
+    "W. J. Turner{1}, S. Song{1}, A. Rekhi{1}, J. W. Poulton{2}, W. J. Dally{1}, C. T. Gray{2}"
+   ],
+   "affils_raw": [
+    "{1}Nvidia, Santa Clara, CA",
+    "{2}Nvidia, Durham, NC"
+   ],
+   "page": 43
+  },
+  {
+   "id": "13.8",
+   "session": 13,
+   "title": "A 71.3fs Fractional-N Ring-Based PLL for 3D-Friendly 212.5Gb/s Wireline",
+   "authors_raw": [
+    "J. Lin, Q. Li, G. Chen, Y. Wang, S. Peng, Y. Le, Y. Zheng, D. Peng, S. Du,",
+    "D. Li"
+   ],
+   "affils_raw": [
+    "Huawei Technologies, Shenzhen, China"
+   ],
+   "page": 43
+  },
+  {
+   "id": "13.9",
+   "session": 13,
+   "title": "An 18.9fs-RMS Nyquist-Band-Jitter 4-to-16GHz 16-Phase Clock Generator Using Symmetric Injection Locking",
+   "authors_raw": [
+    "H. Zhu, Z. Wu, Y. Zhu, R. P. Martins, C-H. Chan, M. Zhang"
+   ],
+   "affils_raw": [
+    "University of Macau, Macau, China"
+   ],
+   "page": 43
+  },
+  {
+   "id": "14.1",
+   "session": 14,
+   "title": "A 0.4-to-7GHz Reconﬁgurable Receiver with LO-Synchronous Switched-Capacitor IIR Filters",
+   "authors_raw": [
+    "L. Kong, N. Yan"
+   ],
+   "affils_raw": [
+    "Fudan University, Shanghai, China"
+   ],
+   "page": 44
+  },
+  {
+   "id": "14.2",
+   "session": 14,
+   "title": "A Compact Digital-Intensive 2x2 Dual-Band Dual-Concurrent WiFi8 Transceiver Achieving -55dB EVM Floor in 6nm CMOS",
+   "authors_raw": [
+    "C-Y. Yu{1}, N. Egan{2}, J. X. Wu{2}, T. Fisher-Jeffes{2}, W. Lee{3}, J. Ko{3},",
+    "N. Ramachandra{2}, H-H. Chen{3}, N. Baskaran{3}, M. Nasrollahpour{2}, C. Lo{2},",
+    "T. Liang{1}, H. Li{3}, J-C. Hsueh{3}, S-C. Hung{3}, C-C. Hsiao{2}, C. Chien{1}, Y-H. Chang{1},",
+    "A. Shabra{2}, S. Ho{2}, O. Shanaa{1}"
+   ],
+   "affils_raw": [
+    "{1}MediaTek, San Jose, CA",
+    "{2}MediaTek, Woburn, MA",
+    "{3}MediaTek, Austin, TX"
+   ],
+   "page": 44
+  },
+  {
+   "id": "14.3",
+   "session": 14,
+   "title": "A 5nm CMOS 16-to-20GS/s RF Sampling Data-Converters-Based 8-Channel Wireless Transceiver for TDD/FDD 5G and Beyond Base Stations",
+   "authors_raw": [
+    "Y. Liu{1}, F. Van der Goes{2}, M. Mehrpoo{2}, X. Yang{1}, A. Garg{1}, A. Elkholy{1},",
+    "V. Milirud{1}, J. Mulder{2}, X. Yang{1}, D. Kong{1}, S. Wang{2}, G. Li{1}, J. Riley{2},",
+    "W. Zhang{1}, X. Meng{1}, X. Li{1}, H. Hatamkhani{1}, D. Kim{1}, J. Liu{1}, K. Kankipati{3},",
+    "H. Jiang{1}, J. Westra{2}, A. Momtaz{1}, J. Cao{1}"
+   ],
+   "affils_raw": [
+    "{1}Broadcom, Irvine, CA",
+    "{2}Broadcom, Bunnik, The Netherlands",
+    "{3}Broadcom, San Jose, CA"
+   ],
+   "page": 44
+  },
+  {
+   "id": "14.4",
+   "session": 14,
+   "title": "A Full-Duplex Receiver with Hilbert-Transform Equalization and Voltage-Domain Self-Interference Cancellation Achieving 32.4dB SIC Across 300MHz BW",
+   "authors_raw": [
+    "B. Chen{1,2}, Z. Zong{2}"
+   ],
+   "affils_raw": [
+    "{1}Hong Kong University of Science and Technology, Hong Kong, China",
+    "{2}Hong Kong University of Science and Technology (Guangzhou),",
+    "Guangzhou, China"
+   ],
+   "page": 44
+  },
+  {
+   "id": "15.1",
+   "session": 15,
+   "title": "A 2nm 119 TOPS/W–35 TFLOPS/W, 172 TOPS/mm2–47 TFLOPS/mm2 Integer and Floating-Point Digital-CIM Compiler with Signed-Magnitude Look-Up Table Multiplier",
+   "authors_raw": [
+    "H. Mori{1}, J-M. Hung{1}, W-C. Zhao{1}, B. Crafton{2}, B. Zhang{2}, C-K. Chuang{1}, H. Ishii{3},",
+    "V. Joshi{4}, X. Peng{2}, C-Y. Kao{1}, Y-Y. Liu{1}, T. Hashizume{5}, Y-H. Hsu{1}, W-S. Khwa{1},",
+    "H. Fujiwara{1}, Y-D. Chih{1}, Y-H. Chen{1}, H-J. Liao{1}, K. Akarvardar{2}, M-F. Chang{1},",
+    "T-Y. J. Chang{1}"
+   ],
+   "affils_raw": [
+    "{1}TSMC, Hsinchu, Taiwan; {2}TSMC, San Jose, CA; {3}TSMC, Osaka, Japan",
+    "{4}TSMC, Ottawa, Canada; {5}TSMC, Yokohama, Japan"
+   ],
+   "page": 45
+  },
+  {
+   "id": "15.2",
+   "session": 15,
+   "title": "A 2.4TOPS 614GB/s 16GB LPDDR5X-PIM DRAM Featuring Multi-Function ALU/FPU and High Fault-Coverage Testability",
+   "authors_raw": [
+    "T. Jeong*, W. Han*, Y. W. Kim*, S. Lee, Y. Kim, S. Ji, Y. Paik, S. Kim, B. Kim,",
+    "H-S. Yu, W. Kang, G. Park, S-H. Kwon, S. Lee, K. Sohn, S-J. Bae, Y-S. Sohn"
+   ],
+   "affils_raw": [
+    "Samsung Electronics, Hwaseong, Korea, *Equally Credited Authors (ECAs)"
+   ],
+   "page": 45
+  },
+  {
+   "id": "15.3",
+   "session": 15,
+   "title": "A 28nm 12.8TFLOPS/mm2 Asymmetric-Precision-Floating-Point Compute-in-Memory Macro with Basis-Compressed-Dynamic-LUT and Saliency-Aware-Streaming-Alignment",
+   "authors_raw": [
+    "Y. Yang{1,2}, Y. Zhou{1,2}, Y. Li{1}, Y. Sun{1}, Y. Du{1}, Z. Liu{1}, Y. Zhang{1}, X. Wang{1,2}, J. Xia{1},",
+    "J. Chen{1}, T. Jiao{1}, Y. Tang{1}, H. Ye{1,3}, A. Guo{1}, J. Yang{1,2}, X. Si{1}"
+   ],
+   "affils_raw": [
+    "{1}Southeast University, Nanjing, China",
+    "{2}National Center of Technology Innovation for EDA, Nanjing, China",
+    "{3}Wenzhou University, Wenzhou, China"
+   ],
+   "page": 45
+  },
+  {
+   "id": "15.4",
+   "session": 15,
+   "title": "A 22nm 72Mb 59.24–101.41 TFLOPS/W ECC-Capable Non-Linear-MLC RRAM CIM Macro for Neuro-Symbolic Reasoning",
+   "authors_raw": [
+    "Y-K. Yeh{1}, D-Q. You{1}, Y-T. Shao{1}, Y-H. Lin{1}, C-F. Chang{1}, Y-C. Chen{1}, H-C. Chang{1},",
+    "Y-H. Wang{1}, C-Y. Weng{1}, H-H. Hsu{1}, J-C. Tien{1,2}, T-W. Meng{1}, T-H. Wen{3}, Y-W.",
+    "Chen{2}, L. Liu{2}, R-S. Liu{1}, C-C. Hsieh{1}, K-T. Tang{1}, M-F. Chang{1,2}"
+   ],
+   "affils_raw": [
+    "{1}National Tsing Hua University, Hsinchu, Taiwan",
+    "{2}TSMC Corporate Research, Hsinchu, Taiwan",
+    "{3}TSMC Corporate Research, San Jose, CA"
+   ],
+   "page": 45
+  },
+  {
+   "id": "15.5",
+   "session": 15,
+   "title": "3D-NAND-CIM: A Hybrid-Bonded 3D-NAND-Flash-based Analog In-Memory-Compute macro offering 4.8M weights/mm2",
+   "authors_raw": [
+    "P. Narayanan{1}, A. Vasilopoulos{2}, G. W. Burr{1}, M. Le Gallo{2}, B. Filipiak{3}, H. Castro{4},",
+    "J. Binfet{5}, J. Hirst{4}, H. Utomo{6}, K. Parekh{5}, B. Bhushan{5}, R. Venigalla{5}, K. Kirby{5},",
+    "U. Egger{2}, J. Luquin{1}, V. P. Jonnalagadda{2}, A. Siampakos{7}, T. Antonakopoulos{7},",
+    "K. Hosokawa{8}, M. Ishii{8}, Y. Kohda{8}, S. Munetoh{8}, A. Singh{2}, A. Friz{1}, J. Buchel{2},",
+    "I. Chalas{2}, C. Mackin{1}, A. Malhotra{1}, A. Goda{9}, D. Mills{4}, G. Atwood{10}, M. Helm{10},",
+    "J. Burns{6}, V. Narayanan{6}, H. Tsai{1}, A. Sebastian{2}"
+   ],
+   "affils_raw": [
+    "{1}IBM Research, San Jose, CA; {2}IBM Research, Zurich, Switzerland",
+    "{3}Micron Technology, Novi, MI; {4}Micron Technology, Folsom, CA",
+    "{5}Micron Technology, Boise, ID; {6}IBM Research, Yorktown Heights, NY",
+    "{7}University of Patras, Patras, Greece; {8}IBM Research, Tokyo, Japan",
+    "{9}Micron Technology, Tokyo, Japan; {10}Micron Technology, San Jose, CA"
+   ],
+   "page": 45
+  },
+  {
+   "id": "16.1",
+   "session": 16,
+   "title": "LPU: Preemptive Voltage and Clock-Period Scheduling for Supply-Transient Mitigation of a Deterministic Processor that achieves a record 3,431 output tokens/s on 100k-token input Gemma 4 31B",
+   "authors_raw": [
+    "I. A. US{1}, S. Raghavan{2}"
+   ],
+   "affils_raw": [
+    "{1}Nvidia, Williston, VT",
+    "{2}Nvidia, Santa Clara, CA"
+   ],
+   "page": 46
+  },
+  {
+   "id": "16.2",
+   "session": 16,
+   "title": "ARM AGI agentic CPU",
+   "authors_raw": [
+    "Author list to come."
+   ],
+   "affils_raw": [
+    "ARM, Cambridge, United Kingdom"
+   ],
+   "page": 46
+  },
+  {
+   "id": "16.3",
+   "session": 16,
+   "title": "MX1P: A 4nm CXL 3.2 Computational-Memory SoC with 3,072 RISC-V Cores and SSD-Backed Memory",
+   "authors_raw": [
+    "J. Lee, K. Lee, K. Shin, J. Choi, S. Han, Y. Jo, T. Yeo, J. Yang, Y. Hwang,",
+    "D. Baek, W. Moon, J. Park, T. Jung, G. H. Kim, S. Kwon, K. Jeon, H. Kim,",
+    "G. Lee, K-J. Roh, Y. Kim, J. Lee, H. Jeong, G. Lee, D. Kim, J. Kim"
+   ],
+   "affils_raw": [
+    "XCENA, Seongnam, Korea"
+   ],
+   "page": 46
+  },
+  {
+   "id": "16.4",
+   "session": 16,
+   "title": "MTIA 400 & 450: Multi-Chiplet AI Accelerators for Training and Inference at Scale",
+   "authors_raw": [
+    "O. Wu, A. Bansal, J. Singh, Y. Chen, A. Narasimha, R. Agarwal, D. Jayaraman,",
+    "K. Gandhi, B. Jakka, H. Dixit, N. Jagannathan, H. Aepala, A. S. Poojary,",
+    "S. Jha, H. Reddy, B. Balasubramanian"
+   ],
+   "affils_raw": [
+    "Meta, Sunnyvale, CA"
+   ],
+   "page": 46
+  },
+  {
+   "id": "17.1",
+   "session": 17,
+   "title": "DexMPC: A 12nm 30.9kHz Model-Predictive-Control Processor for Dexterous Hand Manipulation with Incremental KKT Solving and Speculative Parallel Line Search",
+   "authors_raw": [
+    "J. Lu{1}, C. Du{1}, Y. Ma{1}, Y. Lin{1}, L. Wu{1}, Y. Zhang{1}, Z. Huang{1}, K. Zhang{1},",
+    "Z. Chen{1}, K. Zhang{2}, C. Chen{1}, Q. Liu{1}, X. Zeng{1}, H. Zhu{1}"
+   ],
+   "affils_raw": [
+    "{1}Fudan University, Shanghai, China",
+    "{2}Sharpa, Shanghai, China"
+   ],
+   "page": 47
+  },
+  {
+   "id": "17.2",
+   "session": 17,
+   "title": "WPU: A 130mW 23.6ms Real-Time Adaptive World-Model Processing Unit with Selective Imaginative Planning and Prediction-Aware Environmental Adaptation for Physical AI",
+   "authors_raw": [
+    "J. Lee{1}, S. Ha{1}, Y. Moon{1}, J. Choi{1}, S. Kim{2}, Y. Jeong{1}, S. Jung{1}, H-J. Yoo{1}"
+   ],
+   "affils_raw": [
+    "{1}KAIST, Daejeon, Korea",
+    "{2}Gwangju Institute of Science and Technology, Gwangju, Korea"
+   ],
+   "page": 47
+  },
+  {
+   "id": "17.3",
+   "session": 17,
+   "title": "A 28nm 14.56μJ/Task Joint-Space Motion Planning Processor for Robotic Manipulators with NNS-Free Tree Expansion and Scoreboard-Driven Dynamic μOP Injection",
+   "authors_raw": [
+    "J. Oh, B. Yoo, S. Jeon, J. Park, D. Jeon"
+   ],
+   "affils_raw": [
+    "Seoul National University, Seoul, Korea"
+   ],
+   "page": 47
+  },
+  {
+   "id": "17.4",
+   "session": 17,
+   "title": "FlashGroot: A 14.6mJ/Action End-to-End Energy-Efﬁcient VLA System-on-Chip with Action-Aware Inference Architecture for Reactive Mobile Physical Agents",
+   "authors_raw": [
+    "J. Park, Y. Moon, S. Lee, H. Joo, M. Kim, C. Jeong, Y. Choi, W. Park, S. Kim,",
+    "S. Song, S. Kim, Y. Kabylkassymov, H-J. Yoo"
+   ],
+   "affils_raw": [
+    "KAIST, Deajeon, Korea"
+   ],
+   "page": 47
+  },
+  {
+   "id": "18.1",
+   "session": 18,
+   "title": "A 83W Monolithic GaN 120/230V Off-Line Boost PFC with Fully- Integrated Closed-Loop Control Achieving 94.4% Peak Efﬁciency",
+   "authors_raw": [
+    "N. Deneke, F. Matalewski, S. Kale, B. Wicht"
+   ],
+   "affils_raw": [
+    "Leibniz University Hannover, Hannover, Germany"
+   ],
+   "page": 48
+  },
+  {
+   "id": "18.2",
+   "session": 18,
+   "title": "A SIBO Converter with Built-in Charge Sampler Achieving Continuous VOP Current, Unity Inductor-to-Load Current Ratio and RHPZ Elimination for AMOLED Display",
+   "authors_raw": [
+    "Z. Tang, R. P. Martins, M. Huang"
+   ],
+   "affils_raw": [
+    "University of Macau, Macau, China"
+   ],
+   "page": 48
+  },
+  {
+   "id": "18.3",
+   "session": 18,
+   "title": "A Single-Stage Motor Driver Merging Step-Down Conversion in Dexterous Robotic Hands with Motor-Inductance Reuse for Switched-Capacitor Soft Charging",
+   "authors_raw": [
+    "S. Zhang{1}, C. Tong{1}, W. Yang{1}, Z. Tong{2}, Y. Lu{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}Beihang University, Beijing, China"
+   ],
+   "page": 48
+  },
+  {
+   "id": "18.4",
+   "session": 18,
+   "title": "A Single-Inductor 3-in-1 Optical Power Supply Modulator with Integrated Frequency-Sweep Linearization and Bidirectional Temperature Regulation for FMCW LiDAR",
+   "authors_raw": [
+    "W. Zhu{1}, X. Sun{1}, J. Tang{1}, C. Huang{1,2}"
+   ],
+   "affils_raw": [
+    "{1}Iowa State University, Ames, IA",
+    "{2}University of Macau, Macau, China"
+   ],
+   "page": 48
+  },
+  {
+   "id": "18.5",
+   "session": 18,
+   "title": "A Fully Integrated, Optically Powered, Isolated Switched-Capacitor Gate Driver with Forward-Mode Optical Communication and over 80% Optical-to-Gate Power Efﬁciency",
+   "authors_raw": [
+    "J. Li, M. Klymenko, Y. Li, X. Wang, W. J. Scheideler, J. Liu, J. T. Stauth"
+   ],
+   "affils_raw": [
+    "Dartmouth College, Hanover, NH"
+   ],
+   "page": 49
+  },
+  {
+   "id": "18.6",
+   "session": 18,
+   "title": "A Full-Duplex Isolated DC-DC Converter for Gate Drivers with 500mW Power Transfer at 45.2% Peak Efﬁciency and 79/10Mb/s Communication over a 79MHz Carrier",
+   "authors_raw": [
+    "J. Lu, Q. Zhuang, Q. Li, B. Li, X. Yan, Y. Shi, H. Qiu"
+   ],
+   "affils_raw": [
+    "Nanjing University, Nanjing, China"
+   ],
+   "page": 49
+  },
+  {
+   "id": "18.7",
+   "session": 18,
+   "title": "A 2.5A Scalable Analog Distributed LDO with Full-Spectrum SoC-Noise-Tolerant Hybrid Signaling and Dynamic Feedforward Gain Boosting",
+   "authors_raw": [
+    "Y. Lee{1}, M. Kim{1}, H. Park{1}, W. Jung{2}, S. Yoo{2}, J-H. Yang{2}, H-G. Rhew{2},",
+    "H-M. Lee{1}"
+   ],
+   "affils_raw": [
+    "{1}Korea University, Seoul, Korea",
+    "{2}Samsung Electronics, Yongin, Korea"
+   ],
+   "page": 49
+  },
+  {
+   "id": "18.8",
+   "session": 18,
+   "title": "A 2.5-to-4.3V-Input 1-to-12V-Output Cascaded SIDO-Sigma Supply Modulator for 5G Symbol-Power Tracking",
+   "authors_raw": [
+    "M. Shang, C. Chen, C. Bo, J. Yuan, X. Huang, L. Cheng"
+   ],
+   "affils_raw": [
+    "University of Science and Technology of China, Hefei, China"
+   ],
+   "page": 49
+  },
+  {
+   "id": "18.9",
+   "session": 18,
+   "title": "A 10/5MHz Time-Domain Hysteretic Buck Converter With Cycle-by-Cycle Phase Reset and Multiphase Push-Pull Phase Chasing Achieving 64mV Undershoot for a 3A/3ns Load Step",
+   "authors_raw": [
+    "Z. Shen{1,2}, X. Zhang{1}, H. Li{1}, Y. Jiang{1,2}, F. Zhang{3}, R. Martins{1}, P-I. Mak{1,2}"
+   ],
+   "affils_raw": [
+    "{1}University of Macau, Macau, China",
+    "{2}UM Hetao IC Research Institute, Shenzhen, China",
+    "{3}Institute of Microelectronics of the Chinese Academy of Sciences,",
+    "Beijing, China"
+   ],
+   "page": 49
+  },
+  {
+   "id": "19.1",
+   "session": 19,
+   "title": "A 105fsrms-Jitter and –247.6dB-FoMJ, 11.9-to-13.1GHz Ring-Oscillator-Based Fractional-N Frequency Synthesizer Using Power-Gating Injection-Locked Clock Multiplier and Multi-Error Calibration Engine",
+   "authors_raw": [
+    "M. Chae*, S. Jang*, S. Lee, J. Choi"
+   ],
+   "affils_raw": [
+    "Seoul National University, Seoul, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 50
+  },
+  {
+   "id": "19.2",
+   "session": 19,
+   "title": "A 4.8-to-5.28GHz Digital PLL with a 96MHz Unbalanced Pierce Crystal Oscillator and Correlated-Double-Sampling Phase-Detector Achieving 17.4fs Jitter at 38.2mW Power",
+   "authors_raw": [
+    "R. Moleri*, D. Fagotti*, P. Salvi, D. Lodi Rizzini, G. R. Trotta, F. Osio,",
+    "S. Gallucci, M. Rossoni, A. L. Lacaita, S. Levantino, S. M. Dartizio"
+   ],
+   "affils_raw": [
+    "Politecnico di Milano, Milano, Italy",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 50
+  },
+  {
+   "id": "19.3",
+   "session": 19,
+   "title": "A 0.65-to-1V-VDD Fractional-N Variable-Slope SPLL with Conﬁgurable Constant Gain Loop Bandwidth and Linear Switch-Capacitor Array Achieving Sub-50fsrms Jitter, <-65dBc Fractional Spur, and <−275dB FoMN",
+   "authors_raw": [
+    "Y. Li, J. Liu, N. Wu, Z. Zhang, L. Liu"
+   ],
+   "affils_raw": [
+    "Institute of Semiconductors of the Chinese Academy of Sciences,",
+    "Beijing, China"
+   ],
+   "page": 50
+  },
+  {
+   "id": "19.4",
+   "session": 19,
+   "title": "A 10.0-to-13.7GHz Single-Core Series-Resonance VCO with LC-Ladder Resonator and Split-Inverter Core Achieving 31.2% TR and 203dBc/Hz FoMT",
+   "authors_raw": [
+    "Y. Chen, H. Guo"
+   ],
+   "affils_raw": [
+    "University of Science and Technology of China, Hefei, China"
+   ],
+   "page": 50
+  },
+  {
+   "id": "19.5",
+   "session": 19,
+   "title": "Efﬁcient and Power-Scalable Series-Parallel-Tank CMOS Class-E VCO with Phase Noise Down to −136.3dBc/Hz at 1MHz from 9GHz and 196.4dBc/Hz peak FoM",
+   "authors_raw": [
+    "L. Piotto{1}, K. Vural{2}, A. Bilato{1}, G. De Filippi{1}, A. Mazzanti{1,2}"
+   ],
+   "affils_raw": [
+    "{1}Fondazione Chips-IT, Pavia, Italy",
+    "{2}University of Pavia, Pavia, Italy"
+   ],
+   "page": 50
+  },
+  {
+   "id": "19.6",
+   "session": 19,
+   "title": "A 12nm 10.8-to-18.4GHz Fractional-N Hybrid Sampling PLL with <-61dBc Fractional Spurs Using Spread-Spectrum Modulation",
+   "authors_raw": [
+    "Z. Xu, S. van der Ven, J. van den Heuvel, R. Li, M. Hashemipour-Nazari,",
+    "M. Wanten, A. Kumar, P. Mateman, E. Allebes"
+   ],
+   "affils_raw": [
+    "imec-Netherlands, Eindhoven, The Netherlands"
+   ],
+   "page": 51
+  },
+  {
+   "id": "19.7",
+   "session": 19,
+   "title": "A 0.021mm2 Ring CP-PLL with Phase-Domain Dynamic Feedback Achieving −243.0dB FoM",
+   "authors_raw": [
+    "M. Oveisi{1}, S. Chae{2}, P. Heydari{1}"
+   ],
+   "affils_raw": [
+    "{1}University of California, Irvine, CA",
+    "{2}Georgia Institute of Technology, Atlanta, GA"
+   ],
+   "page": 51
+  },
+  {
+   "id": "19.8",
+   "session": 19,
+   "title": "A 14.5fsrms Jitter Noise-Cancelling PLL Featuring an On-Chip XO Driver with -176dBc/Hz Noise Floor and 3GV/s Slew Rate",
+   "authors_raw": [
+    "Y. Liu, L. Liu, Z. Jing, Y. Du, Y. Liu, K. Kang, J. Gong"
+   ],
+   "affils_raw": [
+    "University of Electronic Science and Technology of China, Chengdu, China"
+   ],
+   "page": 51
+  },
+  {
+   "id": "19.9",
+   "session": 19,
+   "title": "A 15.3-to-16.4GHz Series-Parallel-Resonance VCO with Common-Source-Based Negative Resistance Achieving 203.1dBc/Hz Worst-Case FoMA",
+   "authors_raw": [
+    "S. Kong, Q. Lin, Z. Huang"
+   ],
+   "affils_raw": [
+    "Hong Kong University of Science and Technology (Guangzhou),",
+    "Guangzhou, China"
+   ],
+   "page": 51
+  },
+  {
+   "id": "19.10",
+   "session": 19,
+   "title": "A Fully Connected Dual-Harmonic-Synchronized Octa-Core Oscillator in 65nm CMOS Achieving −160.6dBc/Hz Phase Noise at 10MHz Offset from a 9.27GHz Carrier",
+   "authors_raw": [
+    "B. Jafari{1}, A. Ghafari{2}, A. Ghorbani Nejad{1}, F. Mahmoudi{3}, S. Mirabbasi{1},",
+    "S. Shekhar{1}"
+   ],
+   "affils_raw": [
+    "{1}University of British Columbia, Vancouver, Canada",
+    "{2}Silicon Integrated, Eindhoven, The Netherlands",
+    "{3}TSMC, Austin, TX"
+   ],
+   "page": 51
+  },
+  {
+   "id": "19.11",
+   "session": 19,
+   "title": "A 23.1-to-25.7GHz Current-Waveform-Shaping Series-Resonance VCO with Inductor-Sharing Technique Achieving 198.2dBc/Hz FoM",
+   "authors_raw": [
+    "L. Chen, D. Ye"
+   ],
+   "affils_raw": [
+    "Huazhong University of Science and Technology, Wuhan, China"
+   ],
+   "page": 51
+  },
+  {
+   "id": "20.1",
+   "session": 20,
+   "title": "A 240GHz 0.9°-Needle-Beam-Steering Reﬂectarray with Modularized Packaging and 400 CMOS Chiplets",
+   "authors_raw": [
+    "X. Chen{1}, G. C. Dogiamis{2,3}, B. Huang{1}, S. F. Nagle{1}, E. Lee{1}, K. Pochana{1},",
+    "S. Chintapally{1}, R. Han{1}"
+   ],
+   "affils_raw": [
+    "{1}Massachusetts Institute of Technology, Cambridge, MA",
+    "{2}Intel, Chandler, AZ",
+    "{3}Deca Technologies, Tempe, AZ"
+   ],
+   "page": 52
+  },
+  {
+   "id": "20.2",
+   "session": 20,
+   "title": "Active RF Dichroic Mirror: A 7.75-to-16GHz Frequency-Selective Relay Array with Autonomous Beam Tracking",
+   "authors_raw": [
+    "H. E. Ge, H. Jia, W. Deng, B. Chi"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 52
+  },
+  {
+   "id": "20.3",
+   "session": 20,
+   "title": "A 40nm 17-to-32GHz 4-Beam 8-Channel Bidirectional Beamformer Employing Reconﬁgurable Doherty PA and Wideband LNA",
+   "authors_raw": [
+    "J. Gu{1}, Z. Wang{1}, J. Sun{1}, K. Hu{1}, Z. Luo{1}, L. Kong{1}, X. Qi{2}, Z. Xu{2}, H. Xu{1,3},",
+    "N. Yan{1,3}"
+   ],
+   "affils_raw": [
+    "{1}Fudan University, Shanghai, China",
+    "{2}Zhejiang University, Hangzhou, China",
+    "{3}Jiashan-Fudan Joint Research Institute, Jiashan, China"
+   ],
+   "page": 52
+  },
+  {
+   "id": "20.4",
+   "session": 20,
+   "title": "A 0.54mm2/Path W-Band 16-Element Phased-Array Transceiver with Bidirectional Frequency Conversion for a 2D-Scalable AiP",
+   "authors_raw": [
+    "F. Zhang{1,2}, S. Jiang{3}, D. Wang{1}, H. Wan{1,4}, C. Xu{1}, W. Gao{1,4}, N. Jiang{1},",
+    "P. Yu{1,4}, K. Guo{1,4}, X. You{1,2,4}, D. Zhao{1,2,4}"
+   ],
+   "affils_raw": [
+    "{1}Southeast University, Nanjing, China",
+    "{2}Peng Cheng Laboratory, Shenzhen, China",
+    "{3}Chengdu Xphased Technology, Chengdu, China",
+    "{4}Purple Mountain Laboratories, Nanjing, China"
+   ],
+   "page": 52
+  },
+  {
+   "id": "21.1",
+   "session": 21,
+   "title": "A Low-Noise Wideband Floating Common-Gate TIA Front-End with a 1.04mW 1GS/s 8-bit Preamp-Reused Pipelined SAR ADC",
+   "authors_raw": [
+    "Z. Chen, J. Li, L. Shen"
+   ],
+   "affils_raw": [
+    "Peking University, Beijing, China"
+   ],
+   "page": 53
+  },
+  {
+   "id": "21.2",
+   "session": 21,
+   "title": "An Automotive LED Driver Using Area-Efﬁcient Segmented HV Rail-to-Rail Voltage Sensing Technique with ±2.4mV Regulation Inaccuracy, 85ns Min Off-Time",
+   "authors_raw": [
+    "J-J. Kuang{1,2}, X. Ming{1}, Z-H. Liu{1}, S-T. Hu{1}, Q. Su{2}, X. Geng{2}, B. Zhang{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Electronic Science and Technology of China, ChengDu, China",
+    "{2}SouthChip Semiconductor Technology, ChengDu, China"
+   ],
+   "page": 53
+  },
+  {
+   "id": "21.3",
+   "session": 21,
+   "title": "A Sensor Front-End with a >170dBΩ TIA and a 63dB-Extended Piecewise-Logarithmic Range up to 200°C",
+   "authors_raw": [
+    "H. Siemssen{1}, T. Stuckenberg{2}, H. Borchardt{2}, H. Vorwerk{1}, R. Nowosielski{2},",
+    "S. Jung{2}, B. Wicht{1}"
+   ],
+   "affils_raw": [
+    "{1}Leibniz University Hannover, Hannover, Germany",
+    "{2}Baker Hughes, Celle, Germany"
+   ],
+   "page": 53
+  },
+  {
+   "id": "21.4",
+   "session": 21,
+   "title": "An 8-Pin Isolated Ampliﬁer/Modulator IC with Sub-0.5μs Overcurrent Detection Using Fast-Response Encoding and Signal Superposition",
+   "authors_raw": [
+    "S. Oshita{1}, H. Ishihara{2}, T. Arai{1}, M. Arai{1}, T. Ogawa{1}, T. Murasaki{1},",
+    "M. Yamada{1}, Y. Fukawa{1}, S. Ootaka{1}, O. Watanabe{1}"
+   ],
+   "affils_raw": [
+    "{1}Toshiba Electronic Devices & Storage, Kawasaki, Japan",
+    "{2}Toshiba, Kawasaki, Japan"
+   ],
+   "page": 53
+  },
+  {
+   "id": "21.5",
+   "session": 21,
+   "title": "A 42V/60W+ Wireless PTx AFE with Integrated Full-Bridge and Lifetime-Guaranteed ±0.12%/±0.3% V/I Sensing",
+   "authors_raw": [
+    "M. Sautto{1}, F. Neri{1}, J. Hennessy{1}, S. Ipek{1}, D. Pizzato{1}, G. Mehas{2},",
+    "M. Augustyniak{1}, F. Di Fazio{1}, G. Figliozzi{1}, C. Martelli{1}, A. Perkins{1}, O. Tlaskal{3},",
+    "H. Paz{4}, W. Clement{5}"
+   ],
+   "affils_raw": [
+    "{1}Renesas Electronics, Zürich, Switzerland",
+    "{2}Renesas Electronics, San Jose, CA",
+    "{3}Renesas Electronics, Prague, Czech Republic",
+    "{4}Renesas Electronics, Chandler, AZ",
+    "{5}Renesas Electronics, Edinburgh, United Kingdom"
+   ],
+   "page": 53
+  },
+  {
+   "id": "22.1",
+   "session": 22,
+   "title": "SRAM Design in A14 Nanosheet Technology with Dual-Side Negative Bit-Line and Read Tracking Schemes for High-Density and Energy-Efﬁcient Compute",
+   "authors_raw": [
+    "J. Chang, Y-H. Chen, C-H. Hsieh, G. Chan, K-C. Lin, K-F. Lin, P-S. Wang,",
+    "Y. Lin, S. Chen, M-H. Chang, P. Lin, C-W. Wu, C-Y. Lin, Y-H. Nien, H. Fujiwara,",
+    "A. Katoch, R. Lee, H-J. Liao, C-Y. Lin, J-J. Liaw, S-Y. Wu"
+   ],
+   "affils_raw": [
+    "TSMC, Hsinchu, Taiwan"
+   ],
+   "page": 54
+  },
+  {
+   "id": "22.2",
+   "session": 22,
+   "title": "A 40.1Mbit/mm2 SRAM with Sub-I/O and Cross-Bank Redundancy for Arm DSU in 2nm GAA Technology",
+   "authors_raw": [
+    "R. Mathur, A. W. Chen, V. V. Thakre, S. Aggarwal, S. S. Zond, N. G. Yuva,",
+    "S. Padmanabhan, B. Maiti, S. Thyagarajan, Y. Chong"
+   ],
+   "affils_raw": [
+    "ARM, Austin, TX"
+   ],
+   "page": 54
+  },
+  {
+   "id": "22.3",
+   "session": 22,
+   "title": "A 0.0288 μm2 Bitcell, 22.48 Mbit/mm2 Energy and Area Efﬁcient Logic-Based 1-Read and 1-Write 2-Port 7T SRAM in 2nm Nanosheet Technology",
+   "authors_raw": [
+    "M. Hamada{1}, Y-H. Nien{2}, M. Yabuuchi{3}, K. Mizutani{1}, Y. Ishii{1}, K. Nii{1},",
+    "H. Fujiwara{2}, S-H. Hsu{2}, P-E. Lin{2}, Y-H. Chen{2}, H-J. Liao{2}, Y. Wang{2},",
+    "F-M. Chang{2}, L-J. Hung{2}, P-W. Wang{2}, T-Y. J. Chang{2}, G. Yeap{2}"
+   ],
+   "affils_raw": [
+    "{1}TSMC Design Technology Japan, Yokohama, Japan",
+    "{2}TSMC, Hsinchu, Taiwan",
+    "{3}TSMC Design Technology Japan, Yokohama, Taiwan"
+   ],
+   "page": 54
+  },
+  {
+   "id": "22.4",
+   "session": 22,
+   "title": "An Asymmetric-Leakage 4T eDRAM with Block-Level Leakage Self-Compensation Hold and Preemptive-Regeneration Dual-SA Read Schemes",
+   "authors_raw": [
+    "T. Huang, R. Run, Y. Hu, D. Wu, J. Xu, G. Li, L. Pan, X. Xie"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 54
+  },
+  {
+   "id": "22.5",
+   "session": 22,
+   "title": "A 48GB 17Gb/s/pin HBM4E with I/O Eye Monitor and Voltage Droop Detection for On-Wafer SI/PI Integrity DFT",
+   "authors_raw": [
+    "J-H. Kang, J. Jung, K. Kim, H. S. Jeong, G. Kim, H. Shim, Y. Kim, J. Jang,",
+    "S-Y. Kim, H. Lee, C. Bae, Y-C. Kwon, B. Min, S. Ahn, A. Choi, J. Hwang,",
+    "J. Lee, S. Baek, Y. G. Song, J-S. Lee, D. Lim, K-S. Ha, Y-S. Sohn, S. Hwang"
+   ],
+   "affils_raw": [
+    "Samsung Electronics, Hwaseong, Korea"
+   ],
+   "page": 55
+  },
+  {
+   "id": "22.6",
+   "session": 22,
+   "title": "A 64-Channel 4096-DQ Custom HBM with Memory Controllers and 5-Layer Wafer-on-Wafer Hybrid Bonding",
+   "authors_raw": [
+    "W. Zhang, Z. Wang, T. Huang, R. Liu, S. Zhang, J. Xia, H. Liao"
+   ],
+   "affils_raw": [
+    "Huawei Technologies, Shenzhen, China"
+   ],
+   "page": 55
+  },
+  {
+   "id": "22.7",
+   "session": 22,
+   "title": "A 4nm All-Digital 3D-DRAM PHY With Direct Core Die Access Enabling Custom HBM Platforms",
+   "authors_raw": [
+    "K. Chae, G. Kim, N. Kim, S. Yi, D. Kim, B. Koo, B. Rhew"
+   ],
+   "affils_raw": [
+    "Samsung Electronics, Youngin, Korea"
+   ],
+   "page": 55
+  },
+  {
+   "id": "22.8",
+   "session": 22,
+   "title": "A 32-Gb 9.2-Gb/s/pin DDR5 SDRAM Fabricated with Vertical- Surrounding-Gate-Transistor and Wafer-on-Wafer Hybrid Copper Bonding Technology",
+   "authors_raw": [
+    "Y. Tang, K. Cao, Y. Gu, M. Huang, F. Deng, G. Du, H. Li, Y. Zhu"
+   ],
+   "affils_raw": [
+    "Changxin Memory Technologies, Hefei, China"
+   ],
+   "page": 55
+  },
+  {
+   "id": "22.9",
+   "session": 22,
+   "title": "A 16Gb DDR5 DRAM with Vertical-Gate Cell Transistor and Peripheral-on-Cell Architecture Using Wafer-to-Wafer Fusion Bonding and Deep Silicon Via Technology",
+   "authors_raw": [
+    "J. Cheon*, D. Lee*, J. Lee, S. Kim, H. Lee, H. Em, J. Lee, C. Jeong, T. Kwon,",
+    "S. Kang, T. Kim, M. Park, M. Hwang, J. Ahn, H. Yim, S. Jeong, H. Won, Y.",
+    "Kim, C. Lee, J. Kim, S. Lim, J. Kim, W. Kim, J. Hwang, H. Kim, J. Kim"
+   ],
+   "affils_raw": [
+    "SK hynix, Icheon, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 55
+  },
+  {
+   "id": "23.1",
+   "session": 23,
+   "title": "OP-CIM: A 28nm 55fJ/bit, 204Gbps, 20.5TOPS/W Optically Programmable Compute-in-Memory Macro with Fused Optical Reception, SRAM, and Computation",
+   "authors_raw": [
+    "Y. He{1,1}, S. Kim{2}, D. Y. Lim{1}, S. Park{1}, X. Hu{1}, B-S. Kim{2}, H. Mun{1}, K. Lee{2},",
+    "J-S. Seo{1}"
+   ],
+   "affils_raw": [
+    "{1}Cornell University, New York, NY",
+    "{2}University of Virginia, Charlottesville, VA"
+   ],
+   "page": 56
+  },
+  {
+   "id": "23.2",
+   "session": 23,
+   "title": "A Monolithic 105dB·Hz2/3-SFDR 190mW mm-Wave Analog Radio-over-Fiber Silicon Photonics Uplink Transmitter with Optoelectronic Feedback Linearization",
+   "authors_raw": [
+    "J. Ke{1}, J. Fang{1}, S. Aniruddhan{2}, S. Shekhar{1}"
+   ],
+   "affils_raw": [
+    "{1}University of British Columbia, Vancouver, Canada",
+    "{2}Indian Institute of Technology Madras, Chennai, India"
+   ],
+   "page": 56
+  },
+  {
+   "id": "23.3",
+   "session": 23,
+   "title": "A 90-to-180-GHz CMOS LNPA-TFLN Co-Packaged Front-End Achieving 200-Gb/s Sub-THz-to-Optical Conversion",
+   "authors_raw": [
+    "D. Tang*{1}, Y. Zhang*{2}, L. Yang*{2}, Z. Wang*{1}, Q. Meng{1}, Y. Guo{2}, T. Long{3},",
+    "P. Zhou{1}, H. Shu{2}, B. Chen{3}, Z. Chen{1}, J. Chen{1}, H. Gao{1}, T. Siriburanon{4},",
+    "R. B. Staszewski{4}, X. Wang{2}, W. Hong{1}"
+   ],
+   "affils_raw": [
+    "{1}Southeast University, Nanjing, China",
+    "{2}Peking University, Beijing, China",
+    "{3}ShanghaiTech University, Shanghai, China",
+    "{4}University College Dublin, Dublin, Ireland",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 56
+  },
+  {
+   "id": "23.4",
+   "session": 23,
+   "title": "A CMOS Phasor-FLIM Readout with Harmonic Rejection and Photon-Rate Adaptive Integration",
+   "authors_raw": [
+    "K. R. Dandavate, Y. Yin, J. Yang, J. E. Sorrells, Y. Fan"
+   ],
+   "affils_raw": [
+    "Washington University in St. Louis, St. Louis, MO"
+   ],
+   "page": 56
+  },
+  {
+   "id": "23.5",
+   "session": 23,
+   "title": "A 1024-Element Monolithically Integrated 2D Optical Phased Array and Driver ASIC in 45nm CMOS",
+   "authors_raw": [
+    "D. Kramnik, J. Matres, H. Gehring, S. Bilodeau, M. de Cea Falco, B. Zhang,",
+    "O. Cierny, G. Allen, M. Caverley, J-L. Plateau, D. Brinkley, T. Barwicz"
+   ],
+   "affils_raw": [
+    "Taara Connect, Sunnyvale, CA"
+   ],
+   "page": 56
+  },
+  {
+   "id": "24.1",
+   "session": 24,
+   "title": "A 3.5Gb/s 65nm IR-UWB Transmitter with a Lock-Retentive Dual-Loop Burst-Mode PLL and Fast-Settling Switched-Resistor Damping",
+   "authors_raw": [
+    "Y. Huang, Y. Cheng, M. Feng, X. Liu"
+   ],
+   "affils_raw": [
+    "University of Toronto, Toronto, Canada"
+   ],
+   "page": 57
+  },
+  {
+   "id": "24.2",
+   "session": 24,
+   "title": "A 28.2%-Efﬁciency BLE Transmitter with a Sub-μs Frequency- Settling FLL and –49dBm-HD3 Harmonic-Shaping Class-D PA",
+   "authors_raw": [
+    "J. Jung{1}, S. Shin{1}, B. Wang{1}, E. Lee{1}, M. Abdolrazzaghi{2}, U. Guler{2},",
+    "A. P. Chandrakasan{1}"
+   ],
+   "affils_raw": [
+    "{1}Massachusetts Institute of Technology, Cambridge, MA",
+    "{2}Worcester Polytechnic Institute, Worcester, MA"
+   ],
+   "page": 57
+  },
+  {
+   "id": "24.3",
+   "session": 24,
+   "title": "A 37–to-42GHz 8-Path Mixer-First Receiver Using the 5th Clock Harmonic and 7.5% Duty-Cycle Clocks",
+   "authors_raw": [
+    "S. Khademi Sharif Abad, M. S. Oude Alink, B. Nauta"
+   ],
+   "affils_raw": [
+    "University of Twente, Enschede, The Netherlands"
+   ],
+   "page": 57
+  },
+  {
+   "id": "24.4",
+   "session": 24,
+   "title": "A 1-Port Transceiver Using a Switch-Type Bidirectional Ampliﬁer for Deployable X-Band ISAC Reﬂectarray Antennas",
+   "authors_raw": [
+    "S. Date, J. Sudo, Y. Takeda, Y. Narukiyo, S. Kato, M. Kikuchi, H. Hayashi,",
+    "S. Yatabe, H. Sakamoto, T. Tomura, J. Mayeda, A. Shirane"
+   ],
+   "affils_raw": [
+    "Institute of Science Tokyo, Tokyo, Japan"
+   ],
+   "page": 57
+  },
+  {
+   "id": "24.5",
+   "session": 24,
+   "title": "A 1.2km/1.2km Tag IC for 3GPP Rel-20 Ambient-IoT with 665μW Oversampling Phase-to-Digital-Converter-Based Receiver",
+   "authors_raw": [
+    "Q. Sun*{1}, Y. Guo*{2}, Y. Jiang{1}, W. Wang{1}, W. Rhee{3}, H. Jiang{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}Shanghai Jiao Tong University, Shanghai, China",
+    "{3}Sungkyunkwan University, Seoul, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 57
+  },
+  {
+   "id": "25.1",
+   "session": 25,
+   "title": "A 2nm 30.6TOPS/W RISC-V AI Accelerator with Integrated Digital Compute-in-Memory",
+   "authors_raw": [
+    "B. Crafton*{1}, B. Zhang*{1}, A. Lele*{1}, W-S. Khwa*{2}, H. Mori{3}, J-M. Hung{3},",
+    "W-C. Zhao{3}, P-S. Wu{2}, V. Joshi{4}, N. Dipto{4}, P. Noel{4}, Y. Shin{4}, M. Gershoig{4},",
+    "C-K. Chuang{3}, H. Ishii{5}, T. Hashizume{6}, X. Peng{1}, K. Torigoe{5}, Y-Y. Liu{3},",
+    "Y-H. Hsu{3}, H. Fujiwara{3}, Y-D. Chih{3}, Y-H. Chen{3}, H-J. Liao{3}, K. Akarvardar{1},",
+    "M-F. Chang{2}, T-Y. J. Chang{3}"
+   ],
+   "affils_raw": [
+    "{1}TSMC Corporate Research, San Jose, CA",
+    "{2}TSMC Corporate Research, Hsinchu, Taiwan",
+    "{3}TSMC Design Technology, Hsinchu, Taiwan",
+    "{4}TSMC Design Technology, Ottawa, ON, Canada",
+    "{5}TSMC Design Technology Japan, Osaka, Japan",
+    "{6}TSMC Design Technology Japan, Yokohama, Japan",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 62
+  },
+  {
+   "id": "25.2",
+   "session": 25,
+   "title": "A 3.52mJ/Word 9T-TSPC-FF-Based Synthesizable-CIM Accelerator with Quantization Group Reordering and Speculative Speech Generation",
+   "authors_raw": [
+    "Q. Zhi, Q. Cheng, K. Jiang, T. Jia"
+   ],
+   "affils_raw": [
+    "Peking University, Beijing, China"
+   ],
+   "page": 62
+  },
+  {
+   "id": "25.3",
+   "session": 25,
+   "title": "ARTOO: A 6.24Tokens/s/mW Physical-AI SoC with Agentic Planning and Markov-World-Constrained Autoregressive Action Decoding",
+   "authors_raw": [
+    "L. Zheng{1}, C-Y. Chin{1}, Z. Wang{1}, A. M. Bavani{1}, P-S. Wu{2}, B. Crafton{3},",
+    "B. Zhang{3}, Y-D. Chih{4}, M-F. Chang{2}, H. Li{1}"
+   ],
+   "affils_raw": [
+    "{1}Purdue University, West Lafayette, IN",
+    "{2}TSMC Corporate Research, Hsinchu, Taiwan",
+    "{3}TSMC Corporate Research, San Jose, CA",
+    "{4}TSMC Design Technology, Hsinchu, Taiwan"
+   ],
+   "page": 62
+  },
+  {
+   "id": "25.4",
+   "session": 25,
+   "title": "A 281–486TOPS/W 22nm Weight-Memory-Free Hardwired Projection Fabric for LLM with 87.8% MAC-Operation Reduction",
+   "authors_raw": [
+    "M. Iwata*{1}, Y. Nagahara{1}, A. Hori{2}, Y. Inoue{2}, H. Otsuka{1}, Y. Yamakawa{1},",
+    "Y. Okoshi{1}, T. Ishibashi{1}, D. Fujiki{1}, T. Kaneko{1}, K. Ando{2}, M. Motomura*{1}"
+   ],
+   "affils_raw": [
+    "{1}Institute of Science Tokyo, Yokohama, Japan",
+    "{2}Hokkaido University, Sapporo, Japan",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 62
+  },
+  {
+   "id": "27.1",
+   "session": 27,
+   "title": "A 100GHz RF Direct-Sampling ADC with RF-Coupled Transformer- Bootstrapped Sampler and Single-Channel 10GS/s Current- Domain Intra-Stage Pipelining",
+   "authors_raw": [
+    "J. Dai, Y. Zhong, H. Wu, Y. Tao, J. Zhang, A. Zhang, Y. Wang, W. Chen,",
+    "L. Jie, N. Sun"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 64
+  },
+  {
+   "id": "27.2",
+   "session": 27,
+   "title": "A 12b 40GS/s TI Pipeline-SAR ADC Achieving –158dBFS/Hz NSD and 25GHz Bandwidth in 16nm FinFET",
+   "authors_raw": [
+    "Y. Zhang, M. Zhang, Z. Wu, Y. Zhu, R. P. Martins, C-H. Chan"
+   ],
+   "affils_raw": [
+    "University of Macau, Macau, China"
+   ],
+   "page": 64
+  },
+  {
+   "id": "27.3",
+   "session": 27,
+   "title": "A Skew-Calibration-Free 6GS/s 12b Pipelined ADC with Reservoir- Assisted Rapid-Startup Sampler and FVF-Biased Ampliﬁer",
+   "authors_raw": [
+    "Y. Wang, M. Zhang, Y. Zhu, R. P. Martins, C-H. Chan"
+   ],
+   "affils_raw": [
+    "University of Macau, Macau, China"
+   ],
+   "page": 64
+  },
+  {
+   "id": "27.4",
+   "session": 27,
+   "title": "A Single-Channel 8GS/s Pipelined ADC with Speculative Quantization",
+   "authors_raw": [
+    "J. Zhang, Y. Zhong, Y. Tao, J. Dai, M. Gu, A. Zhang, Y. Wang, Q. Yang, L. Jie,",
+    "N. Sun"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 64
+  },
+  {
+   "id": "27.5",
+   "session": 27,
+   "title": "A 14b 200MS/s Bidirectional Zero-Crossing-Based Pipelined-SAR ADC with Joint Background Calibration and Floating Current Source",
+   "authors_raw": [
+    "B. Li*, J. Yang*, J. Wang, Z. Kong, J. Wang, Y. Wang, X. Tang"
+   ],
+   "affils_raw": [
+    "Peking University, Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 65
+  },
+  {
+   "id": "27.6",
+   "session": 27,
+   "title": "A 300MHz-BW 15.7mW C/DT Hybrid Pipelined-SAR ADC with a Complex-Pole Switched-Capacitor Filter",
+   "authors_raw": [
+    "S. Huang, X. He, Y. He, H. Zhao, Y. Zhong, L. Jie"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 65
+  },
+  {
+   "id": "27.7",
+   "session": 27,
+   "title": "A 4.2-to-373K 3GS/s 7b Time-Domain ADC with Gated-Ring- Oscillator-Based DEM",
+   "authors_raw": [
+    "K. Yamashita{1,2}, K. Yoshioka{1}, V. Issakov{2}, H. Ishikuro{1}"
+   ],
+   "affils_raw": [
+    "{1}Keio University, Yokohama, Japan",
+    "{2}Technische Universität Braunschweig, Braunschweig, Germany"
+   ],
+   "page": 65
+  },
+  {
+   "id": "27.8",
+   "session": 27,
+   "title": "A 174GS/s 7b Time-Interleaved SAR ADC with 90GHz Bandwidth",
+   "authors_raw": [
+    "H. Luo*, Z. Long*, D. Wang*, S. Wu, Y. Huang, G. Li, J. Luan, T. Feng,",
+    "H. Heng, J. Liu, W. Liu, S. Chen, K. Ouyang"
+   ],
+   "affils_raw": [
+    "Sanechips Technology, Shenzhen, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 65
+  },
+  {
+   "id": "28.1",
+   "session": 28,
+   "title": "A Diamond-Quantized 1-Bit Digital Transmitter for Autonomous Spec-to-GDS Generation",
+   "authors_raw": [
+    "D. Li*, Y. Zhang*, Z. Zhang, Y. Huang, D. Zhang, Z. Liu, M. Tang, D. Xu,",
+    "Y. Xiong, W. Wang, H. Tanaka, K. Kunihiro, H. Sakai, K. Okada"
+   ],
+   "affils_raw": [
+    "Institute of Science Tokyo, Tokyo, Japan",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 66
+  },
+  {
+   "id": "28.2",
+   "session": 28,
+   "title": "A 2.4GHz Nonuniform-Timing Digital PA with Sampling-Replica Spreading and Seven PBO Efﬁciency Peaks",
+   "authors_raw": [
+    "Y. Liu{1,1}, Y. Hu{1}, P. Zhang{1}, Y. Chen{1}, Y. Chen{1}, H. Chen{1}, C. Yang{2}, C. Deng{1},",
+    "M-W. Chen{3}, A. Zhang{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}d-Matrix, Santa Clara, CA",
+    "{3}University of Southern California, Los Angeles, CA"
+   ],
+   "page": 66
+  },
+  {
+   "id": "28.3",
+   "session": 28,
+   "title": "A 5-Mode Switching Digital Polar PA with 3-Entry AM and 4-Entry PM Predistortion and Multi-Peak PBO Efﬁciency",
+   "authors_raw": [
+    "D. Li, Y. Zhang, Z. Zhang, Y. Huang, D. Zhang, M. Tang, D. Xu, H. Tanaka,",
+    "Z. Ren, Z. Liu, Y. Xiong, W. Wang, Y. Liu, H. Gu, T. Hu, K. Kunihiro, H. Sakai,",
+    "K. Okada"
+   ],
+   "affils_raw": [
+    "Institute of Science Tokyo, Tokyo, Japan"
+   ],
+   "page": 66
+  },
+  {
+   "id": "28.4",
+   "session": 28,
+   "title": "A Low-Cost 4-to-8GHz Watt-Level Time-Interleaved Doherty Quadrature Digital Power Ampliﬁer with Fully Synchronous Switching Logic in 28nm Bulk CMOS",
+   "authors_raw": [
+    "F. Xie, G. Zhang, Z. Zhao, H. Xu, Y. Yin"
+   ],
+   "affils_raw": [
+    "Fudan University, Shanghai, China"
+   ],
+   "page": 66
+  },
+  {
+   "id": "28.5",
+   "session": 28,
+   "title": "A 12b 8× Oversampling Power-DAC/DTX Using Encoder- Interleaving, Enabling Controlled Fundamental, Baseband, and Harmonic Content",
+   "authors_raw": [
+    "T. Ibrahim{1}, D. Mul{1}, A. Li{1}, R. Bootsman{1}, M. R. Beikmirza{2}, C. Gao{1},",
+    "M. Alavi{1}, L. de Vreede{1}"
+   ],
+   "affils_raw": [
+    "{1}Delft University of Technology, Delft, The Netherlands",
+    "{2}Nokia Bell Labs, Stuttgart, Germany"
+   ],
+   "page": 66
+  },
+  {
+   "id": "28.6",
+   "session": 28,
+   "title": "A 4-to-8GHz InP–CMOS Hybrid Pulsed Cryogenic LNA with a 50mV-Dropout RAPID-LDO Achieving Sub-1ns Wake-Up and <1mV VDD Droop for Qubit Readout",
+   "authors_raw": [
+    "Y. Miao, Y. Peng, C. Liu, Z. Qin, C. Deng, R. P. Martins, P. I. Mak"
+   ],
+   "affils_raw": [
+    "University of Macau, Macau, China"
+   ],
+   "page": 67
+  },
+  {
+   "id": "28.7",
+   "session": 28,
+   "title": "A Sub-3dB-Insertion-Loss Simultaneous Dual-Band Electrical Balance Duplexer with Reconﬁgurable TX/RX Loss Allocation",
+   "authors_raw": [
+    "K. Shi{1}, H. Darabi{2}, A. R. Behzad{1}"
+   ],
+   "affils_raw": [
+    "{1}Broadcom, San Jose, CA",
+    "{2}Broadcom, Irvine, CA"
+   ],
+   "page": 67
+  },
+  {
+   "id": "28.8",
+   "session": 28,
+   "title": "A Watt-Level VSWR-Resilient 25%/50% Dual-Duty-Cycle Doherty Quadrature Digital Transmitter for Ku-Band 6G FR3",
+   "authors_raw": [
+    "L. Cao{1}, J. Li{1}, F. Xie{1}, Z. Zhao{1}, Y. Wei{1}, X. Zhang{2}, H. Xu{1}, Y. Yin{1}"
+   ],
+   "affils_raw": [
+    "{1}Fudan University, Shanghai, China",
+    "{2}South China University of Technology, Guangzhou, China"
+   ],
+   "page": 67
+  },
+  {
+   "id": "28.9",
+   "session": 28,
+   "title": "An ISN-Less Compact FR3 Doherty PA Using Single Metal Layer for Enhanced Average PAE and AM-PM",
+   "authors_raw": [
+    "H. Yu{1}, L. Liu{1}, A. Dissanayake{2}, K. Muhammad{3}, W. L. Lien{4}, C-M. Huang{2},",
+    "S. Li{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Texas, Austin, TX",
+    "{2}MediaTek, West Lafayette, IN",
+    "{3}MediaTek, Plano, TX",
+    "{4}MediaTek, Singapore, Singapore"
+   ],
+   "page": 67
+  },
+  {
+   "id": "28.10",
+   "session": 28,
+   "title": "A Device–Package–Circuit Co-Designed 5V GaN-on-Si Doherty- Like Power Ampliﬁer Fully Covering n77 and n79 Bands",
+   "authors_raw": [
+    "C. Han*{1,2}, M. Pan*{3}, H. Tao{1,2}, F. You{3}, M. Ma{1,2}, X. Li{1}, Y. Tang{1}, X. Wang{3},",
+    "R. Qin{3}, C. Peng{1}, H. Tang{1}, X. Yu{1,2}, Z. Xiao{3}, Y. Fan{3}"
+   ],
+   "affils_raw": [
+    "{1}Nanjing Electronic Device Institute, Nanjing, China",
+    "{2}National Key Laboratory of Solid-State Microwave Devices and Circuits,",
+    "Nanjing, China",
+    "{3}University of Electronic Science and Technology of China, Chengdu, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 67
+  },
+  {
+   "id": "29.1",
+   "session": 29,
+   "title": "A 0.03mm2 Chopping-Free PVT-Robust Oscillator-First ExG-to-Digital Frontend with Edge-Pursuit Operation Achieving 177.1dB-FoMS, 10.8-NEF, and 0.9GΩ-ZIN",
+   "authors_raw": [
+    "X. Chen{1,2}, A. D. Fernandez Schrunder{1}, D. Keller{1,2}, R. Ravanilla{1},",
+    "V. Louzada Wisniewski{1}, T. Jang{2}, S. Emery{1}, K. Badami{1}"
+   ],
+   "affils_raw": [
+    "{1}CSEM, Zürich, Switzerland",
+    "{2}ETH Zurich, Zurich, Switzerland"
+   ],
+   "page": 68
+  },
+  {
+   "id": "29.2",
+   "session": 29,
+   "title": "A 16-Channel Stimulation-Artifact-Tolerant Neural-Recording IC with a 2.145Vpp Input Range and 40ns Feedforward Latency for Closed-Loop Neuromodulation",
+   "authors_raw": [
+    "Y. Zhu{1}, Y. Dong{1}, Z. Li{1}, M. Yang{1}, H. Liao{1}, Z. Wang{1}, L. Zhang{1}, Y. Guo{2},",
+    "Y. Chen{1}, R. Wu{1}, D. Ruan{1}, L. Lin{1}, J. Li{1}"
+   ],
+   "affils_raw": [
+    "{1}Southern University of Science and Technology, Shenzhen, China",
+    "{2}Xi’an University of Technology, Xi’an, China"
+   ],
+   "page": 68
+  },
+  {
+   "id": "29.3",
+   "session": 29,
+   "title": "A Peripheral-Nerve Interface SoC with a 175× Power-Scalable Topology-Adaptive NS-SAR ADC for EIT-Guided Fascicle-Selective Interferential Stimulation",
+   "authors_raw": [
+    "J. Ma*{1}, H. You*{1}, M. Abdolrazzaghi*{1}, Y. Huang*{1}, J. Xu*{1}, M. Kanchwala{1},",
+    "M. Ning{1}, M. R. Horn{1,2}, Y. Sun{1,2}, N. Bruce{3}, J. Olorocisimo{1}, S. Wang{1},",
+    "L. Bao{1}, Y. Liu{1}, L. Xu{1}, S. Gong{1}, E. Gu{1}, W. C. Gani{1}, M. Wagih{3},",
+    "G. Eleftheriades{1}, J. Zariffa{1,2}, R. Genov{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Toronto, Toronto, Canada",
+    "{2}University Health Network, Toronto, Canada",
+    "{3}University of Glasgow, Glasgow, United Kingdom",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 68
+  },
+  {
+   "id": "29.4",
+   "session": 29,
+   "title": "An Online-Spike-Sorting Chip with Two-Stage Template-Matching and Drift Correction Achieving 0.00054mm2/Ch and 1.11μW/Ch",
+   "authors_raw": [
+    "Y. Han, Y. Pan, M. Cui, P. Foster, S. Stathopoulos, T. Prodromakis, S. Wang"
+   ],
+   "affils_raw": [
+    "University of Edinburgh, Edinburgh, United Kingdom"
+   ],
+   "page": 68
+  },
+  {
+   "id": "29.5",
+   "session": 29,
+   "title": "Forward-FLOW: A Forward-Only Label-Free Online-Learning Processor with Full-Weight Update for Multi-Application Long- Term Health Monitoring",
+   "authors_raw": [
+    "J. Kim{1}, H. Choee{1}, V. Lukito{1}, I-J. Chang{2}, E. J. Choi{3}, M. Je{1}"
+   ],
+   "affils_raw": [
+    "{1}KAIST, Daejeon, Korea",
+    "{2}Kyung Hee University, Yongin, Korea",
+    "{3}Ewha Womans University, Seoul, Korea"
+   ],
+   "page": 69
+  },
+  {
+   "id": "29.6",
+   "session": 29,
+   "title": "A Miniaturized Ultrasound-Based Leadless Dual-Chamber Closed- Loop Pacing IC with 83.8% Peak Stimulation Efﬁciency and Bidirectional Communication",
+   "authors_raw": [
+    "Y. Lan*{1}, C. Gao*{1}, C. Zhang{2}, Z. Wang{3}, L. Zhang{1}, Z. Wang{1}, Y. Wu{3}, Y. Li{1},",
+    "L. Lin{1}, Y. Lu{2}, J. Li{1}"
+   ],
+   "affils_raw": [
+    "{1}Southern University of Science and Technology, Shenzhen, China",
+    "{2}Peking University, Beijing, China",
+    "{3}Capital Medical University, Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 69
+  },
+  {
+   "id": "29.7",
+   "session": 29,
+   "title": "All-in-One Magnetoelectric Multimodal Wireless Power, Communication, and Localization System for a Network of Implants",
+   "authors_raw": [
+    "N. Ahmed, H. Zhu, W. Kim, L. Ren, Y. Zou, Y. Chang, J. Robinson, K. Yang"
+   ],
+   "affils_raw": [
+    "Rice University, Houston, TX"
+   ],
+   "page": 69
+  },
+  {
+   "id": "29.8",
+   "session": 29,
+   "title": "A 40.68MHz Single-Stage 10-Output Regulating Rectiﬁer with Error-Based Control and a Phase-Adaptive Active Diode for DVS in Wirelessly Powered Retinal Stimulators",
+   "authors_raw": [
+    "M-G. Jeong, J-H. Kim, S-J. Lee, Y-W. Jeong, M-J. Cho, M-H. Kim, G. Kim,",
+    "D-C. Lee, I-H. Hur, E-J. Ko, M-S. Kim, S-U. Shin"
+   ],
+   "affils_raw": [
+    "Pohang University of Science and Technology, Pohang, Korea"
+   ],
+   "page": 69
+  },
+  {
+   "id": "29.9",
+   "session": 29,
+   "title": "A 32-Channel 55μW Electrode-to-Stream EEG Recording IC Achieving 466mVpp Input Range and 84.2dB DR, with Array Crosstalk Undetected Down to −132.9dBc",
+   "authors_raw": [
+    "S. Seo{1}, S. Chon{1}, T. Jeon{1}, H. Han{1}, Y. Gwon{2}, S. Roh{2}, C. K. Chung{2,3},",
+    "J. Bae{4,5}, Y. Chae{1,5}"
+   ],
+   "affils_raw": [
+    "{1}Yonsei University, Seoul, Korea",
+    "{2}Seoul National University, Seoul, Korea",
+    "{3}Korea Brain Research Institute, Daegu, Korea",
+    "{4}Kangwon National University, Chuncheon, Korea",
+    "{5}XO Semiconductor, Seoul, Korea"
+   ],
+   "page": 69
+  },
+  {
+   "id": "30.1",
+   "session": 30,
+   "title": "A 375-Layer 1Tb 3b/Cell 3D-NAND Flash with 4.8 Gbps IO Speed and 60%-Improved-Energy-Efﬁciency",
+   "authors_raw": [
+    "S. Choi, S. Chae, C. Jeong, B. Seo, D. Kim, J. W. Park, B-K. Kim, S. Han,",
+    "H. Jeon, C. Park, M. Shin, H. Shin, Y. Noh, D. Kim, C. Park, I. Baek, J. Yoo,",
+    "K. Jeong, K. Kim, C. Yang, S. Y. Choi, C. Koo, H. Lee, B. You, Y. Yoo, S. Lee,",
+    "D. Choi, S. Yeo, S. Lee, J. Jang, J-Y. Lee, K. Ahn, S. An, C. Choi, J. Lee,",
+    "S. Park, D. Youn, J. Lim, Y. Hong, S. Ok, W. Choi, H. Huh, B. Kim, S. Lee,",
+    "K. Seol, W. Jeong, S. Y. Cha"
+   ],
+   "affils_raw": [
+    "SK hynix, Icheon, Korea"
+   ],
+   "page": 70
+  },
+  {
+   "id": "30.2",
+   "session": 30,
+   "title": "A 128Gb SLC(1bit/cell) 3D Flash Memory with Selectable 8kB/4kB/1kB Page Sizes and 4.4M IOPS/W Energy Efﬁciency",
+   "authors_raw": [
+    "T. Fujimoto{1}, N. Abiko{1}, Y. Harada{1}, S. Kanazawa{1}, Y. Koizumi{1}, M. Dome{1},",
+    "S. Nagasaka{1}, H. Yoshihara{1}, D. Nakamura{1}, T. Midorikawa{1}, M. Miakashi{1},",
+    "S. Oketa{1}, T. Suzuki{1}, Y. Kajiyama{1}, T. Fujimura{1}, H. Takenaka{2}, N. Kumazaki{1},",
+    "M. Ito{1}"
+   ],
+   "affils_raw": [
+    "{1}KIOXIA, Tokyo, Japan",
+    "{2}KIOXIA Systems, Yokohama, Japan"
+   ],
+   "page": 70
+  },
+  {
+   "id": "30.3",
+   "session": 30,
+   "title": "A 42Gb/mm2 5XX-Layer 1.5Tb 3b/Cell WF-Bonding 3D-NAND Flash with 290MB/s Write-Throughput and 6.8Gb/s/pin IOs",
+   "authors_raw": [
+    "S. Park, M. Kim, N. Choi, J. Seo, S. Park, J. Kim, J-Y. Chun, C. Kim, Y. Cho,",
+    "B. Cho, S. Choi, G. Kim, S. Ahn, C. Rho, J. Shin, M. Kim, S. Kim, J. Lee,",
+    "S-H. Baek, K. Kang, J. Seo, S. Kim, K-H. Chung, J. Park, T-H. Kwon, S. Kim,",
+    "M. Lee, M. Cho, M. Choi, Y. Jung, S. Lee, J-J. Park, D. Che, J. Park, C. Yoon,",
+    "M. Kim, C. Lee, Y. Choi, J. Cho, I-H. Park, S. Lee, D. Kang, J. Lee"
+   ],
+   "affils_raw": [
+    "Samsung Electronics, Hwaseong, Korea"
+   ],
+   "page": 70
+  },
+  {
+   "id": "30.4",
+   "session": 30,
+   "title": "A 2.5Tb 5b/Cell 240-Layer Floating-Gate 3D-NAND Flash Memory Featuring PLC-Enabled Layer-Count Efﬁciency and NAND–System Co-Design for a 31Gb/mm2] Bit Density and Hyperscale SSD Deployment",
+   "authors_raw": [
+    "S. Upadhyay, A. Rahman, A. Madraswala, B. Lokasani, B. Ngo, B. Cleereman,",
+    "C. W. Ha, C. Sun, D. Ward, H. Tian, H. Chitturi, J. Shah, J. T. Park,",
+    "K. Gaewsky, M. Lee, P. Zhang, R. Haque, R. Fastow, R. Ursua, R. Maguad,",
+    "S. Uribe, S. Biyani, S. Park, Y. Wakchaure, J. Choi"
+   ],
+   "affils_raw": [
+    "Solidigm, Rancho Cordova, CA"
+   ],
+   "page": 71
+  },
+  {
+   "id": "30.5",
+   "session": 30,
+   "title": "A 1Gb 15.5Mb/mm2 1T4R RRAM in 28nm CMOS Technology with 15ns Read Speed, 106 Cycles Write Endurance and 10 Years Retention at 85°C",
+   "authors_raw": [
+    "H. Yang{1}, K. Zhou*{2}, X. Tong{2}, H. Jiang{2}, Q. Zuo{3}, X. Xu{4}, J. Yang{1,2},",
+    "Q. Liu{1}, M. Liu{1}"
+   ],
+   "affils_raw": [
+    "{1}Fudan University, Shanghai, China",
+    "{2}Zhangjiang Laboratory, Shanghai, China",
+    "{3}Bejing Memsilicon Technology, Shanghai, China",
+    "{4}Chinese Academy of Sciences, Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 71
+  },
+  {
+   "id": "31.1",
+   "session": 31,
+   "title": "A 2.09GOPS/mm2 2-Logic + 4-DRAM Die 3D-Stacked Fully Homomorphic Encryption Processor for Database Private Information Retrieval",
+   "authors_raw": [
+    "Z. Chen{1,2}, Z. Li{2,3}, Y. Lu{2,3}, W. Zhang{2,3}, Z. Zhang{1,2}, Z. Li{2,3}, Y. Wang{1,2},",
+    "T. Guan{2,3}, L. Huang{2,3}, Y. Cai{2,3}, Q. Zhang{2,3}, Y. Gao{2,3}, Z. Liu{2,3}, H. Xu{1,2},",
+    "B. Yang{2,3}, D. Wu{1,2}, T. Jiang{2,3}, S. Liu{1,2}, G. Dong{2,3}, S. Zhang{2,3}, B. Zhang{2,3},",
+    "Y. Wu{1,2}, S. Li{2,3}, D. Niu{2,4}, H. Zheng{2,3}, J. Zhang{2,4}"
+   ],
+   "affils_raw": [
+    "{1}DAMO Academy, Alibaba Group, Beijing, China",
+    "{2}Hupan Lab, Hangzhou, China",
+    "{3}DAMO Academy, Alibaba Group, Shanghai, China",
+    "{4}DAMO Academy, Alibaba Group, Hangzhou, China"
+   ],
+   "page": 72
+  },
+  {
+   "id": "31.2",
+   "session": 31,
+   "title": "A 144.1kOPS Migration-Agile Classical/PQC Cryptographic- Processor with Multi-Algebraic Reconﬁguration, Heterogeneous Operator Fabric and Inter-Packet Scheduling",
+   "authors_raw": [
+    "Y. Zhu{1,2,3}, W. Zhu{1,2,3}, H. Hu{1,2,3}, D. Han{1,2,3}, X. Li{1,2,3}, W. Yang{1,2,3},",
+    "R. Wang{1,2,3}, J. Yang{1,2,3}, J. Sun{1}, Y. Ouyang{1}, C. Chen{1,2,3}, J. Yang{4},",
+    "B. Yang{1,2,3}, H. Wang{1,2,3}, M. Zhu{5}, A. Zhang{1,2,3}"
+   ],
+   "affils_raw": [
+    "{1}School of Integrated Circuits, Tsinghua University, Beijing, China",
+    "{2}State Key Laboratory of Cryptography and Digital Economy Security,",
+    "Tsinghua University, Beijing, China",
+    "{3}BNRist, Tsinghua University, Beijing, China",
+    "{4}Wuxi Research Institute for Applied Technologies, Tsinghua University,",
+    "Wuxi, China",
+    "{5}Wuxi Micro Innovation Integrated Circuit Design, Wuxi, China"
+   ],
+   "page": 72
+  },
+  {
+   "id": "31.3",
+   "session": 31,
+   "title": "An All-Digital Multi-Modal Tamper Detector Exploiting Interconnect R-L-C and Cross-Die Response for Diverse Die-to-Die Links and Assemblies",
+   "authors_raw": [
+    "S. Oruganti, C-P. Lo, A. A. Kedilaya, J. P. Kulkarni"
+   ],
+   "affils_raw": [
+    "University of Texas, Austin, TX"
+   ],
+   "page": 72
+  },
+  {
+   "id": "31.4",
+   "session": 31,
+   "title": "A 1.012Gb/s Fully Synthesizable Jitter-Based TRNG with Time-Ampliﬁed Entropy Generation",
+   "authors_raw": [
+    "Z. Ma{1,2}, S. Wu{1,2}, Y. Yang{1,2}, B. Yang{1,2}, L. Wang{1,2}, M. Grujic{3}, S. Su{3},",
+    "Z. Yang{1,2}, C. Deng{1,2}, W. Zhu{1,2}, H. Wang{1,2}, J. Yang{4}, M. Zhu{5},",
+    "I. Verbauwhede{3}, A. Zhang{1,2}, L. Liu{1,2}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}Beijing National Research Center for Information Science and Technology",
+    "(BNRist), State Key Laboratory of Cryptography and Digital Economy",
+    "Security, Beijing, China",
+    "{3}KU Leuven, Leuven, Belgium",
+    "{4}Wuxi Research Institute for Applied Technologies, Tsinghua University,",
+    "Wuxi, China",
+    "{5}Wuxi Micro Innovation Integrated Circuit Design, Wuxi, China"
+   ],
+   "page": 73
+  },
+  {
+   "id": "31.5",
+   "session": 31,
+   "title": "A Fully Synthesizable Adjacent-Cycle Fault-Injection Attack Detector Using a Phase-Preserving Latch RO Without Runtime Boundary Retuning or Feedback Locking",
+   "authors_raw": [
+    "J. Kim, D. Kim, Y. Lee"
+   ],
+   "affils_raw": [
+    "Sungkyunkwan University, Suwon, Korea"
+   ],
+   "page": 73
+  },
+  {
+   "id": "31.6",
+   "session": 31,
+   "title": "LayoutSeal: Tamper-Evident Layout Filling to Thwart Malicious Modiﬁcations with <1% PPA Overhead",
+   "authors_raw": [
+    "Y. Su, K. Yang"
+   ],
+   "affils_raw": [
+    "Rice University, Houston, TX"
+   ],
+   "page": 73
+  },
+  {
+   "id": "32.1",
+   "session": 32,
+   "title": "A Single-Chip Uniﬁed TSP/EMR Controller with Dual-Mode Metal-Mesh Electrodes for Digitizer-Less Stylus Sensing in AMOLED Displays",
+   "authors_raw": [
+    "K. Park*{1}, M. Song*{1}, H. Kim*{1}, J. Kim{2}, J. Kim{1}, S. Lee{1}, M. Jin{1}, S. Jun{1},",
+    "J. Park{1}, J. Yoon{1}, H. Lee{1}, D. Kim{1}, I. Kim{1}, H. Woo{1}, U. Kim{1}, B. Kim{1},",
+    "S. Kim{1}, Y. Cho{1}, S. Ko{2}"
+   ],
+   "affils_raw": [
+    "{1}Hideep, Seongnam, Korea",
+    "{2}Kwangwoon University, Seoul, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 74
+  },
+  {
+   "id": "32.2",
+   "session": 32,
+   "title": "A 400ch 10b 1μs/line Self-Charging-Channel Source-Driver IC with Hot-Swap Auto-Zeroed Inter-Chip Gamma Referencing for 50μV (1σ) AVO in Multi-Chip Foldable Displays",
+   "authors_raw": [
+    "Y. Park{1}, H-J. Kim{1}, J-G. Lee{1}, J. Kim{2}, J-Y. Jeong{2}, S. Yoo{2}, H-S. Kim{1}"
+   ],
+   "affils_raw": [
+    "{1}KAIST, Daejeon, Korea",
+    "{2}Samsung Electronics, Hwaseong, Korea"
+   ],
+   "page": 74
+  },
+  {
+   "id": "32.3",
+   "session": 32,
+   "title": "A 12b Source-Driver IC with a Dual-DDA EMB-DAC Ampliﬁer and Real-Time Offset and Linearity Calibration Achieving 1388μm2/Channel and 0.7mV DVO for High-Resolution OLED-on-Silicon Displays",
+   "authors_raw": [
+    "D. Kim{1}, C. Bae{1}, Y. Lee{1}, S. Jeon{1}, C. Kwon{2}, D. Ha{2}, J. Kim{1}"
+   ],
+   "affils_raw": [
+    "{1}Hanyang University, Ansan, Korea",
+    "{2}Samsung Display, Yongin, Korea"
+   ],
+   "page": 74
+  },
+  {
+   "id": "32.4",
+   "session": 32,
+   "title": "A 10b OLED Display Driver IC with Capacitance-Isolating, Difference-Extracting Relays (CIDERs) Achieving 12× Grayscale- Reference Power Reduction with 25% Shorter Worst-Case Input Delay",
+   "authors_raw": [
+    "H-J. Kim{1}, Y. Park{1}, S. Chae{1}, J-G. Lee{1}, B. Kim{2}, S. Kuk{2}, I. Kim{2}, Y. Kim{2},",
+    "S. Kim{2}, H-S. Kim{1}"
+   ],
+   "affils_raw": [
+    "{1}KAIST, Daejeon, Korea",
+    "{2}Samsung Electronics, Hwaseong, Korea"
+   ],
+   "page": 74
+  },
+  {
+   "id": "32.5",
+   "session": 32,
+   "title": "A Per-Channel-Equalized Touch Readout IC Driving On-Cell 1000pF-Load OLED Panels at 909kHz with Baseline-Recovering Common-Current Subtraction Achieving 28.7dB SNR under 1-H Display Noise",
+   "authors_raw": [
+    "J-Y. An{1}, J. Ahn{1}, S. H. Choi{1,2}, S-Y. Lee{1}, Y-K. Choi{3}, H-M. Lee{1}"
+   ],
+   "affils_raw": [
+    "{1}Korea University, Seoul, Korea",
+    "{2}Samsung Electronics, Hwaseong, Korea",
+    "{3}SymbioDisplay Tech, Seoul, Korea"
+   ],
+   "page": 74
+  },
+  {
+   "id": "33.1",
+   "session": 33,
+   "title": "A 2-to-1024-State Fully Connected Potts Machine with Spin-Stationary KDF and State-Driven Active-Coefﬁcient Access",
+   "authors_raw": [
+    "X. Wang, Y. Lou, X. Chen, Y. Yang, Y. Su"
+   ],
+   "affils_raw": [
+    "Peking University, Shenzhen, China"
+   ],
+   "page": 75
+  },
+  {
+   "id": "33.2",
+   "session": 33,
+   "title": "An 8K-Spin Ising Machine IC Supporting Native Interactions Up To Order 4096 with Limitless 4-Way Multi-Chip Scalability",
+   "authors_raw": [
+    "J. Kim, J-Y. Sim"
+   ],
+   "affils_raw": [
+    "Pohang University of Science and Technology, Pohang, Korea"
+   ],
+   "page": 75
+  },
+  {
+   "id": "33.3",
+   "session": 33,
+   "title": "LAGD: A 7nm 512MHz Dual-Core Ising SoC with Fully Connected Analog Feedback",
+   "authors_raw": [
+    "J. Sun*, T. Bettens*, S. De Weer, I. Ramirez-Lechuga, W. Vandesteene,",
+    "T. Piessens, G. M. Sarda, W. Dehaene, M. Verhelst"
+   ],
+   "affils_raw": [
+    "KU Leuven ESAT-MICAS, Leuven, Belgium",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 75
+  },
+  {
+   "id": "33.4",
+   "session": 33,
+   "title": "A 512-Spin GNN-Assisted Ising Machine with Uniﬁed Time-Domain RRAM-CIM and Arbitrary Graph Connectivity",
+   "authors_raw": [
+    "J. Zhang, S. Wei, S. Pan, B. Cheng, Y. Su, X. Li, L. Pan, D. Wu, J. Tang,",
+    "H. Qian, B. Gao, P. Yao, H. Wu"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 75
+  },
+  {
+   "id": "33.5",
+   "session": 33,
+   "title": "A Stochastic Analog 3-SAT Solver Using an Unsigned Crossbar and Push-Pull Clauses Achieving 21.26μs Mean Solution Time and 100% Solvability for 75-Variable Hard Problems in 12nm CMOS",
+   "authors_raw": [
+    "M. Palaria{1}, T-H. Hsu*{1}, T. T. Tanisha{1}, H. Roy{1}, Z. Ren{2}, S. Su{2}, W. Wu{1},",
+    "M-W. Chen{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Southern California, Los Angeles, CA",
+    "{2}University of Waterloo, Waterloo, Canada"
+   ],
+   "page": 75
+  },
+  {
+   "id": "34.1",
+   "session": 34,
+   "title": "A 1.44mm2 1.27mJ/Frame Display-Processing SoC with 240Hz High-Frame-Rate and Multi-Format HDR for Mobile Applications",
+   "authors_raw": [
+    "T-M. Liu, K-M. Yang, D-J. Lin, C-W. Liang, J-Y. Yeh, P-H. Chiang, J-H. Chung,",
+    "Y-C. Tseng, W-T. Huang, M-H. Wu, K-C. Huang, K-W. Chen, S-W. Hsieh,",
+    "P-Y. Tsai, T-C. Chen, S-L. Wu, P-C. Yeh, C-J. Jan, C-I. Wu, H-J. Chu,",
+    "X-L. Chen, N. Feng, Y-M. Yeh, M-E. D. Shih, H-J. Wei, Y-S. Liu, Y-C. Chang,",
+    "C-C. Ju, Y-C. K. Jou"
+   ],
+   "affils_raw": [
+    "MediaTek, Hsinchu, Taiwan"
+   ],
+   "page": 76
+  },
+  {
+   "id": "34.2",
+   "session": 34,
+   "title": "LYRA: A 3.5nJ/Point Streaming 4D Point-Cloud Transformer Processor with Spatial Registration and Incremental Inference",
+   "authors_raw": [
+    "C. Zhou*{1}, Y. Ma*{1}, W. Luo{1}, X. Wang{1}, Z. Li{2}, Z. Guo{1}, Y. Jiang{1}, Z. Guo{2},",
+    "Z. Gao{1}, Y. Lin{1}, H. He{1}, A. Li{1}, Y. Fu{1}, S. Qiu{1}, C. Zhang{1}, Y. He{3}, G. Li{1},",
+    "Y. Yang{1,4}, H. Jiao{1}"
+   ],
+   "affils_raw": [
+    "{1}Peking University, Shenzhen, China",
+    "{2}Wuhan University, Wuhan, China",
+    "{3}Reconova Technologies, Xiamen, China",
+    "{4}Peking University, Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 76
+  },
+  {
+   "id": "34.3",
+   "session": 34,
+   "title": "A 7nm 285TOPS/W Universal Series-Based Point Cloud Processor for Cross-Scene 3D Perception",
+   "authors_raw": [
+    "C-L. Chuang{1,2}, Y-F. Shyu{1}, C-H. Yang{1}"
+   ],
+   "affils_raw": [
+    "{1}National Taiwan University, Taipei, Taiwan",
+    "{2}MediaTek, Hsinchu, Taiwan"
+   ],
+   "page": 76
+  },
+  {
+   "id": "34.4",
+   "session": 34,
+   "title": "A 2.48mJ/Frame Saliency-Aware Super-Resolution Processor Achieving 120FPS at 4K for Virtual-Reality Devices",
+   "authors_raw": [
+    "X. Shi{1}, J. Han{1}, Z. Tang{1}, Z. Yang{1}, Y. Zhang{1}, C. Fu{2}, J. Han{1}"
+   ],
+   "affils_raw": [
+    "{1}Fudan University, Shanghai, China",
+    "{2}ShaoXin Laboratory, Shaoxing, China"
+   ],
+   "page": 76
+  },
+  {
+   "id": "34.5",
+   "session": 34,
+   "title": "A 0.49mJ/Frame 4K-141fps Super-Resolution Accelerator with Content-Adaptive Residual Computing and Function- Reconﬁgurable Compute-in-Memory Architecture",
+   "authors_raw": [
+    "T. Zheng, W-H. Yu, Y. Zhang, K-F. Un, J. Xu, R. P. Martins, P-I. Mak"
+   ],
+   "affils_raw": [
+    "University of Macau, Macau, China"
+   ],
+   "page": 77
+  },
+  {
+   "id": "34.6",
+   "session": 34,
+   "title": "Fornax: A 16nm 16-Die Diffusion Processor with Fractal Recursion and Bit-Plane Folding for 8K Edge Image Generation",
+   "authors_raw": [
+    "C. Zhou, Z. Guo, Z. Xu, E. Dai, Y. Zhong, G. Zhou, J. Zhang, J. Ku, H. Li,",
+    "Y. Chen"
+   ],
+   "affils_raw": [
+    "Duke University, Durham, NC"
+   ],
+   "page": 77
+  },
+  {
+   "id": "34.7",
+   "session": 34,
+   "title": "MAQAM: A 2nm 8.83mJ/Frame Mobile 512×512 Single-Step Diffusion Accelerator via K/V Bank Remapping for Conﬂict-Free Matmul and Adaptive Uniﬁed L1/L2 Memory",
+   "authors_raw": [
+    "S-W. Hsieh, C-H. Yuan, Y-T. Liu, Y-T. Wu, P-Y. Tsai, M-H. Lin, C-Y. Cheng,",
+    "L-F. Hsu, H-P. Chu, H-W. Chih, P-H. Chiang, C-M. Chang, M-T. Wu, Y-S. Chen,",
+    "S-P. Kuo, C-K. Tseng, M-E. D. Shih, Y-C. Tseng, C-P. Chen, S. Chang,",
+    "S. Huang, C-M. Wang, P-Y. Yeh, J. Liu, Y-C. Chang, C-C. Ju, Y. K. Jou"
+   ],
+   "affils_raw": [
+    "MediaTek, Hsinchu, Taiwan"
+   ],
+   "page": 77
+  },
+  {
+   "id": "34.8",
+   "session": 34,
+   "title": "SUPRA: Attention-Guided Token-Skipping Diffusion LLM Accelerator with Mixed-Precision Parallel Self-Speculative Unmasking and Utilization-Aware Token Prefetching",
+   "authors_raw": [
+    "Y. Tan{1,2}, P. Dong{1,2}, F. Tian{1,2}, Y. Zhang{1,2}, X. Liu{2}, F. Li{2}, P. Luo{2}, L. Liang{2},",
+    "K-T. Cheng{1,2}"
+   ],
+   "affils_raw": [
+    "{1}Hong Kong University of Science and Technology, Hong Kong, China",
+    "{2}AI Chip Center for Emerging Smart Systems, Hong Kong, China"
+   ],
+   "page": 77
+  },
+  {
+   "id": "34.9",
+   "session": 34,
+   "title": "$Dollar: A Branch-Fused Diffusion Large Language Model Accelerator with Agent-Driven Psum-Aware Quantization and Multi-Precision Cache-PE",
+   "authors_raw": [
+    "J. Zhou*, Z. Zhu*, Z. Mu, L. Luo, T. Jia"
+   ],
+   "affils_raw": [
+    "Peking University, Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 77
+  },
+  {
+   "id": "34.10",
+   "session": 34,
+   "title": "A 19.06TOPS/W 3D Structure-Driven Generation Accelerator with Geometry-Adaptive Computation and Adjacency-Inspired Reuse Dataﬂow",
+   "authors_raw": [
+    "W. Yi{1}, X. Feng*{2}, H. Ge{1}, B. Pan{1}, Y. Liu{2}"
+   ],
+   "affils_raw": [
+    "{1}Beihang University, Beijing, China",
+    "{2}Tsinghua University, Beijing, China"
+   ],
+   "page": 77
+  },
+  {
+   "id": "35.1",
+   "session": 35,
+   "title": "A 1.15mW 150MHz Inductor-Less Pulse-Injection 3rd-Overtone Crystal Oscillator Achieving 141μs Self-Startup Time and −262.9dB FOMJ in 28nm CMOS",
+   "authors_raw": [
+    "H. Li{1,2}, Y. Wang{1}, P-I. Mak{1}, R. Martins{1}, K-M. Lei{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Macau, Macau, China",
+    "{2}UM Hetao IC Research Institute, Shenzhen, China"
+   ],
+   "page": 78
+  },
+  {
+   "id": "35.2",
+   "session": 35,
+   "title": "A 26.3nW 32.768kHz TCXO Achieving ±4.4ppm Accuracy Using Injection-Based Frequency Correction and Digital Inhibition for Real-Time Clock Applications",
+   "authors_raw": [
+    "P. Wang*{1}, Y. Wang*{1}, H. Zhang{2}, K. C. Li{1}, L. Gu{1}, Y. Cao{1}, G. Dai{1}, Y. Cheng{2},",
+    "S. Pan{2}, Y. Zhang{1}"
+   ],
+   "affils_raw": [
+    "{1}Hong Kong University of Science and Technology, Hong Kong, China",
+    "{2}Tsinghua University, Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 78
+  },
+  {
+   "id": "35.3",
+   "session": 35,
+   "title": "A Temperature-Compensated Crystal Oscillator with Capacitance- Aware Varactor Control Achieving ±0.44ppm Inaccuracy and 45× Inaccuracy Improvement from -40°C to 85°C",
+   "authors_raw": [
+    "Y. Cheng{1}, H. Wang{1}, X. Li{1}, H. Zhang{1}, P. Wang{2}, Z. Li{1}, X. Liu{1}, M. Jiang{1},",
+    "P. Yao{1}, D. Wu{1}, J. Tang{1}, B. Gao{1}, H. Qian{1}, Y. Zhang{2}, S. Pan{1}, H. Wu{1}"
+   ],
+   "affils_raw": [
+    "{1}Tsinghua University, Beijing, China",
+    "{2}Hong Kong University of Science and Technology, Hong Kong, China"
+   ],
+   "page": 78
+  },
+  {
+   "id": "35.4",
+   "session": 35,
+   "title": "A 200MHz 1.32mW Crystal Oscillator with Active Harmonic Canceler Achieving 27.6fs RMS Jitter and −153dBc/Hz Phase Noise at 10kHz Offset in 22nm CMOS",
+   "authors_raw": [
+    "W. Chen*{1}, J. Liu*{1}, R. B. Staszewski{2,3}, Y. Hu{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Science and Technology of China, Hefei, China",
+    "{2}University College Dublin, Dublin, Ireland",
+    "{3}AGH University of Krakow, Kraków, Poland",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 78
+  },
+  {
+   "id": "35.5",
+   "session": 35,
+   "title": "An 8.65nW 32kHz TCXO with XO-Clock-Reused Temperature Sensing and Valley-Synchronized Load-Capacitance Switching",
+   "authors_raw": [
+    "X. Wang{1}, W. Huang{1}, H. Li{1}, Z. Yang{1}, Z. Kong{1}, J. Liu{1}, X. Qian{1}, X. Meng{2},",
+    "J. Zhao{3}, J. Li{1}, L. Lin{1}"
+   ],
+   "affils_raw": [
+    "{1}Southern University of Science and Technology, Shenzhen, China",
+    "{2}Hefei University of Technology, Hefei, China",
+    "{3}Shanghai Jiao Tong University, Shanghai, China"
+   ],
+   "page": 78
+  },
+  {
+   "id": "35.6",
+   "session": 35,
+   "title": "A 395fJ/cycle 1b DFLL Employing Auto-Nulled Stochastic Chopping Achieving a <950ppb Allan Deviation",
+   "authors_raw": [
+    "R. P. Burns, P. P. Mercier"
+   ],
+   "affils_raw": [
+    "University of California, San Diego, CA"
+   ],
+   "page": 79
+  },
+  {
+   "id": "35.7",
+   "session": 35,
+   "title": "A 2.9ppm/°C 28MHz RC Frequency Reference from −40°C to 125°C with Gate-Leakage-Driven High-Order Temperature Compensation",
+   "authors_raw": [
+    "W. Lv{1}, P. Ren{1}, D. Ye{1}, K-M. Lei{2}, L. Liao{1}, Z. Chen{1}"
+   ],
+   "affils_raw": [
+    "{1}Hunan University, Changsha, China",
+    "{2}University of Macau, Macau, China"
+   ],
+   "page": 79
+  },
+  {
+   "id": "35.8",
+   "session": 35,
+   "title": "A −40-to-165°C 0.6V 4nm 5T2R-Core VREF with 20.31ppm/°C TC and High-T Region Compensation",
+   "authors_raw": [
+    "Y-T. Shih{1}, L-J. Huang{1}, K-H. Chen{1}, Y-H. Lin{2}, A-M. Lee{2}, S-R. Lin{2}"
+   ],
+   "affils_raw": [
+    "{1}National Yang Ming Chiao Tung University, Hsinchu, Taiwan",
+    "{2}Realtek Semiconductor, Hsinchu, Taiwan"
+   ],
+   "page": 79
+  },
+  {
+   "id": "35.9",
+   "session": 35,
+   "title": "A 0.9V 0.25pJ/Cycle 31.1ppm/°C Digital Frequency-Locked Loop Using Leakage-Free Time-Domain Resistive Trimming",
+   "authors_raw": [
+    "D. S. Truesdell, A. Tanaka, Z. Gunn, J. Wang, B. H. Calhoun"
+   ],
+   "affils_raw": [
+    "University of Virginia, Charlottesville, VA"
+   ],
+   "page": 79
+  },
+  {
+   "id": "35.10",
+   "session": 35,
+   "title": "A 690pW CMOS Cross-Biased Voltage Reference Achieving 15.2 ppm/°C from −50°C to 150°C and −88dB PSR at 10Hz",
+   "authors_raw": [
+    "W-T. Chen{1}, I-F. Lin{1}, Y-H. Tung{1}, W-W. Chen{2}, T-H. Hung{2}, Y-T. Liao{1}"
+   ],
+   "affils_raw": [
+    "{1}National Yang Ming Chiao Tung University, Hsinchu, Taiwan",
+    "{2}Novatek, Hsinchu, Taiwan"
+   ],
+   "page": 79
+  },
+  {
+   "id": "35.11",
+   "session": 35,
+   "title": "A 2nm Dual-Loop Bandgap Reference with Decoupled BJT and Temperature-Compensated Current Paths",
+   "authors_raw": [
+    "S. Wada{1}, S. J. Huang{2}, T. Matsuda{1}, S-C. Tsao{2}, Y-C. Peng{2}, K-H. Hsieh{2}"
+   ],
+   "affils_raw": [
+    "{1}TSMC Design Technology Japan, Yokohama, Japan",
+    "{2}TSMC, Hsinchu, Taiwan"
+   ],
+   "page": 79
+  },
+  {
+   "id": "36.1",
+   "session": 36,
+   "title": "A One-Step 3.7-VDC to 1k-VPP Symmetric Bidirectional Pulser with Energy-Recovery and Multi-Parameter Tunability for Driving Microactuator Arrays",
+   "authors_raw": [
+    "S. Han{1,2}, Z. Tong{3}, X. Wu{2}, H. Jiang{2}, T-L. Ren{2}, C. Huang{1}, Y. Lu{2}"
+   ],
+   "affils_raw": [
+    "{1}University of Macau, Macau, China",
+    "{2}Tsinghua University, Beijing, China",
+    "{3}Beihang University, Beijing, China"
+   ],
+   "page": 80
+  },
+  {
+   "id": "36.2",
+   "session": 36,
+   "title": "A 200-10kHz 100VPP Piezoelectric Micropump Driver Using Switched-Capacitor-Assisted Floating Linear Ampliﬁer Achieving 83.4%-Peak-Efﬁciency and 0.24%-THD+N",
+   "authors_raw": [
+    "T. Tang{1}, Z. Tang{1}, C. Hu{1}, T-Y. Chen{2}, X. Liu{3}, J. Jiang{1}"
+   ],
+   "affils_raw": [
+    "{1}Southern University of Science and Technology, Shenzhen, China",
+    "{2}Erised Semiconductor, Shenzhen, China",
+    "{3}Chinese University of Hong Kong, Shenzhen, China"
+   ],
+   "page": 80
+  },
+  {
+   "id": "36.3",
+   "session": 36,
+   "title": "A 92.21%-Peak-Efﬁciency Symmetric Step-Down Rectiﬁer with Cycle-by-Cycle Reverse-Current Control Achieving Full-Load- Range Regulation for Wireless Power Transfer",
+   "authors_raw": [
+    "Y. Lin, Y. Chen, J. Guo"
+   ],
+   "affils_raw": [
+    "Sun Yat-Sen University, Guangzhou, China"
+   ],
+   "page": 80
+  },
+  {
+   "id": "36.4",
+   "session": 36,
+   "title": "A Fully Integrated Switched-Capacitor Energy Harvester with 12-V Storage and Self-Restoring Power-Path Feedback",
+   "authors_raw": [
+    "B. Wang, J. Jung, E. Lee, M. Manohara, U. Guler, A. Chandrakasan"
+   ],
+   "affils_raw": [
+    "Massachusetts Institute of Technology, Cambridge, MA"
+   ],
+   "page": 80
+  },
+  {
+   "id": "36.5",
+   "session": 36,
+   "title": "A Two-Perturbation Direct Impedance-Matching MPPT Technique with MPP Retention under Source-Voltage Variations for Thermoelectric Energy Harvesting",
+   "authors_raw": [
+    "Z. Ye{1}, C. Wang{2}, R. Zhang{1}, K. N. Leung{2}, J. Guo{1}"
+   ],
+   "affils_raw": [
+    "{1}Sun Yat-Sen University, Guangzhou, China",
+    "{2}Chinese University of Hong Kong, Hong Kong, China"
+   ],
+   "page": 80
+  },
+  {
+   "id": "37.1",
+   "session": 37,
+   "title": "Vector-Intelligent Synthetic Array (VISA): Efﬁcient, Direct Data-to-Wireless Conversion at 140GHz",
+   "authors_raw": [
+    "Y. Qin, Y. Feng, Z. Tang, Y. He, B. Zhang, C. Wang"
+   ],
+   "affils_raw": [
+    "University of Electronic Science and Technology of China, Chengdu, China"
+   ],
+   "page": 81
+  },
+  {
+   "id": "37.2",
+   "session": 37,
+   "title": "A 4096-QAM Digital Transmitter with Reconﬁgurable Eight-Tap Free-Space FIR Filtering",
+   "authors_raw": [
+    "Y. Liu, P. Zhang, Y. Chen, Y. Hu, Y. Chen, L. Wu, Y. Zhu, C. Deng, A. Zhang"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 81
+  },
+  {
+   "id": "37.3",
+   "session": 37,
+   "title": "A Scalable 4GS/s/chip Frequency-Channelized MP-DFT Radar-Correlation Front-End with 47.3 1b-TOPS Equivalent Throughput in 65nm CMOS",
+   "authors_raw": [
+    "H. Jiang, J. Hu, X. Pu, Q. Wu, P. R. Kinget"
+   ],
+   "affils_raw": [
+    "Columbia University, New York, NY"
+   ],
+   "page": 81
+  },
+  {
+   "id": "37.4",
+   "session": 37,
+   "title": "ISAAC: An Information-Shaping Array with Ambiguity Control Using Dynamic Spatial-Lattice Reconﬁguration and Decoying for Point-to-Point Private Communication in Full-FoV",
+   "authors_raw": [
+    "Z. Guo*, H. Luo*, W. Deng, H. Ren, H. Jia, B. Chi"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 81
+  },
+  {
+   "id": "38.1",
+   "session": 38,
+   "title": "Cryo-CMOS Reconﬁgurable Array with Real-time Optical Downlink and Complex-Weighted FDM Readout",
+   "authors_raw": [
+    "Z. Dai{1}, R. Wu{2}, D. Yan{1}, Z. Xu{2}, C. Liu{1}, Y. Yang{2}, Y. Fan{1}, C. Wang{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Electronic Science and Technology of China, Chengdu, China",
+    "{2}Chengdu Data Automation System Technologies, Chengdu, China"
+   ],
+   "page": 82
+  },
+  {
+   "id": "38.2",
+   "session": 38,
+   "title": "CryoSieve: A 22nm-FDSOI Cryogenic Quantum Error Correction Syndrome Processor with 17× Cryo–RT Transmission Energy Reduction",
+   "authors_raw": [
+    "G. Tao{1}, A. Knapen{1}, H. Wang{1}, J. Luo{2}, H. Wu{1}, R. Qi{2}, X. Wei{1}, J. Mack{1},",
+    "G. Ravi{1}, D. Sylvester{1}, M. Saligane{1,2}, Q. Zhang{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Michigan, Ann Arbor, MI",
+    "{2}Brown University, Providence, RI"
+   ],
+   "page": 82
+  },
+  {
+   "id": "38.3",
+   "session": 38,
+   "title": "A 4K Cryo-CMOS Write/Read Control IC for Phononic Quantum-Memory Bit-cell",
+   "authors_raw": [
+    "Y. Guo*{1}, Y. Liu*{2}, H. Li*{3}, S. Yin{1}, Y. Li{1}, Z. Chang{3}, W. Wang{3}, T. Tian{3},",
+    "Q. Liu{2}, G. Wang{1}, T. Li{3}, H. Jiang{3}"
+   ],
+   "affils_raw": [
+    "{1}Shanghai Jiao Tong University, Shanghai, China",
+    "{2}Beijing Academy of Quantum Information Sciences, Beijing, China",
+    "{3}Tsinghua University, Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 82
+  },
+  {
+   "id": "38.4",
+   "session": 38,
+   "title": "A Sub-mW 4K Qubit-Drive Transmitter Using an Asynchronous DTC-Timed DAC with Adaptive Time-Grid Pulse Shaping Achieving >72dBc SFDR and 8GS/s Effective Sampling Rate in 28nm CMOS",
+   "authors_raw": [
+    "F. Yuan{1}, H. Su{1}, Y. Miao{1}, X. Zhang{1}, Y. Wu{1}, H. Wang{2}, R. P. Martins{1},",
+    "P. I. Mak{1}, Y. Peng{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Macau, Macau, China",
+    "{2}Beijing Academy of Quantum Information Sciences, Beijing, China"
+   ],
+   "page": 82
+  },
+  {
+   "id": "38.5",
+   "session": 38,
+   "title": "FlexSoC: A 285.5k-TFT 2MHz Flexible 32-Bit System-on-Chip with 5-Metal Monolithic LTPS Integration and Drive-Extended Parasitic-Suppressed Standard Cells",
+   "authors_raw": [
+    "J. Song, A. Yan, E. Zhang, Y. Yang, H. Liu, T-L. Ren"
+   ],
+   "affils_raw": [
+    "Tsinghua University, Beijing, China"
+   ],
+   "page": 83
+  },
+  {
+   "id": "38.6",
+   "session": 38,
+   "title": "A 231.061GHz Chip-Scale Molecular Clock with Hershey-Kiss FM and Digital 1st-/5th-Order Locking Achieving <100ppt Allan Deviation From 1s to 10,000s",
+   "authors_raw": [
+    "J. Jung, K. Pochana, J. Wang, T. Weigand, E. Lee, I. Choe, K. A. Nelson,",
+    "R. Han"
+   ],
+   "affils_raw": [
+    "Massachusetts Institute of Technology, Cambridge, MA"
+   ],
+   "page": 83
+  },
+  {
+   "id": "38.7",
+   "session": 38,
+   "title": "A 15-b Cryo-CMOS Z/Flux Driver with mHz-Range Bias-Noise Filtering for Flux-Tunable Superconducting Qubits",
+   "authors_raw": [
+    "J. Lee*{1,2}, S. Bae*{2}, J-Y. Sim{2}"
+   ],
+   "affils_raw": [
+    "{1}Samsung Electronics, Hwaseong, Korea",
+    "{2}Pohang University of Science and Technology, Pohang, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 83
+  },
+  {
+   "id": "38.8",
+   "session": 38,
+   "title": "A 4–100 K kBT/C Noise-based Cryo-CMOS Temperature Sensor with a Trimming-Free 0.9997-R2 Linearity",
+   "authors_raw": [
+    "J. Weng*{1}, Y. Sha*{1}, P. Wang{2}, Z. Huang{1}, Q. Liu{1}, M. Liu{1}"
+   ],
+   "affils_raw": [
+    "{1}Fudan University, Shanghai, China",
+    "{2}Shanghai Institute of Technical Physics Chinese Academy of Sciences,",
+    "Shanghai, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 83
+  },
+  {
+   "id": "38.9",
+   "session": 38,
+   "title": "An 11.3ppm/K, 5-50K CMOS Current Reference for Cryo-CMOS Superconducting-qubit Controllers",
+   "authors_raw": [
+    "S. Ray, D. Frank, J. Bulzacchelli, J. Timmerwilke, R. Robertazzi, B. Sadhu,",
+    "D. Friedman"
+   ],
+   "affils_raw": [
+    "IBM Research, Yorktown Heights, NY"
+   ],
+   "page": 83
+  },
+  {
+   "id": "38.10",
+   "session": 38,
+   "title": "A 0.9%FAR 0.91μW Attention-Based Flexible Attention-spans Keyword Spotting System with Fine-Grained AFE Gating",
+   "authors_raw": [
+    "P. Huang{1}, Z. Liu{1}, W-H. Yu{1}, K-F. Un{1}, L. Zhao{2}, R. P. Martins{1}, P-I. Mak{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Macau, Macau, China",
+    "{2}Zhejiang University, Hangzhou, China"
+   ],
+   "page": 83
+  },
+  {
+   "id": "39.1",
+   "session": 39,
+   "title": "A 17.6Gb/s/pin LPDDR6 Ultra SDRAM interface design with switch cross-coupled DFE CA IB, improved DCC WCK IB, hybrid 240 Ohm ZQ leg DQ TX and high-speed IO DFT schemes",
+   "authors_raw": [
+    "X. Chen, W. Zhang, Z. Xue, W. Li, X. Tang, S. Ma, H. Tu, E. Gao, H. Li, K. Cao,",
+    "Y. Zhu"
+   ],
+   "affils_raw": [
+    "Changxin Memory Technologies, Hefei, China"
+   ],
+   "page": 84
+  },
+  {
+   "id": "39.2",
+   "session": 39,
+   "title": "A 25-Gb/s/pin 0.036-pJ/bit/dB LPDDR Transmitter with Consecutive-Identical-Digit-Length-Adaptive and Simultaneous- Switching-Noise-Mitigating Active-Inductive Below-VSS Pull-Down Pre-Emphasis",
+   "authors_raw": [
+    "G. Ha, J-H. Chae"
+   ],
+   "affils_raw": [
+    "Kwangwoon University, Seoul, Korea"
+   ],
+   "page": 84
+  },
+  {
+   "id": "39.3",
+   "session": 39,
+   "title": "A 0.5-to-8GHz Self-Relative-Jitter-Cancellation Technique Co-Designed with a Quadrature-Error Corrector for Unmatched Memory Interfaces",
+   "authors_raw": [
+    "J. Seo, H. Jeon, M. Jeon, J. Lee, J. Choi"
+   ],
+   "affils_raw": [
+    "Seoul National University, Seoul, Korea"
+   ],
+   "page": 84
+  },
+  {
+   "id": "39.4",
+   "session": 39,
+   "title": "A 4×128-Gb/s Single-Ended PAM-4 Transceiver with Crosstalk- Canceling Transformer-Capacitance Network for Ultra-High- Density Memory Links",
+   "authors_raw": [
+    "Q. Liu{1}, Y. Hui{1}, Y. Nong{1}, T. Zhao{1}, Z. Li{1}, Y. Liu{1}, J. Guo{1}, D. Li{2}, L. Du{1},",
+    "Y. Du{1}"
+   ],
+   "affils_raw": [
+    "{1}Nanjing University, Nanjing, China",
+    "{2}Wuhan University of Technology, Wuhan, China"
+   ],
+   "page": 84
+  },
+  {
+   "id": "39.5",
+   "session": 39,
+   "title": "A 30Gb/s/pin Single-Ended PAM4 Receiver with Reconﬁgurable 4-Tap Charge-Based DFE and Self-Calibration of Vref and DFE Coefﬁcients",
+   "authors_raw": [
+    "H. Seong{1}, J. Park{1}, J. Lee{1}, J. Lee{1}, Y. Choi{2}, M. Kwak{2}, J-Y. Sim{1}, S-K. Lee{1}"
+   ],
+   "affils_raw": [
+    "{1}Pohang University of Science and Technology, Pohang, Korea",
+    "{2}Samsung Electronics, Hwaseong, Korea"
+   ],
+   "page": 84
+  },
+  {
+   "id": "39.6",
+   "session": 39,
+   "title": "A 16.5Gb/s/pin Self-Calibrating 18-UI-Span Floating-Tap DFE Receiver for Multi-Drop Memory Interfaces",
+   "authors_raw": [
+    "M. Kim*{1}, J-W. Moon*{1}, B-C. Kim{1}, J. Lee{1}, H. Seong{1}, J. Park{2}, C. Yoon{2},",
+    "J-Y. Sim{1}, S-K. Lee{1}"
+   ],
+   "affils_raw": [
+    "{1}Pohang University of Science and Technology, Pohang, Korea",
+    "{2}Samsung Electronics, Hwaseong, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 85
+  },
+  {
+   "id": "39.7",
+   "session": 39,
+   "title": "A 65.9Tb/s/mm 0.18pJ/b Crosstalk-Balanced EPAM4 Transceiver for High-Density Short-Reach Memory Interfaces in 28nm CMOS",
+   "authors_raw": [
+    "G. Zhang*{1}, R. Kuai*{1}, F. Lv{1}, L. Xiao{1}, M. Li{1}, L. Yuan{1}, B. Bai{1}, K. Xin{1},",
+    "C. Fan{2}, G. Zhang{2}, X. Zheng{3}, H. Sun{3}, M. Lai{1}"
+   ],
+   "affils_raw": [
+    "{1}National University of Defense Technology, Changsha, China",
+    "{2}Xi’an Jiaotong University, Xi’an, China",
+    "{3}Institute of Microelectronics of the Chinese Academy of Sciences,",
+    "Beijing, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 85
+  },
+  {
+   "id": "39.8",
+   "session": 39,
+   "title": "A 40Gb/s/pin Single-Ended PAM4 Transceiver with Three-Step Pattern-Based Switching-Jitter Compensation for Memory Interfaces",
+   "authors_raw": [
+    "T. Kim{1}, H. Shin{1}, C. Sim{1}, S. Kim{1}, J. So{1}, H. Shin{1}, S-B. Lee{1}, H. Jung{1},",
+    "C. Lee{1}, K. Yoon{1}, G. An{2}, S-M. Lee{3}, S-H. Kim{3}, S. Yoo{3}, J. Song{2}, C. Kim{1}"
+   ],
+   "affils_raw": [
+    "{1}Korea University, Seoul, Korea",
+    "{2}Incheon National University, Incheon, Korea",
+    "{3}Samsung Electronics, Hwaseong, Korea"
+   ],
+   "page": 85
+  },
+  {
+   "id": "39.9",
+   "session": 39,
+   "title": "A 14-nm 2.7D Die-to-Die Interface with a 31-Gb/s 0.251-pJ/bit Equalizer-Free NRZ 3D IO and a 6.5-mm 0.135-pJ/bit On-Chip Interconnect",
+   "authors_raw": [
+    "T. Kong{1}, S-J. Yun{1}, S. Jung{1}, E. Kim{1}, H. Choi{1}, H-J. Kim-Lee{1}, S-E. Jo{1},",
+    "S. Lee{1}, S. J. Kim{1}, J. Kim{2}, W-S. Choi{3}, J. Han{4}, S. Lee{2}, H-S. Choi{3}, Y. Shin{3},",
+    "Y. Kwon{4}"
+   ],
+   "affils_raw": [
+    "{1}Samsung Advanced Institute of Technology, Suwon, Korea",
+    "{2}Konkuk University, Seoul, Korea",
+    "{3}Seoul National University, Seoul, Korea",
+    "{4}Hanyang University, Seoul, Korea"
+   ],
+   "page": 85
+  },
+  {
+   "id": "40.1",
+   "session": 40,
+   "title": "A 158GHz Current-Mode Sub-Sampling PLL with 44fsrms Integrated Jitter and 9mW Power Consumption",
+   "authors_raw": [
+    "S. Sabbaghi, Z. Mohseni, Q. J. Gu"
+   ],
+   "affils_raw": [
+    "Georgia Institute of Technology, Atlanta, GA"
+   ],
+   "page": 86
+  },
+  {
+   "id": "40.2",
+   "session": 40,
+   "title": "A 0.60-to-16.05GHz Ultra-Wide Quadrature-LO Generator Using a 16-Phase RTWO Fractional-N PLL and Fractional-Resolution Quadrature Frequency Divider Achieving 64.2fsrms Jitter and −249.1dB FoMJ",
+   "authors_raw": [
+    "J. Lee*, H. Lee*, J. Lee*, J. Kim, J. Choi"
+   ],
+   "affils_raw": [
+    "Seoul National University, Seoul, Korea",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 86
+  },
+  {
+   "id": "40.3",
+   "session": 40,
+   "title": "A 10GHz FMCW Synthesizer with a Phase-Aligned Frequency Interpolator Achieving 2812.8MHz/μs Chirp Slope and 0.0297% rms Frequency Error with a 50MHz Reference",
+   "authors_raw": [
+    "D. Zhang, Y. Zhang, Z. Liu, Y. Xiong, Z. Zhang, T. Hu, W. Wang, D. Li,",
+    "M. Tang, D. Xu, Y. Liu, D. Xu, K. Kunihiro, H. Sakai, K. Okada"
+   ],
+   "affils_raw": [
+    "Institute of Science Tokyo, Tokyo, Japan"
+   ],
+   "page": 86
+  },
+  {
+   "id": "40.4",
+   "session": 40,
+   "title": "A 16-to-19GHz Fractional-N Sampling PLL with DTC Nonlinearity Cancellation and Range Reduction Achieving -251.6dB FoM Using 100MHz FREF",
+   "authors_raw": [
+    "R. Yang*{1}, Y. Kang*{1}, B. Chen{1,2}, Z. Zong{1}"
+   ],
+   "affils_raw": [
+    "{1}Hong Kong University of Science and Technology (Guangzhou),",
+    "Guangzhou, China",
+    "{2}Hong Kong University of Science and Technology, Hong Kong, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 86
+  },
+  {
+   "id": "40.5",
+   "session": 40,
+   "title": "A 51.1-to-57.2GHz Bufferless Class-F2 Self-Mixing VCO Achieving 193.1dBc/Hz FoM",
+   "authors_raw": [
+    "C. Song*, Y. Wang*, L. Wu"
+   ],
+   "affils_raw": [
+    "The Chinese University of Hong Kong (Shenzhen), Shenzhen, China",
+    "*Equally Credited Authors (ECAs)"
+   ],
+   "page": 87
+  },
+  {
+   "id": "40.6",
+   "session": 40,
+   "title": "A 24.0-to-27.3GHz Differential Ping-Pong Gain-Boosting Charge-Sharing Locking PLL with Offset-Precharge Spur Cancellation Achieving 55fs Jitter and -74.4dBc Spur",
+   "authors_raw": [
+    "C. Khongprasongsiri{1}, P. Sawakewang{1}, C. Liu{1}, P. Kaczmarczyk{1,2}, F. Hong{1},",
+    "R. B. Staszewski{1,2}, T. Siriburanon{1}"
+   ],
+   "affils_raw": [
+    "{1}University College Dublin, Dublin, Ireland",
+    "{2}AGH University of Krakow, Krakow, Poland"
+   ],
+   "page": 87
+  },
+  {
+   "id": "40.7",
+   "session": 40,
+   "title": "A 25.8-to-60.6GHz LO Generator with a Single-Mode VCO, Fundamental-Cancelling 3rd-Harmonic Extractor and Intrinsic Differential 2nd-Harmonic Generator Achieving FoMT@10MHz of 210.9dBc/Hz in 65nm CMOS",
+   "authors_raw": [
+    "T. Ou{1}, X. Du{1}, J. He{1}, Z. Chen{1}, Y. Peng{1}, H. Xu{2}, N. Yan{2}, J. Yin{1},",
+    "R. P. Martins{1}, M-K. Law{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Macau, Macao, China",
+    "{2}Fudan University, Shanghai, China"
+   ],
+   "page": 87
+  },
+  {
+   "id": "40.8",
+   "session": 40,
+   "title": "A 0.042mm2 92-to-112GHz Fundamental Bandpass Distributed VCO with Second-Harmonic Enhancement Achieving 197.1dBc/Hz FoMT",
+   "authors_raw": [
+    "Y. Fang{1}, Z. Fu{1}, H. Guo{2}, T. Chi{2}, S. Li{1}"
+   ],
+   "affils_raw": [
+    "{1}University of Texas, Austin, TX",
+    "{2}Rice University, Houston, TX"
+   ],
+   "page": 87
+  },
+  {
+   "id": "40.9",
+   "session": 40,
+   "title": "Quad-Core Series-Resonance 20GHz SiGe BiCMOS VCO with −129dBc/Hz Phase Noise at 1MHz Offset, 190dBc/Hz FoM, and 60GHz Tripled Output",
+   "authors_raw": [
+    "K. Vural{1}, A. Bilato{2}, G. De Filippi{2}, J. Jamal{1}, L. Piotto{2}, A. Mazzanti{1,2}"
+   ],
+   "affils_raw": [
+    "{1}University of Pavia, Pavia, Italy",
+    "{2}Fondazione Chips-IT, Pavia, Italy"
+   ],
+   "page": 87
+  },
+  {
+   "id": "40.10",
+   "session": 40,
+   "title": "A 20-to-35GHz CMOS Frequency Doubler with Fourth-Harmonic- Assisted Drain-Voltage Shaping and Coupled-Line Output Matching Achieving 30.2% Total Efﬁciency at 11.4dBm Output Power",
+   "authors_raw": [
+    "C. Rong, W. Li, H. Guo"
+   ],
+   "affils_raw": [
+    "University of Science and Technology of China, Hefei, China"
+   ],
+   "page": 87
+  }
+ ]
+}

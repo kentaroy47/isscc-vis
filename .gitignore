@@ -1,0 +1,5 @@
+# Source PDF (ISSCC copyright) - keep local only
+*.pdf
+__pycache__/
+*.pyc
+.DS_Store
