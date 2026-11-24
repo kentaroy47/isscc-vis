@@ -245,17 +245,26 @@
   const ttRow = (k, v) => `<div class="tt-row"><span>${esc(k)}</span><b>${esc(v)}</b></div>`;
   const idList = (set, max = 8) => { const a = [...set].sort((x, y) => byId({ id: x }, { id: y })); return a.slice(0, max).join(", ") + (a.length > max ? L().more(a.length - max) : ""); };
 
+  // ---------- analytics (GA4; no-op when the tag is blocked) ----------
+  function track(name, params) { if (window.gtag) window.gtag("event", name, params || {}); }
+  let searchTimer = 0;
+
   // ---------- controls ----------
   function initControls() {
-    $("sessionSel").addEventListener("change", (e) => { state.session = e.target.value; render(); });
-    $("typeSel").addEventListener("change", (e) => { state.type = e.target.value; render(); });
-    segGroup($("modeSeg"), "mode", (v) => { state.mode = v; render(); });
-    segGroup($("authorSeg"), "pos", (v) => { state.authorPos = v; renderAuthors(filteredPapers()); });
-    $("paperSearch").addEventListener("input", (e) => { state.search = e.target.value.trim().toLowerCase(); renderPapers(filteredPapers()); });
-    $("orgMore").addEventListener("click", () => { state.orgAll = !state.orgAll; renderOrgs(filteredPapers()); });
+    $("sessionSel").addEventListener("change", (e) => { state.session = e.target.value; render(); if (state.session) track("filter", { filter_type: "session", value: "S" + state.session }); });
+    $("typeSel").addEventListener("change", (e) => { state.type = e.target.value; render(); if (state.type) track("filter", { filter_type: "org_type", value: state.type }); });
+    segGroup($("modeSeg"), "mode", (v) => { state.mode = v; render(); track("counting_mode", { mode: v }); });
+    segGroup($("authorSeg"), "pos", (v) => { state.authorPos = v; renderAuthors(filteredPapers()); track("author_position", { position: v }); });
+    $("paperSearch").addEventListener("input", (e) => {
+      state.search = e.target.value.trim().toLowerCase(); renderPapers(filteredPapers());
+      clearTimeout(searchTimer);
+      if (state.search.length >= 2) searchTimer = setTimeout(() => track("search", { search_term: state.search }), 1200);
+    });
+    $("orgMore").addEventListener("click", () => { state.orgAll = !state.orgAll; renderOrgs(filteredPapers()); if (state.orgAll) track("show_all_orgs"); });
 
     $("langBtn").addEventListener("click", () => {
       state.lang = state.lang === "ja" ? "en" : "ja";
+      track("language", { lang: state.lang });
       try { localStorage.setItem("isscc-lang", state.lang); } catch (_) { /* storage unavailable */ }
       applyStaticText();
       render();
@@ -267,6 +276,7 @@
       document.documentElement.dataset.theme = next;
       try { localStorage.setItem("isscc-theme", next); } catch (_) { /* storage unavailable */ }
       render();
+      track("theme", { theme: next });
     });
     try { const t = localStorage.getItem("isscc-theme"); if (t) document.documentElement.dataset.theme = t; } catch (_) { /* ignore */ }
     matchMedia("(prefers-color-scheme: dark)").addEventListener("change", render);
@@ -363,7 +373,7 @@
         return `<div class="tt-title">${esc(cname(r.key))}</div>${ttRow(state.mode === "author" ? t.ttAuthors : t.ttPapers, `${r.n}${unit()}`)}${ttRow(t.ttShare, fmtPct(r.n / denom))}${ttRow(t.ttOrgs, orgs.length)}` +
           `<div class="tt-foot">${esc(t.ttMainOrgs)}: ${esc(orgs.slice(0, 3).map((o) => o.key).join(", "))}</div>`;
       },
-      onPick: (k) => { state.country = state.country === k ? "" : k; render(); },
+      onPick: (k) => { state.country = state.country === k ? "" : k; render(); if (state.country) track("filter", { filter_type: "country", value: k }); },
     });
   }
 
@@ -384,7 +394,7 @@
       tipFn: (r) => `<div class="tt-title">${esc(r.key)}</div>${ttRow(t.ttType, tname(r.type))}${ttRow(t.ttSites, mainCountry(r).join(", "))}` +
         `${ttRow(state.mode === "author" ? t.ttAuthors : t.ttPapers, `${r.n}${unit()}`)}${ttRow(t.ttShare, fmtPct(r.n / denom))}` +
         `<div class="tt-foot">${esc(t.ttPaperIds)}: ${esc(idList(r.papers))}</div>`,
-      onPick: (k) => { state.org = state.org === k ? "" : k; render(); },
+      onPick: (k) => { state.org = state.org === k ? "" : k; render(); if (state.org) track("filter", { filter_type: "org", value: k }); },
     });
     const btn = $("orgMore");
     btn.hidden = rows.length <= LIMIT;
@@ -493,6 +503,7 @@
     el.querySelectorAll("tbody th").forEach((th) => th.addEventListener("click", () => {
       state.session = state.session === th.dataset.s ? "" : th.dataset.s;
       $("sessionSel").value = state.session; render();
+      if (state.session) track("filter", { filter_type: "session", value: "S" + state.session });
     }));
     el.querySelectorAll("td[data-c]").forEach((td) => bindTip(td, () => {
       const s = +td.dataset.s;
